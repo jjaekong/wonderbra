@@ -1,7 +1,7 @@
 .font-maven {
   font-family: 'Maven Pro', sans-serif; }
 
-.font-abril, #whats-style header h2, .sections #news-arrivals h2, .sections #best-seller h2, #editors-pick h2 {
+.font-abril, #whats-style header h2, .sections #news-arrivals h2, .sections #news-arrivals .carousel-indicators > li, .sections #best-seller h2, #editors-pick h2 {
   font-family: 'Abril Fatface', cursive; }
 
 .font-noto, #whats-style ul li a figure figcaption p, .sections #news-arrivals .item a, .sections #best-seller .item, #editors-pick .item {
@@ -94,7 +94,11 @@
         height: 19px;
         border-radius: 50%;
         border: 0;
-        background-color: #bbb; }
+        background-color: #bbb;
+        text-indent: 0;
+        font-size: 10px;
+        color: #fff;
+        line-height: 19px; }
         .sections #news-arrivals .carousel-indicators > li.active {
           background-color: #ffde16; }
     .sections #news-arrivals .item a {
@@ -148,7 +152,7 @@
         margin-bottom: 5px; }
       .sections #best-seller .item figcaption p:nth-of-type(2) {
         margin-bottom: 15px; }
-    .sections #best-seller .item:hover {
+    .sections #best-seller .item:hover, .sections #best-seller .item:focus {
       border-bottom: 2px solid black; }
 
 #editors-pick h2 {
@@ -175,7 +179,7 @@
       margin-bottom: 5px; }
     #editors-pick .item figcaption p:nth-of-type(2) {
       margin-bottom: 15px; }
-  #editors-pick .item:hover {
+  #editors-pick .item:hover, #editors-pick .item:focus {
     border-bottom: 2px solid black; }
 
 .banner-area-2 {

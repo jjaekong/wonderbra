@@ -136,9 +136,9 @@
                     <h2>New arrivals</h2>
                     <div id="news-arrivals-corousel" class="carousel" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#news-arrivals-corousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#news-arrivals-corousel" data-slide-to="1"></li>
-                            <li data-target="#news-arrivals-corousel" data-slide-to="2"></li>
+                            <li data-target="#news-arrivals-corousel" data-slide-to="0" class="active"><span aria-hidden="true">W</span></li>
+                            <li data-target="#news-arrivals-corousel" data-slide-to="1"><span aria-hidden="true">W</span></li>
+                            <li data-target="#news-arrivals-corousel" data-slide-to="2"><span aria-hidden="true">W</span></li>
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">

@@ -125,6 +125,11 @@
                 border-radius: 50%;
                 border: 0;
                 background-color: #bbb;
+                text-indent: 0;
+                @extend .font-abril;
+                font-size: 10px;
+                color: #fff;
+                line-height: 19px;
                 &.active {
                     background-color: #ffde16;
                 }
@@ -212,7 +217,7 @@
                     margin-bottom: 15px;
                 }
             }
-            &:hover {
+            &:hover, &:focus {
                 border-bottom: 2px solid black;
             }
         }
@@ -251,7 +256,7 @@
                 margin-bottom: 15px;
             }
         }
-        &:hover {
+        &:hover, &:focus {
             border-bottom: 2px solid black;
         }
     }

@@ -205,6 +205,8 @@
             @extend .font-noto;
             color: #000;
             font-size: 14px;
+            -webkt-transition: border .5s;
+            transition: border .5s;
             figcaption {
                 margin-top: 15px;
                 small {
@@ -243,6 +245,8 @@
         @extend .font-noto;
         color: #333;
         font-size: 14px;
+        -webkt-transition: border .5s;
+        transition: border .5s;
         figcaption {
             margin-top: 15px;
             small {

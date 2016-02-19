@@ -1,0 +1,162 @@
+@import 'common';
+
+.page-header {
+    padding-bottom: 60px;
+    border-bottom: 0;
+    margin-top: 65px;
+    margin-bottom: 0;
+    .page-title {
+        @extend .font-abril;
+        font-size: 30px;
+        color: #333;
+        text-align: center;
+    }
+    .breadcrumb {
+        padding: 0;
+        margin-bottom: 0;
+        background-color: transparent;
+        text-align: center;
+        > li {
+            font-size: 11px;
+            a {
+                color: #777;
+            }
+            + li:before {
+                padding-left: 0;
+                content: '>';
+            }
+        }
+    }
+}
+
+.visual {
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.category {
+    margin-top: 60px;
+    text-align: center;
+    .nav {
+        li {
+            float: none;
+            display: inline-block;
+            margin-left: 3px;
+            margin-right: 3px;
+            font-size: 11px;
+            a {
+                min-width: 90px;
+                color: #333;
+                border-radius: 0;
+                background-color: #f5f5f5;
+                border: 1px solid #eee;
+                font-weight: bold;
+            }
+            &.active {
+                a {
+                    background-color: #ffde16;
+                    border-color: #ffde16;
+                }
+            }
+        }
+    }
+}
+
+.sorter {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    .by {
+        .btn-group {
+            .btn {
+                padding: 0;
+                border: 0;
+                color: #333;
+                font-weight: bold;
+            }
+        }
+    }
+    .view {
+        ul {
+            display: inline-block;
+            li {
+                display: inline-block;
+                a {
+                    color: rgba(#333, .5);
+                }
+                &:nth-of-type(2) {
+                    a {
+                        .glyphicon {
+                            font-size: .8em;
+                            &:before {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product-list {
+    margin-top: 70px;
+    li {
+        height: 370px;
+        margin-bottom: 40px;
+        a {
+            display: block;
+            height: 100%;
+            border-bottom: 3px solid transparent;
+            text-decoration: none;
+            color: #333;
+            @extend .font-noto;
+            text-align: center;
+            font-size: 14px;
+            transition: border .3s;
+            figcaption {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 20px;
+                strong {
+                    overflow: hidden;
+                    display: block;    
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                small {
+                    color: #777;
+                    font-size: 11px;
+                }
+            }
+            &:hover, &:focus {
+                border-bottom-color: #2b2829;
+            }
+        }
+    }
+}
+
+.paging {
+    text-align: center;
+    .pagination {
+        margin: 40px auto 140px;
+        li {
+            a {
+                margin: 0 1px;
+                border-radius: 0;
+                border-color: #ccc;
+                color: #555;
+                .glyphicon {
+                    font-size: 11px;
+                }
+            }
+            &.active {
+                a {
+                    background-color: #ffde16;
+                    border-color: #ffde16;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,4 @@
+<a class="sr-only sr-only-focusable" href="#header">주메뉴로 건너뛰기</a>
 <a class="sr-only sr-only-focusable" href="#content">컨텐츠로 건너뛰기</a>
 <nav id="topnav">
     <div class="container">
@@ -19,7 +20,7 @@
         </ul>
     </div>
 </nav>
-<header id="header">
+<header id="header" tabindex="-1">
     <div class="container">
         <h1 class="logo"><a href="/"><img src="/images/logo.png" alt="wonderbra"></a></h1>
         <nav class="menu">
@@ -27,6 +28,7 @@
                 <li>
                     <a href="#">FUNCTION</a>
                     <ul>
+                        <!-- li class="active"><a href="#">WIREFREE</a></li -->
                         <li><a href="#">WIREFREE</a></li>
                         <li><a href="#">LIGHT LIFE</a></li>
                         <li><a href="#">SECRET AGENT</a></li>
@@ -40,7 +42,7 @@
                     <a href="#">ON AIR</a>
                     <ul>
                         <li><a href="#">NOW</a></li>
-                        <li class="active"><a href="#">REPLAY</a></li>
+                        <li><a href="#">REPLAY</a></li>
                     </ul>
                 </li>
                 <li>

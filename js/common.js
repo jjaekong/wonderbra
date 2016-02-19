@@ -5,9 +5,15 @@
     $(document).on('mouseleave', '#header', function() {
         $('#header').removeClass('menu-opened');
     });
-    $(document).on('focusout', '#header', function(e) {
-        if ($('#header').has(e.relatedTarget).length === 0) {
+    $(document).on('blur', '#header .menu', function(e) {
+        if ($('#header .menu').find(e.relatedTarget).length === 0) {
             $('#header').removeClass('menu-opened');
         }
+    });
+    $(document).on('click', 'body > .sr-only-focusable', function() {
+        $('#header').focus();
+    });
+    $(document).on('click', 'body > .sr-only-focusable', function() {
+        $('#content').focus();
     });
 })(jQuery);

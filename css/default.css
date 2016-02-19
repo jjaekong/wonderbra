@@ -25,18 +25,18 @@ ul, ol {
 
 body > .sr-only-focusable {
   line-height: 40px;
-  background-color: #000;
-  color: #ffde16;
+  background-color: #ffde16;
+  color: #000;
   z-index: 999;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: bold; }
   body > .sr-only-focusable:active, body > .sr-only-focusable:focus {
     position: fixed;
     width: 100%;
     height: 40px;
     top: 0;
-    left: 0;
-    text-decoration: underline; }
+    left: 0; }
 
 #topnav {
   position: absolute;
@@ -103,6 +103,7 @@ body > .sr-only-focusable {
   width: 100%;
   min-width: 1200px;
   height: 60px;
+  border-bottom: 1px solid #dfdfdf;
   background-color: rgba(255, 255, 255, 0.95);
   z-index: 1;
   -webkit-transition: height .3s ease-out;
@@ -270,7 +271,6 @@ body > .sr-only-focusable {
       font-size: 13px;
       color: #666; }
     #footer .information .contact dt::after {
-      padding-left: 3px;
       content: ':'; }
     #footer .information .contact p {
       font-size: 12px;

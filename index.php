@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content">
+    <main id="content" tabindex="-1">
         <div id="campaign">
             <div id="campaign-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -16,6 +16,7 @@
                     <a class="item" href="#2" style="background-image: url(/images/dummy/img_campaign.jpg);"></a>
                     <a class="item" href="#3" style="background-image: url(/images/dummy/img_campaign.jpg);"></a>
                 </div>
+                <!--
                 <a class="left carousel-control" href="#campaign-carousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">이전</span>
@@ -24,6 +25,7 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">다음</span>
                 </a>
+                -->
             </div>
         </div>
         <section id="whats-style">

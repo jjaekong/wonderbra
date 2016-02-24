@@ -2,9 +2,9 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1">
-        <div class="container">
-            <div class="page-header">
+    <main id="content" tabindex="-1" class="function">
+        <div class="page-header">
+            <div class="container">
                 <h2 class="page-title">FUNCTION</h2>
                 <ol class="breadcrumb">
                     <li><a href="#">HOME</a></li>
@@ -12,6 +12,8 @@
                     <li class="active">FULL EFFECT</li>
                 </ol>
             </div>
+        </div>
+        <div class="container">
             <div class="visual">
                 <p><img src="/images/sub/img_overview_1.jpg" alt="What's your body type?"></p>
             </div>
@@ -48,8 +50,8 @@
                         <div class="view">
                             <strong>VIEW</strong>
                             <ul>
-                                <li><a href="#"><span class="glyphicon glyphicon-stop"></span>20</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-th-large"></span>40</a></li>
+                                <li class="active"><a href="#">20</a></li>
+                                <li><a href="#">40</a></li>
                             </ul>
                         </div>
                     </div>

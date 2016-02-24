@@ -7,4 +7,27 @@
 .font-noto {
   font-family: 'Noto Sans', sans-serif; }
 
+.font-play {
+  font-family: 'Playball', cursive; }
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(/images/grayscale.svg);
+  /* Firefox 4+ */
+  filter: gray;
+  /* IE 6-9 */ }
+
+.filter-none {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+  /* IE 6-9 */ }
+
 /*# sourceMappingURL=common.css.map */

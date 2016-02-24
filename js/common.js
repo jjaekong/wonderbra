@@ -10,10 +10,4 @@
             $('#header').removeClass('menu-opened');
         }
     });
-    $(document).on('click', 'body > .sr-only-focusable', function() {
-        $('#header').focus();
-    });
-    $(document).on('click', 'body > .sr-only-focusable', function() {
-        $('#content').focus();
-    });
 })(jQuery);

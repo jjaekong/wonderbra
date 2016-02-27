@@ -11,6 +11,9 @@
 .font-play {
   font-family: 'Playball', cursive; }
 
+.font-myriad {
+  font-family: 'Myriad', sans-serif; }
+
 .grayscale {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);

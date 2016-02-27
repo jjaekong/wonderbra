@@ -50,8 +50,8 @@
                         <div class="view">
                             <strong>VIEW</strong>
                             <ul>
-                                <li class="active"><a href="#">20</a></li>
-                                <li><a href="#">40</a></li>
+                                <li class="active"><a href="#"><img src="/images/sub/ico_view_one.gif" aria-hidden="true">20</a></li>
+                                <li><a href="#"><img src="/images/sub/ico_view_col.gif" aria-hidden="true">40</a></li>
                             </ul>
                         </div>
                     </div>

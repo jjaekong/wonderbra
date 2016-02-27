@@ -43,6 +43,13 @@
                     width: 100%;
                     height: 100%;
                     background-color: rgba(0, 0, 0, .8);
+                    @extend .font-noto;
+                    font-size: 14px;
+                    color: #fff;
+                    text-align: center;
+                    padding-top: 160px;
+                    padding-bottom: 160px;
+                    line-height: 30px;
                 }
             }
         }

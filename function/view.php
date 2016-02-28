@@ -7,11 +7,6 @@
         <div class="page-header">
             <div class="container">
                 <h2 class="page-title">FUNCTION</h2>
-                <ol class="breadcrumb">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">FUNCTION</a></li>
-                    <li class="active">FULL EFFECT</li>
-                </ol>
             </div>
         </div>
         <div class="container">

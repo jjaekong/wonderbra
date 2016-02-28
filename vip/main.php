@@ -7,10 +7,6 @@
         <div class="page-header">
             <div class="container">
                 <h2 class="page-title">VIP ZONE</h2>
-                <ol class="breadcrumb">
-                    <li><a href="#">HOME</a></li>
-                    <li class="active">VIP ZONE</li>
-                </ol>
             </div>
         </div>
         <section id="share">

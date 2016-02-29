@@ -3,8 +3,8 @@
 <nav id="topnav">
     <div class="container">
         <ul class="sites">
-            <li class="active"><a href="#"><img src="/images/toplogo_wonderbra.png" alt="wonderbra"></a></li>
-            <li><a href="#"><img src="/images/toplogo_brapra.png" alt="brapra.com"></a></li>
+            <li class="active"><a href="#"><img src="/design/wonderbra/images/toplogo_wonderbra.png" alt="wonderbra"></a></li>
+            <li><a href="#"><img src="/design/wonderbra/images/toplogo_brapra.png" alt="brapra.com"></a></li>
         </ul>
         <ul class="member">
             <li><a href="#">LOGIN</a></li>
@@ -14,22 +14,22 @@
             <li><a href="#">CART</a></li>
         </ul>
         <ul class="sns">
-            <li><a href="#"><img src="/images/ico_facebook.png" alt="페이스북"></a></li>
-            <li><a href="#"><img src="/images/ico_twitter.png" alt="트위터"></a></li>
-            <li><a href="#"><img src="/images/ico_instagram.png" alt="인스타그램"></a></li>
+            <li><a href="#"><img src="/design/wonderbra/images/ico_facebook.png" alt="페이스북"></a></li>
+            <li><a href="#"><img src="/design/wonderbra/images/ico_twitter.png" alt="트위터"></a></li>
+            <li><a href="#"><img src="/design/wonderbra/images/ico_instagram.png" alt="인스타그램"></a></li>
         </ul>
     </div>
 </nav>
 <header id="header" tabindex="-1">
     <div class="container">
-        <h1 class="logo"><a href="/"><img src="/images/logo.png" alt="wonderbra"></a></h1>
+        <h1 class="logo"><a href="/"><img src="/design/wonderbra/images/logo.png" alt="wonderbra"></a></h1>
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="#">FUNCTION</a>
+                    <a href="/function/list.php">FUNCTION</a>
                     <ul>
                         <!-- li class="active"><a href="#">WIREFREE</a></li -->
-                        <li><a href="#">WIREFREE</a></li>
+                        <li><a href="/function/list.php">WIREFREE</a></li>
                         <li><a href="#">LIGHT LIFE</a></li>
                         <li><a href="#">SECRET AGENT</a></li>
                         <li><a href="#">FULL EFFECT</a></li>
@@ -46,7 +46,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">VIP ZONE</a>
+                    <a href="/vip/main.php">VIP ZONE</a>
                     <ul>
                         <li><a href="#">BRA</a></li>
                         <li><a href="#">PANTY</a></li>
@@ -54,9 +54,9 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">SPECIAL</a>
+                    <a href="/special/event_list.php">SPECIAL</a>
                     <ul>
-                        <li><a href="#">EVENT</a></li>
+                        <li><a href="/special/event_list.php">EVENT</a></li>
                         <li><a href="#">SALE</a></li>
                         <li><a href="#">NEW ARRIVALS</a></li>
                         <li><a href="#">BEST SELLER</a></li>
@@ -79,7 +79,7 @@
                         <li><a href="#">Q &amp; A</a></li>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">REVIEW</a></li>
-                        <li><a href="#">MEDIA</a></li>
+                        <li><a href="/board/media_list.php">MEDIA</a></li>
                     </ul>
                 </li>
             </ul>

@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<link href="/css/board.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -24,8 +23,8 @@
                         <div class="view">
                             <strong>VIEW</strong>
                             <ul>
-                                <li class="active"><a href="#"><img src="/images/sub/ico_view_col.gif" alt=""></a></li>
-                                <li><a href="#"><img src="/images/sub/ico_view_row.gif" alt=""></a></li>
+                                <li class="active"><a href="#"><img src="/design/wonderbra/images/sub/ico_view_col.gif" alt=""></a></li>
+                                <li><a href="#"><img src="/design/wonderbra/images/sub/ico_view_row.gif" alt=""></a></li>
                             </ul>
                         </div>
                     </div>

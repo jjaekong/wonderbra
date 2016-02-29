@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="information">
         <div class="container">
-            <h2 class="logo"><img src="/images/logo_footer.png" alt="wonderbra"></h2>
+            <h2 class="logo"><img src="/design/wonderbra/images/logo_footer.png" alt="wonderbra"></h2>
             <div class="row">
                 <div class="col-xs-3">
                     <div class="introduce">

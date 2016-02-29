@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<link href="/css/special.css" rel="stylesheet">
+<link href="/design/wonderbra/css/special.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -16,7 +16,7 @@
         </div>
         <div class="container">
             <div class="visual">
-                <p><img src="/images/sub/img_overview_1.jpg" alt="What's your body type?"></p>
+                <p><img src="/design/wonderbra/images/sub/img_overview_1.jpg" alt="What's your body type?"></p>
             </div>
             <section class="type bra-type">
                 <h3><span>Bra Type</span></h3>
@@ -25,7 +25,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -37,7 +37,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -49,7 +49,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -61,7 +61,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -73,7 +73,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -85,7 +85,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -97,7 +97,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -109,7 +109,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -128,7 +128,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -140,7 +140,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -152,7 +152,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -164,7 +164,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -176,7 +176,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -188,7 +188,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -200,7 +200,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -212,7 +212,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -231,7 +231,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -243,7 +243,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -255,7 +255,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -267,7 +267,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -279,7 +279,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_1.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -291,7 +291,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_2.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -303,7 +303,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_3.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>
@@ -315,7 +315,7 @@
                         <li class="col-xs-3">
                             <a href="#">
                                 <figure>
-                                    <img src="/images/dummy/img_product_4.jpg">
+                                    <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                     <figcaption>
                                         <strong>Sexy volume up 블랙 2종세트</strong>
                                         <small>WB_SELECT301</small>

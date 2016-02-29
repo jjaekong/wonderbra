@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -27,7 +26,7 @@
                     <div class="row">
                         <div class="col-xs-6">
                             <figure>
-                                <img src="/images/dummy/img_product_overview.gif">
+                                <img src="/design/wonderbra/images/dummy/img_product_overview.gif">
                             </figure>
                         </div>
                         <div class="col-xs-6">
@@ -97,7 +96,7 @@
                 <div class="details" tabindex="-1" id="product-details">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_1.php'); ?>
                     <div class="details-area">
-                        <img src="/images/dummy/img_product_details.gif">
+                        <img src="/design/wonderbra/images/dummy/img_product_details.gif">
                     </div>
                 </div>
                 <div class="related" tabindex="-1" id="related-products">
@@ -107,7 +106,7 @@
                             <li class="col-xs-3">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/dummy/img_product_1.jpg">
+                                        <img src="/design/wonderbra/images/dummy/img_product_1.jpg">
                                         <figcaption>
                                             <strong>Sexy volume up 블랙 2종세트Sexy volume up 블랙 2종세트</strong>
                                             <small>WB_SELECT301</small>
@@ -119,7 +118,7 @@
                             <li class="col-xs-3">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/dummy/img_product_2.jpg">
+                                        <img src="/design/wonderbra/images/dummy/img_product_2.jpg">
                                         <figcaption>
                                             <strong>Sexy volume up 블랙 2종세트</strong>
                                             <small>WB_SELECT301</small>
@@ -131,7 +130,7 @@
                             <li class="col-xs-3">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/dummy/img_product_3.jpg">
+                                        <img src="/design/wonderbra/images/dummy/img_product_3.jpg">
                                         <figcaption>
                                             <strong>Sexy volume up 블랙 2종세트</strong>
                                             <small>WB_SELECT301</small>
@@ -143,7 +142,7 @@
                             <li class="col-xs-3">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/dummy/img_product_4.jpg">
+                                        <img src="/design/wonderbra/images/dummy/img_product_4.jpg">
                                         <figcaption>
                                             <strong>Sexy volume up 블랙 2종세트</strong>
                                             <small>WB_SELECT301</small>
@@ -158,7 +157,7 @@
                 <div class="return" tabindex="-1" id="return-product">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_3.php'); ?>
                     <div class="details-area">
-                        <img src="/images/dummy/img_return_product.gif">
+                        <img src="/design/wonderbra/images/dummy/img_return_product.gif">
                     </div>
                 </div>
                 <div class="review" tabindex="-1" id="product-review">

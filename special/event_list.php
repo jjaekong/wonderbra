@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<link href="/css/special.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -22,7 +21,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_1.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_1.jpg">
                                 <figcaption>
                                     <p>
                                         Welcome! 2016 유럽직수입<br>
@@ -35,7 +34,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_2.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_2.jpg">
                                 <figcaption>
                                     <p>
                                         I'M SO SEXY<br>
@@ -48,7 +47,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_3.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_3.jpg">
                                 <figcaption>
                                     <p>
                                     2016년 당신을 응원합니다!<br>
@@ -64,7 +63,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_4.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_4.jpg">
                                 <figcaption>
                                     <p>
                                     2016년에는<br>
@@ -77,7 +76,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_5.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_5.jpg">
                                 <figcaption>
                                     <p>
                                     GOOD BYE 2015~ HELLO 2016
@@ -89,7 +88,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_6.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_6.jpg">
                                 <figcaption>
                                     <p>
                                     어머 왠열! 원가이하 초특가 이벤트!<br>
@@ -102,7 +101,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_7.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_7.jpg">
                                 <figcaption>
                                     <p>
                                     설!프라이즈 세일! 어서와<br>
@@ -115,7 +114,7 @@
                     <li class="col-xs-3">
                         <a href="#">
                             <figure>
-                                <img src="/images/dummy/img_event_8.jpg">
+                                <img src="/design/wonderbra/images/dummy/img_event_8.jpg">
                                 <figcaption>
                                     <p>
                                     브라프라와 함께하는 윈터세일 초특가!

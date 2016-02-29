@@ -30,3 +30,13 @@
   filter: none;
   filter: none; /* IE 6-9 */
 }
+.clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}

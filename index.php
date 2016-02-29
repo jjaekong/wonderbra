@@ -1,7 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/css/main.css" rel="stylesheet">
+<link href="/design/wonderbra/css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="main">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
         <div id="campaign">
@@ -12,9 +12,9 @@
                     <li data-target="#campaign-carousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <a class="item active" href="#1" style="background-image: url(/images/dummy/img_campaign.jpg);"></a>
-                    <a class="item" href="#2" style="background-image: url(/images/dummy/img_campaign.jpg);"></a>
-                    <a class="item" href="#3" style="background-image: url(/images/dummy/img_campaign.jpg);"></a>
+                    <a class="item active" href="#1" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
+                    <a class="item" href="#2" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
+                    <a class="item" href="#3" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
                 </div>
                 <!--
                 <a class="left carousel-control" href="#campaign-carousel" role="button" data-slide="prev">
@@ -38,7 +38,7 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <div><img src="/images/img_style_1.png"></div>
+                                <div><img src="/design/wonderbra/images/img_style_1.png"></div>
                                 <figcaption>
                                     <strong>WIREFREE</strong>
                                     <p>볼륨을 살린 원더브라 노와이어 라인</p>
@@ -49,7 +49,7 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <div><img src="/images/img_style_2.png"></div>
+                                <div><img src="/design/wonderbra/images/img_style_2.png"></div>
                                 <figcaption>
                                     <strong>FULL EFFECT</strong>
                                     <p>내장된 원더젤 용량 UP!</p>
@@ -60,7 +60,7 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <div><img src="/images/img_style_3.png"></div>
+                                <div><img src="/design/wonderbra/images/img_style_3.png"></div>
                                 <figcaption>
                                     <strong>SECRET AGENT</strong>
                                     <p>매혹적인 디자인의 섹시라인</p>
@@ -71,7 +71,7 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <div><img src="/images/img_style_4.png"></div>
+                                <div><img src="/design/wonderbra/images/img_style_4.png"></div>
                                 <figcaption>
                                     <strong>WONDER BOOST</strong>
                                     <p>볼륨을 극대화한 디자인</p>
@@ -82,7 +82,7 @@
                     <li>
                         <a href="#">
                             <figure>
-                                <div><img src="/images/img_style_5.png"></div>
+                                <div><img src="/design/wonderbra/images/img_style_5.png"></div>
                                 <figcaption>
                                     <strong>FULL COVERAGE</strong>
                                     <p>와이드날개로 안정감있는 보정라인</p>
@@ -106,7 +106,7 @@
                                         <p>Always with satisfactory service will respond to you.</p>
                                     </header>
                                     <figure>
-                                        <img src="/images/main/img_coverage.jpg" alt="Full Coverage">
+                                        <img src="/design/wonderbra/images/main/img_coverage.jpg" alt="Full Coverage">
                                     </figure>
                                 </a>
                             </section>
@@ -115,7 +115,7 @@
                             <section id="on-air">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/main/img_onair.jpg">
+                                        <img src="/design/wonderbra/images/main/img_onair.jpg">
                                         <figcaption class="sr-only">
                                             <h2>ON AIR</h2>
                                             <p>upgrade push-up &amp; maximizer wonderbra 79th edition</p>
@@ -126,7 +126,7 @@
                             <div id="products">
                                 <a href="#">
                                     <figure>
-                                        <img src="/images/main/img_products.jpg" alt="">
+                                        <img src="/design/wonderbra/images/main/img_products.jpg" alt="">
                                     </figure>
                                 </a>
                             </div>
@@ -149,7 +149,7 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_1.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_1.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -161,7 +161,7 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_2.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_2.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -173,49 +173,7 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_3.jpg"><span></span></div>
-                                                    <figcaption>
-                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
-                                                        <p><small>WB_SELECT301</small></p>
-                                                        <p>29,000</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-xs-4">
-                                            <a href="#">
-                                                <figure>
-                                                    <div><img src="/images/main/img_arrivals_1.jpg"><span></span></div>
-                                                    <figcaption>
-                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
-                                                        <p><small>WB_SELECT301</small></p>
-                                                        <p>29,000</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="col-xs-4">
-                                            <a href="#">
-                                                <figure>
-                                                    <div><img src="/images/main/img_arrivals_2.jpg"><span></span></div>
-                                                    <figcaption>
-                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
-                                                        <p><small>WB_SELECT301</small></p>
-                                                        <p>29,000</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="col-xs-4">
-                                            <a href="#">
-                                                <figure>
-                                                    <div><img src="/images/main/img_arrivals_3.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_3.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -233,7 +191,7 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_1.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_1.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -245,7 +203,7 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_2.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_2.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -257,7 +215,49 @@
                                         <div class="col-xs-4">
                                             <a href="#">
                                                 <figure>
-                                                    <div><img src="/images/main/img_arrivals_3.jpg"><span></span></div>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_3.jpg"><span></span></div>
+                                                    <figcaption>
+                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
+                                                        <p><small>WB_SELECT301</small></p>
+                                                        <p>29,000</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <a href="#">
+                                                <figure>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_1.jpg"><span></span></div>
+                                                    <figcaption>
+                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
+                                                        <p><small>WB_SELECT301</small></p>
+                                                        <p>29,000</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <a href="#">
+                                                <figure>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_2.jpg"><span></span></div>
+                                                    <figcaption>
+                                                        <strong>SEXY VOLUME UP 블랙 2종세트</strong>
+                                                        <p><small>WB_SELECT301</small></p>
+                                                        <p>29,000</p>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <a href="#">
+                                                <figure>
+                                                    <div><img src="/design/wonderbra/images/main/img_arrivals_3.jpg"><span></span></div>
                                                     <figcaption>
                                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                                         <p><small>WB_SELECT301</small></p>
@@ -279,7 +279,7 @@
                         <div class="col-xs-3">
                             <a class="item" href="#">
                                 <figure>
-                                    <img src="/images/main/img_best_1.jpg">
+                                    <img src="/design/wonderbra/images/main/img_best_1.jpg">
                                     <figcaption>
                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                         <p><small>WB_SELECT301</small></p>
@@ -291,7 +291,7 @@
                         <div class="col-xs-3">
                             <a class="item" href="#">
                                 <figure>
-                                    <img src="/images/main/img_best_2.jpg">
+                                    <img src="/design/wonderbra/images/main/img_best_2.jpg">
                                     <figcaption>
                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                         <p><small>WB_SELECT301</small></p>
@@ -303,7 +303,7 @@
                         <div class="col-xs-3">
                             <a class="item" href="#">
                                 <figure>
-                                    <img src="/images/main/img_best_3.jpg">
+                                    <img src="/design/wonderbra/images/main/img_best_3.jpg">
                                     <figcaption>
                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                         <p><small>WB_SELECT301</small></p>
@@ -315,7 +315,7 @@
                         <div class="col-xs-3">
                             <a class="item" href="#">
                                 <figure>
-                                    <img src="/images/main/img_best_4.jpg">
+                                    <img src="/design/wonderbra/images/main/img_best_4.jpg">
                                     <figcaption>
                                         <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                         <p><small>WB_SELECT301</small></p>
@@ -335,7 +335,7 @@
                     <div class="col-xs-3">
                         <a class="item" href="#">
                             <figure>
-                                <img src="/images/main/img_pick_1.jpg">
+                                <img src="/design/wonderbra/images/main/img_pick_1.jpg">
                                 <figcaption>
                                     <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                     <p><small>WB_SELECT301</small></p>
@@ -347,7 +347,7 @@
                     <div class="col-xs-3">
                         <a class="item" href="#">
                             <figure>
-                                <img src="/images/main/img_pick_2.jpg">
+                                <img src="/design/wonderbra/images/main/img_pick_2.jpg">
                                 <figcaption>
                                     <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                     <p><small>WB_SELECT301</small></p>
@@ -359,7 +359,7 @@
                     <div class="col-xs-3">
                         <a class="item" href="#">
                             <figure>
-                                <img src="/images/main/img_pick_3.jpg">
+                                <img src="/design/wonderbra/images/main/img_pick_3.jpg">
                                 <figcaption>
                                     <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                     <p><small>WB_SELECT301</small></p>
@@ -371,7 +371,7 @@
                     <div class="col-xs-3">
                         <a class="item" href="#">
                             <figure>
-                                <img src="/images/main/img_pick_4.jpg">
+                                <img src="/design/wonderbra/images/main/img_pick_4.jpg">
                                 <figcaption>
                                     <strong>SEXY VOLUME UP 블랙 2종세트</strong>
                                     <p><small>WB_SELECT301</small></p>
@@ -387,13 +387,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4">
-                        <a href="#"><img src="/images/main/img_banner_1.jpg" alt=""></a>
+                        <a href="#"><img src="/design/wonderbra/images/main/img_banner_1.jpg" alt=""></a>
                     </div>
                     <div class="col-xs-4">
-                        <a href="#"><img src="/images/main/img_banner_2.jpg" alt=""></a>
+                        <a href="#"><img src="/design/wonderbra/images/main/img_banner_2.jpg" alt=""></a>
                     </div>
                     <div class="col-xs-4">
-                        <a href="#"><img src="/images/main/img_banner_3.jpg" alt=""></a>
+                        <a href="#"><img src="/design/wonderbra/images/main/img_banner_3.jpg" alt=""></a>
                     </div>
                 </div>
             </div>

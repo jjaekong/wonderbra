@@ -33,4 +33,10 @@
   filter: none;
   /* IE 6-9 */ }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
 /*# sourceMappingURL=common.css.map */

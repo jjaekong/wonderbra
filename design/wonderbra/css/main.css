@@ -33,6 +33,12 @@
   filter: none;
   /* IE 6-9 */ }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
 #campaign .carousel-inner .item {
   height: 570px;
   background-position: 50% 0;

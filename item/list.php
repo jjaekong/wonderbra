@@ -2,10 +2,10 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="special sale">
+    <main id="content" tabindex="-1" class="item">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">BEST SELLER</h2>
+                <h2 class="page-title">ITEM</h2>
             </div>
         </div>
         <div class="container">
@@ -17,7 +17,6 @@
                     <li role="presentation" class="active"><a href="#">ALL</a></li>
                     <li role="presentation"><a href="#">BRA</a></li>
                     <li role="presentation"><a href="#">PANTY</a></li>
-                    <li role="presentation"><a href="#">SET</a></li>
                     <li role="presentation"><a href="#">ETC</a></li>
                 </ul>
             </div>

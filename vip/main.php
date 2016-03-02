@@ -2,16 +2,15 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="vip">
-        <div class="page-header">
+    <main id="content" tabindex="-1" class="vip main">
+        <div class="vip-main">
             <div class="container">
-                <h2 class="page-title">VIP ZONE</h2>
-            </div>
-        </div>
-        <section id="share">
-            <div class="container">
-                <h3>SHARE THE LOVE</h3>
-                <p>WHETHER YOUR'RE TREATING YOURSELF OR SOMEONE SPECIAL, SHOP OUR VALENTINE'S GIFT EDIT</p>
+                <div class="page-header">
+                    <div class="container">
+                        <h2 class="page-title">VIP ZONE</h2>
+                        <p>WHETHER YOUR'RE TREATING YOURSELF OR SOMEONE SPECIAL, SHOP OUR VALENTINE'S GIFT EDIT</p>
+                    </div>
+                </div>
                 <div class="cross">
                     <span></span>
                     <span></span>
@@ -43,7 +42,7 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </div>
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>

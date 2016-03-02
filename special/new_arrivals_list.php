@@ -3,15 +3,10 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="special new-arrivals list">
+    <main id="content" tabindex="-1" class="special new-arrivals">
         <div class="page-header">
             <div class="container">
                 <h2 class="page-title">NEW ARRIVALS</h2>
-                <ol class="breadcrumb">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SPECIAL</a></li>
-                    <li class="active">NEW ARRIVALS</li>
-                </ol>
             </div>
         </div>
         <div class="container">

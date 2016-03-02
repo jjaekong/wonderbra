@@ -5,7 +5,7 @@
     <main id="content" tabindex="-1" class="special sale">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">BEST SELLER</h2>
+                <h2 class="page-title">SALE</h2>
             </div>
         </div>
         <div class="container">

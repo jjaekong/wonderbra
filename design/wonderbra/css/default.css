@@ -1263,24 +1263,61 @@ body.sub .board.review .page-header {
     color: #777; }
 body.sub .board.review .cross span {
   background-color: #777; }
-body.sub .board.review .rank ol {
-  text-align: center; }
-body.sub .board.review .rank li {
-  display: inline-block;
-  margin: 0 5px; }
-body.sub .board.review .best .review {
-  text-decoration: none; }
-  body.sub .board.review .best .review figcaption {
-    margin-top: 20px;
-    line-height: 1.2em; }
-    body.sub .board.review .best .review figcaption strong {
-      display: block;
-      color: #333; }
-    body.sub .board.review .best .review figcaption small {
+body.sub .board.review .reward {
+  margin-bottom: 60px; }
+  body.sub .board.review .reward ol {
+    text-align: center; }
+  body.sub .board.review .reward li {
+    display: inline-block;
+    margin: 0 5px; }
+body.sub .board.review .best {
+  margin-bottom: 80px; }
+  body.sub .board.review .best .review {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none; }
+    body.sub .board.review .best .review figcaption {
+      margin-top: 20px;
+      line-height: 1.2em; }
+      body.sub .board.review .best .review figcaption strong {
+        display: block;
+        color: #333; }
+      body.sub .board.review .best .review figcaption small {
+        color: #999; }
+  body.sub .board.review .best .product {
+    text-decoration: none;
+    color: #555; }
+    body.sub .board.review .best .product figure > img {
+      float: left;
+      width: 40px;
+      height: 40px; }
+    body.sub .board.review .best .product figure figcaption {
+      margin-left: 55px; }
+      body.sub .board.review .best .product figure figcaption strong {
+        font-size: 12px; }
+      body.sub .board.review .best .product figure figcaption .rating {
+        color: #f1af00;
+        font-size: 10px; }
+body.sub .board.review .review-list .table tbody tr td {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important; }
+  body.sub .board.review .review-list .table tbody tr td.title a {
+    color: #333; }
+  body.sub .board.review .review-list .table tbody tr td.title img {
+    margin-top: -2px; }
+  body.sub .board.review .review-list .table tbody tr td.title p {
+    font-size: 13px;
+    color: #555; }
+    body.sub .board.review .review-list .table tbody tr td.title p.details {
       color: #999; }
-body.sub .board.review .best .product img {
-  float: left;
-  width: 40px;
-  height: 40px; }
+body.sub .board.review .review-list .table tbody tr:nth-of-type(1) td {
+  border-top: 2px solid #333; }
+body.sub .board.review .review-list .btn-area p {
+  text-align: right; }
+  body.sub .board.review .review-list .btn-area p .btn {
+    width: 90px;
+    line-height: 23px;
+    background-color: #000;
+    color: #fff; }
 
 /*# sourceMappingURL=default.css.map */

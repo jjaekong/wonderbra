@@ -1780,7 +1780,8 @@ body.sub {
                     background-color: #777;
                 }
             }
-            .rank {
+            .reward {
+                margin-bottom: 60px;
                 ol {
                     text-align: center;
                 }
@@ -1790,7 +1791,10 @@ body.sub {
                 }
             }
             .best {
+                margin-bottom: 80px;
                 .review {
+                    display: block;
+                    margin-bottom: 20px;
                     text-decoration: none;
                     figcaption {
                         margin-top: 20px;
@@ -1805,10 +1809,67 @@ body.sub {
                     }
                 }
                 .product {
-                    img {
-                        float: left;
-                        width: 40px;
-                        height: 40px;
+                    text-decoration: none;
+                    color: #555;
+                    figure {
+                        > img {
+                            float: left;
+                            width: 40px;
+                            height: 40px;
+                        }
+                        figcaption {
+                            margin-left: 55px;
+                            strong {
+                                font-size: 12px;
+                            }
+                            .rating {
+                                color: #f1af00;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .review-list {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                padding-top: 24px !important;
+                                padding-bottom: 24px !important;
+                                &.title {
+                                    a {
+                                        color: #333;
+                                    }
+                                    img {
+                                        margin-top: -2px;
+                                    }
+                                    p {
+                                        font-size: 13px;
+                                        color: #555;
+                                        &.details {
+                                            color: #999;
+                                        }
+                                    }
+                                }
+                            }
+                            &:nth-of-type(1) {
+                                td {
+                                    border-top: 2px solid #333;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    p {
+                        text-align: right;
+                        .btn {
+                            width: 90px;
+                            line-height: 23px;
+                            background-color: #000;
+                            color: #fff;
+                        }
                     }
                 }
             }

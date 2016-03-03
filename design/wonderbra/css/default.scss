@@ -1388,11 +1388,6 @@ body.sub {
 
     // board 메뉴
     .board {
-        &.media {
-            .category {
-                margin-top: 60px;
-            }
-        }
         .search {
             margin-bottom: 20px;
             text-align: right;
@@ -1413,14 +1408,64 @@ body.sub {
                 color: #fff;
             }
         }
-        .board-list {
-            td:nth-of-type(1),
-            td:nth-of-type(3),
-            td:nth-of-type(4) {
-                width: 100px;
+        .media-list-1 {
+            li {
+                margin-bottom: 50px;
+                a {
+                    color: #333;
+                    text-decoration: none;
+                    figure {
+                        figcaption {
+                            margin-top: 15px;
+                            .type {
+                                font-size: 11px;
+                                font-weight: bold;
+                            }
+                            strong {
+                                display: block;
+                                margin-bottom: 10px;
+                            }
+                            p {
+                                color: #999;
+                                font-size: 12px;
+                                .hit {
+                                    float: right;
+                                    img {
+                                        margin-top: -2px;
+                                        vertical-align: middle;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                p {
+                    text-align: right;
+                    .btn {
+                        width: 90px;
+                        line-height: 23px;
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
             }
         }
-        .board-view {
+        .media-list-2 {
+            .btn-area {
+                p {
+                    text-align: right;
+                    .btn {
+                        width: 90px;
+                        line-height: 23px;
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .media-view {
             overflow: hidden;
             margin-bottom: 200px;
             article {
@@ -1874,5 +1919,14 @@ body.sub {
                 }
             }
         }
+        &.media {
+            .media-list-2 {
+                td:nth-of-type(2) {
+                    color: #333;
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+            }
+        } 
     }
 }

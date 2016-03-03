@@ -8,7 +8,7 @@
 .font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .onair.now .broadcast .product-title,
 body.sub .onair.now .broadcast .summary,
 body.sub .onair.now .broadcast .price,
-body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .board-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p {
+body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p {
   font-family: 'Noto Sans', sans-serif; }
 
 .font-play, body.sub .vip.main .vip-main a figure figcaption {
@@ -988,8 +988,6 @@ body.sub .special.new-arrivals .type h3 {
     background-color: #fff; }
 body.sub .special.new-arrivals .type.set-type {
   margin-bottom: 80px; }
-body.sub .board.media .category {
-  margin-top: 60px; }
 body.sub .board .search {
   margin-bottom: 20px;
   text-align: right; }
@@ -1006,20 +1004,51 @@ body.sub .board .search {
     width: 40px;
     background-color: #000;
     color: #fff; }
-body.sub .board .board-list td:nth-of-type(1),
-body.sub .board .board-list td:nth-of-type(3),
-body.sub .board .board-list td:nth-of-type(4) {
-  width: 100px; }
-body.sub .board .board-view {
+body.sub .board .media-list-1 li {
+  margin-bottom: 50px; }
+  body.sub .board .media-list-1 li a {
+    color: #333;
+    text-decoration: none; }
+    body.sub .board .media-list-1 li a figure figcaption {
+      margin-top: 15px; }
+      body.sub .board .media-list-1 li a figure figcaption .type {
+        font-size: 11px;
+        font-weight: bold; }
+      body.sub .board .media-list-1 li a figure figcaption strong {
+        display: block;
+        margin-bottom: 10px; }
+      body.sub .board .media-list-1 li a figure figcaption p {
+        color: #999;
+        font-size: 12px; }
+        body.sub .board .media-list-1 li a figure figcaption p .hit {
+          float: right; }
+          body.sub .board .media-list-1 li a figure figcaption p .hit img {
+            margin-top: -2px;
+            vertical-align: middle; }
+body.sub .board .media-list-1 .btn-area p {
+  text-align: right; }
+  body.sub .board .media-list-1 .btn-area p .btn {
+    width: 90px;
+    line-height: 23px;
+    background-color: #000;
+    color: #fff; }
+body.sub .board .media-list-2 .btn-area p {
+  text-align: right; }
+  body.sub .board .media-list-2 .btn-area p .btn {
+    width: 90px;
+    line-height: 23px;
+    background-color: #000;
+    color: #fff; }
+body.sub .board .media-view {
   overflow: hidden;
   margin-bottom: 200px; }
-  body.sub .board .board-view article {
+  body.sub .board .media-view article {
     margin-bottom: 20px; }
-    body.sub .board .board-view article > header {
+    body.sub .board .media-view article > header {
       position: relative;
       border-top: 2px solid #333;
       border-bottom: 1px solid #333; }
-      body.sub .board .board-view article > header h3 {
+      body.sub .board .media-view article > header h3 {
         padding-top: 14px;
         padding-bottom: 14px;
         margin-top: 0;
@@ -1029,7 +1058,7 @@ body.sub .board .board-view {
         font-size: 13px;
         font-weight: bold;
         line-height: 20px; }
-      body.sub .board .board-view article > header time {
+      body.sub .board .media-view article > header time {
         position: absolute;
         top: 0;
         right: 40px;
@@ -1037,31 +1066,31 @@ body.sub .board .board-view {
         padding-top: 14px;
         padding-bottom: 14px;
         color: #333; }
-    body.sub .board .board-view article > .details {
+    body.sub .board .media-view article > .details {
       border-bottom: 1px solid #ccc;
       padding: 40px; }
-      body.sub .board .board-view article > .details > div {
+      body.sub .board .media-view article > .details > div {
         font-size: 13px;
         line-height: 22px; }
-  body.sub .board .board-view .util {
+  body.sub .board .media-view .util {
     float: left;
     margin-top: 20px;
     margin-left: 40px; }
-    body.sub .board .board-view .util li {
+    body.sub .board .media-view .util li {
       display: inline-block;
       margin-right: 10px; }
-      body.sub .board .board-view .util li a {
+      body.sub .board .media-view .util li a {
         padding-left: 15px;
         color: #333;
         background-repeat: no-repeat;
         background-position: 0 50%; }
-      body.sub .board .board-view .util li.edit a {
+      body.sub .board .media-view .util li.edit a {
         background-image: url(/design/wonderbra/images/sub/ico_pancil.gif); }
-      body.sub .board .board-view .util li.delete a {
+      body.sub .board .media-view .util li.delete a {
         background-image: url(/design/wonderbra/images/sub/ico_trash.gif); }
-      body.sub .board .board-view .util li.reply a {
+      body.sub .board .media-view .util li.reply a {
         background-image: url(/design/wonderbra/images/sub/ico_reply.gif); }
-  body.sub .board .board-view .btn-list {
+  body.sub .board .media-view .btn-list {
     float: right;
     width: 90px;
     height: 40px;
@@ -1319,5 +1348,9 @@ body.sub .board.review .review-list .btn-area p {
     line-height: 23px;
     background-color: #000;
     color: #fff; }
+body.sub .board.media .media-list-2 td:nth-of-type(2) {
+  color: #333;
+  font-size: 11px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=default.css.map */

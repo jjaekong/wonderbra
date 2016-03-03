@@ -30,11 +30,19 @@
                     </div>
                 </div>
             </div>
-            <div class="media-list">
+            <div class="media-list media-list-2">
                 <table class="table">
+                    <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col>
+                        <col width="100">
+                        <col width="100">
+                    </colgroup>
                     <thead>
                         <tr>
                             <th>no</th>
+                            <th></th>
                             <th>title</th>
                             <th>date</th>
                             <th>hit</th>
@@ -43,36 +51,46 @@
                     <tbody>
                         <tr>
                             <td>10</td>
+                            <td>MAGAZINE <img src="/design/wonderbra/images/sub/ico_magazine.gif" alt=""></td>
                             <td class="title"><a class="title" href="#">매혹적인 '미란다커 콜라보 패키지' 공개</a></td>
                             <td><time>2016.02.01</time></td>
                             <td>654</td>
                         </tr>
                         <tr>
                             <td>10</td>
+                            <td>NEWS <img src="/design/wonderbra/images/sub/ico_news.gif" alt=""></td>
                             <td class="title"><a class="title" href="#">매혹적인 '미란다커 콜라보 패키지' 공개</a></td>
                             <td><time>2016.02.01</time></td>
                             <td>543</td>
                         </tr>
                         <tr>
                             <td>10</td>
+                            <td>VIDEO <img src="/design/wonderbra/images/sub/ico_video.gif" alt=""></td>
                             <td class="title"><a class="title" href="#">매혹적인 '미란다커 콜라보 패키지' 공개</a></td>
                             <td><time>2016.02.01</time></td>
                             <td>454</td>
                         </tr>
                         <tr>
                             <td>10</td>
+                            <td>MAGAZINE <img src="/design/wonderbra/images/sub/ico_magazine.gif" alt=""></td>
                             <td class="title"><a class="title" href="#">매혹적인 '미란다커 콜라보 패키지' 공개</a></td>
                             <td><time>2016.02.01</time></td>
                             <td>432</td>
                         </tr>
                         <tr>
                             <td>10</td>
+                            <td>VIDEO <img src="/design/wonderbra/images/sub/ico_video.gif" alt=""></td>
                             <td class="title"><a href="#">매혹적인 '미란다커 콜라보 패키지' 공개</a></td>
                             <td><time>2016.02.01</time></td>
                             <td>121</td>
                         </tr>
                     </tbody>
                 </table>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-default">글쓰기</a>
+                    </p>
+                </div>
             </div>
             <nav class="paging">
                 <ul class="pagination">

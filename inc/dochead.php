@@ -6,6 +6,7 @@
     <title>wonderbra</title>
     <link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Maven+Pro:400,700|Noto+Sans:400,700' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet'>
     <link href="/design/wonderbra/css/bootstrap.min.css" rel="stylesheet">
     <link href="/design/wonderbra/css/default.css" rel="stylesheet">
     <!--[if lt IE 9]>

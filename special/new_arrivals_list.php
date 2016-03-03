@@ -1,7 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/design/wonderbra/css/special.css" rel="stylesheet">
 </head>
-<body>
+<body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main id="content" tabindex="-1" class="special new-arrivals">
         <div class="page-header">

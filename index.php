@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/design/wonderbra/css/main.css" rel="stylesheet">
 </head>
 <body class="main">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -16,16 +15,6 @@
                     <a class="item" href="#2" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
                     <a class="item" href="#3" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
                 </div>
-                <!--
-                <a class="left carousel-control" href="#campaign-carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">이전</span>
-                </a>
-                <a class="right carousel-control" href="#campaign-carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">다음</span>
-                </a>
-                -->
             </div>
         </div>
         <section id="whats-style">

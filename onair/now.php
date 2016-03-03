@@ -1,7 +1,6 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead_sub.php'); ?>
-<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 </head>
-<body>
+<body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main id="content" tabindex="-1" class="onair now">
         <div class="container">

@@ -1099,6 +1099,27 @@ body.sub .board .media-view {
     color: #fff;
     font-size: 13px;
     line-height: 28px; }
+body.sub .board .media-write {
+  margin-bottom: 150px; }
+  body.sub .board .media-write .table tr:nth-of-type(1) td {
+    border-top: 2px solid #333; }
+  body.sub .board .media-write .table tr td:nth-of-type(1) label {
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #777; }
+  body.sub .board .media-write .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ccc; }
+  body.sub .board .media-write .btn-area p {
+    text-align: right; }
+    body.sub .board .media-write .btn-area p .btn {
+      width: 90px;
+      line-height: 23px;
+      background-color: #000;
+      color: #fff; }
+      body.sub .board .media-write .btn-area p .btn.btn-cancel {
+        background-color: #555; }
 body.sub .board .reply-form {
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc; }
@@ -1352,5 +1373,8 @@ body.sub .board.media .media-list-2 td:nth-of-type(2) {
   color: #333;
   font-size: 11px;
   font-weight: bold; }
+body.sub .board.media .media-write #media-writer,
+body.sub .board.media .media-write #media-password {
+  width: 270px; }
 
 /*# sourceMappingURL=default.css.map */

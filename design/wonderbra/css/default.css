@@ -1481,5 +1481,42 @@ body.sub .membership.find {
         width: 80px;
         height: 80px;
         border-radius: 3px; }
+body.sub .membership.join .join-form {
+  width: 600px;
+  margin: 0 auto; }
+  body.sub .membership.join .join-form .form-control {
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+    border-radius: 0;
+    height: 30px;
+    min-width: 270px; }
+  body.sub .membership.join .join-form .btn {
+    line-height: 18px;
+    vertical-align: top; }
+  body.sub .membership.join .join-form .table td {
+    padding-top: 0 !important;
+    padding-bottom: 10px !important;
+    border-top: 0;
+    border-bottom: 0 !important;
+    text-align: left;
+    vertical-align: top !important; }
+    body.sub .membership.join .join-form .table td:first-child {
+      line-height: 30px; }
+    body.sub .membership.join .join-form .table td label {
+      margin-bottom: 0;
+      font-weight: normal; }
+  body.sub .membership.join .join-form .table .birth select {
+    display: inline;
+    width: auto; }
+  body.sub .membership.join .join-form .table .zipcode .form-control {
+    width: 60px; }
+  body.sub .membership.join .join-form .btn-area p {
+    text-align: center; }
+    body.sub .membership.join .join-form .btn-area p .btn {
+      width: 150px;
+      height: 40px;
+      line-height: 28px;
+      font-size: 12px; }
 
 /*# sourceMappingURL=default.css.map */

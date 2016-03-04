@@ -2109,5 +2109,64 @@ body.sub {
                 }
             }
         }
+        
+        // 회원가입
+        &.join {
+            .join-form {
+                width: 600px;
+                margin: 0 auto;
+                .form-control {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    box-shadow: none;
+                    border-radius: 0;
+                    height: 30px;
+                    min-width: 270px;
+                }
+                .btn {
+                    line-height: 18px;
+                    vertical-align: top;
+                }
+                .table {
+                    td {
+                        padding-top: 0 !important;
+                        padding-bottom: 10px !important;
+                        border-top: 0;
+                        border-bottom: 0 !important;
+                        text-align: left;
+                        vertical-align: top !important;
+                        &:first-child {
+                            line-height: 30px;
+                        }
+                        label {
+                            margin-bottom: 0;
+                            font-weight: normal;
+                        }
+                    }
+                    .birth {
+                        select {
+                            display: inline;
+                            width: auto;
+                        }
+                    }
+                    .zipcode {
+                        .form-control {
+                            width: 60px;
+                        }
+                    }
+                }
+                .btn-area {
+                    p {
+                        text-align: center;
+                        .btn {
+                            width: 150px;
+                            height: 40px;
+                            line-height: 28px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

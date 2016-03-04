@@ -23,6 +23,9 @@ ul, ol {
     border-radius: 0;
     border: 0;
 }
+img {
+    max-width: 100%;
+}
 
 // 상단
 body > .sr-only-focusable {
@@ -1972,5 +1975,139 @@ body.sub {
                 }
             }
         } 
+    }
+    
+    // 멤버쉽 메뉴
+    .membership {
+        .membership-wrapper {
+            padding: 10px;
+            margin-top: 100px;
+            margin-bottom: 150px;
+            background-image: url(/design/wonderbra/images/sub/bg_membership.png);
+            background-color: transparent;
+            .membership-inner {
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background-color: #fff;
+            }
+        }
+        .page-header {
+            padding-top: 0;
+            padding-bottom: 55px;
+        }
+        .btn {
+            background-color: #000;
+            color: #fff;
+        }
+        
+        // 로그인 페이지
+        &.login {
+            background-image: url(/design/wonderbra/images/sub/bg_login.gif);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            .login-form {
+                position: relative;
+                width: 465px;
+                margin: 0 auto;
+                .form-group {
+                    overflow: hidden;
+                    padding-right: 90px;
+                    margin-bottom: 20px;
+                    .control-label {
+                        float: left;
+                        width: 70px;
+                        height: 30px;
+                        line-height: 30px;
+                        margin-bottom: 0;
+                        font-weight: normal;
+                        font-size: 12px;
+                    }
+                    .form-control {
+                        height: 30px;
+                        width: 300px;
+                        box-shadow: none;
+                        background-color: #eee;
+                    }
+                }
+                .btn-submit {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 3px;
+                }
+            }
+            .help {
+                margin-left: 70px;
+                li {
+                    overflow: hidden;
+                    margin-bottom: 10px;
+                    color: #777;
+                    font-size: 12px;
+                    &:before {
+                        content: 'ㆍ';
+                    }
+                    .btn {
+                        float: right;
+                        width: 80px;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        font-size: 11px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        
+        // 아이디/비밀번호 찾기 페이지
+        &.find {
+            background-image: url(/design/wonderbra/images/sub/bg_login.gif);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            .find-form {
+                width: 465px;
+                margin: 0 auto;
+                .help {
+                    p {
+                        padding-left: 70px;
+                        font-size: 12px;
+                        margin-bottom: 20px;
+                        color: #777;
+                    }
+                }
+                form {
+                    position: relative;
+                    .form-group {
+                        overflow: hidden;
+                        padding-right: 90px;
+                        margin-bottom: 20px;
+                        .control-label {
+                            float: left;
+                            width: 70px;
+                            height: 30px;
+                            line-height: 30px;
+                            margin-bottom: 0;
+                            font-weight: normal;
+                            font-size: 12px;
+                        }
+                        .form-control {
+                            height: 30px;
+                            width: 300px;
+                            box-shadow: none;
+                            background-color: #eee;
+                        }
+                    }
+                    .btn-submit {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
     }
 }

@@ -62,6 +62,9 @@ ul, ol {
   border-radius: 0;
   border: 0; }
 
+img {
+  max-width: 100%; }
+
 body > .sr-only-focusable {
   line-height: 40px;
   background-color: #ffde16;
@@ -1376,5 +1379,107 @@ body.sub .board.media .media-list-2 td:nth-of-type(2) {
 body.sub .board.media .media-write #media-writer,
 body.sub .board.media .media-write #media-password {
   width: 270px; }
+body.sub .membership .membership-wrapper {
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-image: url(/design/wonderbra/images/sub/bg_membership.png);
+  background-color: transparent; }
+  body.sub .membership .membership-wrapper .membership-inner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff; }
+body.sub .membership .page-header {
+  padding-top: 0;
+  padding-bottom: 55px; }
+body.sub .membership .btn {
+  background-color: #000;
+  color: #fff; }
+body.sub .membership.login {
+  background-image: url(/design/wonderbra/images/sub/bg_login.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%; }
+  body.sub .membership.login .login-form {
+    position: relative;
+    width: 465px;
+    margin: 0 auto; }
+    body.sub .membership.login .login-form .form-group {
+      overflow: hidden;
+      padding-right: 90px;
+      margin-bottom: 20px; }
+      body.sub .membership.login .login-form .form-group .control-label {
+        float: left;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 12px; }
+      body.sub .membership.login .login-form .form-group .form-control {
+        height: 30px;
+        width: 300px;
+        box-shadow: none;
+        background-color: #eee; }
+    body.sub .membership.login .login-form .btn-submit {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 80px;
+      height: 80px;
+      border-radius: 3px; }
+  body.sub .membership.login .help {
+    margin-left: 70px; }
+    body.sub .membership.login .help li {
+      overflow: hidden;
+      margin-bottom: 10px;
+      color: #777;
+      font-size: 12px; }
+      body.sub .membership.login .help li:before {
+        content: 'ㆍ'; }
+      body.sub .membership.login .help li .btn {
+        float: right;
+        width: 80px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 11px;
+        line-height: 20px; }
+body.sub .membership.find {
+  background-image: url(/design/wonderbra/images/sub/bg_login.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 100%; }
+  body.sub .membership.find .find-form {
+    width: 465px;
+    margin: 0 auto; }
+    body.sub .membership.find .find-form .help p {
+      padding-left: 70px;
+      font-size: 12px;
+      margin-bottom: 20px;
+      color: #777; }
+    body.sub .membership.find .find-form form {
+      position: relative; }
+      body.sub .membership.find .find-form form .form-group {
+        overflow: hidden;
+        padding-right: 90px;
+        margin-bottom: 20px; }
+        body.sub .membership.find .find-form form .form-group .control-label {
+          float: left;
+          width: 70px;
+          height: 30px;
+          line-height: 30px;
+          margin-bottom: 0;
+          font-weight: normal;
+          font-size: 12px; }
+        body.sub .membership.find .find-form form .form-group .form-control {
+          height: 30px;
+          width: 300px;
+          box-shadow: none;
+          background-color: #eee; }
+      body.sub .membership.find .find-form form .btn-submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 3px; }
 
 /*# sourceMappingURL=default.css.map */

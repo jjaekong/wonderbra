@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="board-view">
+            <div class="media-view">
                 <article>
                     <header>
                         <h3>매혹적인 '미란다커 콜라보 패키지' 공개</h3>

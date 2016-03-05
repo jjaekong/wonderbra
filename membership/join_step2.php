@@ -2,7 +2,7 @@
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="membership join">
+    <main id="content" tabindex="-1" class="membership join step2">
         <div class="container">
             <div class="col-xs-8 col-xs-offset-2">
                 <div class="membership-wrapper">
@@ -10,7 +10,7 @@
                         <div class="page-header">
                             <h2 class="page-title">JOIN</h2>
                         </div>
-                        <ol aria-hidden="true">
+                        <ol class="steps" aria-hidden="true">
                             <li>1</li>
                             <li class="active">2</li>
                         </ol>
@@ -140,7 +140,7 @@
                                 <div class="btn-area">
                                     <p>
                                         <a href="#" class="btn btn-default btn-prev">이전</a>
-                                        <button type="submit" class="btn btn-default btn-submit">다음</button>
+                                        <button type="submit" class="btn btn-default btn-submit">확인</button>
                                     </p>
                                 </div>
                             </form>

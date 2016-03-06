@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>wonderbra</title>
-    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Maven+Pro:400,700|Noto+Sans:400,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface%7CMaven+Pro:400,700%7CNoto+Sans:400,700' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700' rel='stylesheet'>
     <link href="/design/wonderbra/css/bootstrap.min.css" rel="stylesheet">

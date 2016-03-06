@@ -1679,15 +1679,15 @@ body.sub .mypage .notify {
     font-size: 12px;
     color: #999;
     line-height: 20px; }
-  body.sub .mypage .notify li:last-child {
+  body.sub .mypage .notify ul li:last-child {
     margin-bottom: 0; }
-  body.sub .mypage .notify li:before {
+  body.sub .mypage .notify ul li:before {
     padding-right: 5px;
     content: '\203A'; }
-  body.sub .mypage .notify li i {
+  body.sub .mypage .notify ul li i {
     font-style: normal;
     color: #555; }
-  body.sub .mypage .notify li .btn {
+  body.sub .mypage .notify ul li .btn {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #000;
@@ -1700,6 +1700,33 @@ body.sub .mypage .list td .btn {
   width: 70px; }
 body.sub .mypage .paging .pagination {
   margin-bottom: 60px; }
+body.sub .mypage .quantity-counter {
+  position: relative;
+  display: inline-block;
+  padding-right: 20px;
+  width: 60px;
+  vertical-align: middle; }
+  body.sub .mypage .quantity-counter .form-control {
+    width: 40px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: right; }
+  body.sub .mypage .quantity-counter .btn {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    color: #333 !important;
+    font-size: 10px;
+    background-color: white !important; }
+  body.sub .mypage .quantity-counter .btn-up {
+    top: -2px; }
+  body.sub .mypage .quantity-counter .btn-down {
+    bottom: 2px; }
 body.sub .mypage.coupon .list .btn-area p {
   text-align: right; }
   body.sub .mypage.coupon .list .btn-area p .btn {
@@ -1859,5 +1886,106 @@ body.sub .mypage.myinfo .edit-form .btn-area {
       font-size: 12px; }
       body.sub .mypage.myinfo .edit-form .btn-area p .btn.btn-cancel {
         background-color: #555; }
+body.sub .mypage.leave h4 {
+  height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
+  font-size: 13px;
+  background-color: #000;
+  color: #fff;
+  text-indent: 20px; }
+body.sub .mypage.leave .leave-info h4 {
+  margin-bottom: 20px; }
+body.sub .mypage.leave .leave-info .notify {
+  margin-bottom: 40px; }
+  body.sub .mypage.leave .leave-info .notify p {
+    margin-bottom: 0; }
+    body.sub .mypage.leave .leave-info .notify p:nth-of-type(1) {
+      line-height: 25px; }
+    body.sub .mypage.leave .leave-info .notify p:nth-of-type(2) {
+      color: #f15a22; }
+  body.sub .mypage.leave .leave-info .notify ol {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+body.sub .mypage.leave .leave-form .table tbody tr td {
+  font-size: 13px;
+  vertical-align: middle; }
+  body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(1) {
+    border-right: 1px solid #ccc;
+    text-align: left;
+    color: #555; }
+  body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(2) {
+    padding-left: 30px;
+    text-align: left; }
+    body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(2) .form-control {
+      width: 870px;
+      height: 230px;
+      border-color: #ccc;
+      border-radius: 0;
+      box-shadow: none; }
+body.sub .mypage.leave .leave-form .table tbody tr.id td:nth-of-type(2) {
+  font-weight: bold; }
+body.sub .mypage.leave .leave-form .btn-area {
+  margin-top: 20px;
+  margin-bottom: 150px; }
+  body.sub .mypage.leave .leave-form .btn-area p {
+    text-align: right; }
+    body.sub .mypage.leave .leave-form .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #000;
+      color: #fff;
+      line-height: 23px;
+      font-size: 12px; }
+      body.sub .mypage.leave .leave-form .btn-area p .btn.btn-cancel {
+        background-color: #ffde16;
+        color: #000; }
+body.sub .mypage.wish .wish-list .table tbody tr td {
+  color: #777; }
+  body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p {
+    margin-bottom: 0; }
+    body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p .btn {
+      width: 70px; }
+      body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p .btn.btn-cart {
+        margin-bottom: 5px;
+        background-color: #f15a22; }
+body.sub .mypage.wish .btn-area {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  body.sub .mypage.wish .btn-area p {
+    text-align: right; }
+    body.sub .mypage.wish .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #555;
+      color: #fff;
+      line-height: 23px;
+      font-size: 12px; }
+body.sub .mypage.wish .paging .pagination {
+  margin-bottom: 150px; }
+body.sub .mypage.recent .recent-list .table tbody tr td {
+  color: #777; }
+  body.sub .mypage.recent .recent-list .table tbody tr td:nth-of-type(8) p {
+    margin-bottom: 0; }
+    body.sub .mypage.recent .recent-list .table tbody tr td:nth-of-type(8) p .btn {
+      width: 70px; }
+      body.sub .mypage.recent .recent-list .table tbody tr td:nth-of-type(8) p .btn.btn-cart {
+        margin-bottom: 5px;
+        background-color: #f15a22; }
+body.sub .mypage.recent .btn-area {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  body.sub .mypage.recent .btn-area p {
+    text-align: right; }
+    body.sub .mypage.recent .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #555;
+      color: #fff;
+      line-height: 23px;
+      font-size: 12px; }
+body.sub .mypage.recent .paging .pagination {
+  margin-bottom: 150px; }
 
 /*# sourceMappingURL=default.css.map */

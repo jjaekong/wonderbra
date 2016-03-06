@@ -5,7 +5,7 @@
     <main id="content" tabindex="-1" class="mypage myinfo">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">1:1 문의</h2>
+                <h2 class="page-title">회원정보수정</h2>
             </div>
         </div>
         <div class="container">

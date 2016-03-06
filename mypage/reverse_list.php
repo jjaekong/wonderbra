@@ -2,18 +2,18 @@
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage order">
+    <main id="content" tabindex="-1" class="mypage reverse">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">주문내역/배송조회</h2>
+                <h2 class="page-title">적립금 내역</h2>
             </div>
         </div>
         <div class="container">
             <div class="category">
                 <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">주문내역/배송조회</a></li>
+                    <li role="presentation"><a href="#">주문내역/배송조회</a></li>
                     <li role="presentation"><a href="#">취소/교환/환불 조회</a></li>
-                    <li role="presentation"><a href="#">적립금 내역</a></li>
+                    <li role="presentation" class="active"><a href="#">적립금 내역</a></li>
                     <li role="presentation"><a href="#">할인쿠폰 내역</a></li>
                     <li role="presentation"><a href="#">B-money 내역</a></li>
                     <li role="presentation"><a href="#">쿠폰등록</a></li>
@@ -30,39 +30,27 @@
             <div class="list">
                 <table class="table">
                     <colgroup>
-                        <col width="100">
                         <col width="150">
                         <col>
-                        <col width="100">
-                        <col width="100">
-                        <col width="100">
+                        <col width="150">
                     </colgroup>
                     <thead>
                         <tr>
-                            <th>번호</th>
-                            <th>주문일자</th>
-                            <th>상품명</th>
-                            <th>결제금액</th>
-                            <th>주문상세</th>
-                            <th>배송현황</th>
+                            <th>날짜</th>
+                            <th>적립내역</th>
+                            <th>적립금</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
                             <td><time>2016.02.19</time></td>
                             <td class="title"><a href="#">[Wonderbra] 원더브라 Sexy Wire Free 베이지 브라팬티 WW4H22_T</a></td>
                             <td>59,000 won</td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
                         </tr>
                         <tr>
-                            <td>1</td>
                             <td><time>2016.02.19</time></td>
                             <td class="title"><a href="#">[Wonderbra] 원더브라 Sexy Wire Free 베이지 브라팬티 WW4H22_T</a></td>
                             <td>59,000 won</td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -88,9 +76,8 @@
             </nav>
             <div class="notify">
                 <ul>
-                    <li><span class="btn btn-default">구매확정</span> 버튼을 통해 구매 확정된 상품에 대해서는 <span class="btn btn-default">후기쓰기</span> 버튼으로 제품의 구매 후기를 작성하실수 있으며 해당 상품에 대한 <i>적립금이 바로 증정</i>됩니다.</li>
-                    <li><i>구매확정 후에는</i> 판매자에게 정산을 지급함에 따라 <i>교환/환불이 불가</i>하며, 문제 발생시 판매자와 구매자가 직접 처리하셔야 합니다.</li>
-                    <li>별도 '구매확정'을 하지 않으실 경우, 배송업체에 따라 상품 <i>배송완료일로부터 7일 이후에 자동으로 구매확정</i>되며 해당 상품에 대한 <i>적립금이 증정</i>됩니다.</li>
+                    <li>적립된 금액이 0원 이상 누적되었을 때, 사용하실 수 있습니다.</li>
+                    <li>결제 시 적립금 사용 여부를 확인할 수 있는 안내문이 나옵니다.</li>
                 </ul>
             </div>
         </div>

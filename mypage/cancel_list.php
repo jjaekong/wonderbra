@@ -2,17 +2,17 @@
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage order">
+    <main id="content" tabindex="-1" class="mypage cancel">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">주문내역/배송조회</h2>
+                <h2 class="page-title">취소/교환/환불 조회</h2>
             </div>
         </div>
         <div class="container">
             <div class="category">
                 <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">주문내역/배송조회</a></li>
-                    <li role="presentation"><a href="#">취소/교환/환불 조회</a></li>
+                    <li role="presentation"><a href="#">주문내역/배송조회</a></li>
+                    <li role="presentation" class="active"><a href="#">취소/교환/환불 조회</a></li>
                     <li role="presentation"><a href="#">적립금 내역</a></li>
                     <li role="presentation"><a href="#">할인쿠폰 내역</a></li>
                     <li role="presentation"><a href="#">B-money 내역</a></li>

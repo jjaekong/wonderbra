@@ -1659,42 +1659,71 @@ body.sub .mypage .category {
 body.sub .mypage .table thead tr th {
   font-size: 13px;
   font-weight: normal; }
-body.sub .mypage .table tbody tr td .btn {
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: #000;
-  color: #fff;
-  font-size: 11px;
-  line-height: 20px; }
-body.sub .mypage.order .order-list td .btn {
-  width: 70px; }
-body.sub .mypage.order .paging .pagination {
-  margin-bottom: 60px; }
-body.sub .mypage.order .notify {
+body.sub .mypage .table tbody tr td {
+  font-size: 12px; }
+  body.sub .mypage .table tbody tr td .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    line-height: 20px; }
+body.sub .mypage .notify {
   padding: 15px 20px;
   border: 1px solid #ccc;
   margin-bottom: 150px; }
-  body.sub .mypage.order .notify li {
+  body.sub .mypage .notify li, body.sub .mypage .notify p {
     margin-bottom: 5px;
     font-size: 12px;
     color: #999;
     line-height: 20px; }
-    body.sub .mypage.order .notify li:last-child {
-      margin-bottom: 0; }
-    body.sub .mypage.order .notify li:before {
-      padding-right: 5px;
-      content: '\203A'; }
-    body.sub .mypage.order .notify li i {
-      font-style: normal;
-      color: #555; }
-    body.sub .mypage.order .notify li .btn {
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: #000;
-      color: #fff;
-      font-size: 11px;
-      line-height: 20px;
-      cursor: auto;
+  body.sub .mypage .notify li:last-child {
+    margin-bottom: 0; }
+  body.sub .mypage .notify li:before {
+    padding-right: 5px;
+    content: '\203A'; }
+  body.sub .mypage .notify li i {
+    font-style: normal;
+    color: #555; }
+  body.sub .mypage .notify li .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    line-height: 20px;
+    cursor: auto;
+    vertical-align: middle; }
+body.sub .mypage .list td .btn {
+  width: 70px; }
+body.sub .mypage .paging .pagination {
+  margin-bottom: 60px; }
+body.sub .mypage.coupon .list .btn-area p {
+  text-align: right; }
+  body.sub .mypage.coupon .list .btn-area p .btn {
+    width: 90px;
+    height: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f15a22;
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px; }
+    body.sub .mypage.coupon .list .btn-area p .btn img {
+      margin-top: -2px;
       vertical-align: middle; }
+body.sub .mypage.coupon .list .title {
+  padding-left: 20px; }
+body.sub .mypage.coupon .notify h5 {
+  color: #f15a22;
+  font-size: 12px;
+  font-weight: bold; }
+  body.sub .mypage.coupon .notify h5:before {
+    padding-right: 5px;
+    content: '*'; }
+  body.sub .mypage.coupon .notify h5:nth-of-type(2) {
+    margin-top: 20px; }
+body.sub .mypage.coupon .notify li {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=default.css.map */

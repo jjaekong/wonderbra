@@ -2,19 +2,19 @@
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage order">
+    <main id="content" tabindex="-1" class="mypage coupon">
         <div class="page-header">
             <div class="container">
-                <h2 class="page-title">주문내역/배송조회</h2>
+                <h2 class="page-title">할인쿠폰 내역</h2>
             </div>
         </div>
         <div class="container">
             <div class="category">
                 <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">주문내역/배송조회</a></li>
+                    <li role="presentation"><a href="#">주문내역/배송조회</a></li>
                     <li role="presentation"><a href="#">취소/교환/환불 조회</a></li>
                     <li role="presentation"><a href="#">적립금 내역</a></li>
-                    <li role="presentation"><a href="#">할인쿠폰 내역</a></li>
+                    <li role="presentation" class="active"><a href="#">할인쿠폰 내역</a></li>
                     <li role="presentation"><a href="#">B-money 내역</a></li>
                     <li role="presentation"><a href="#">쿠폰등록</a></li>
                     <li role="presentation" class="br"></li>
@@ -28,41 +28,46 @@
                 </ul>
             </div>
             <div class="list">
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-default btn-coupon"><img src="/design/wonderbra/images/sub/ico_plus_circle.gif" alt=""> 쿠폰등록</a>
+                    </p>
+                </div>
                 <table class="table">
                     <colgroup>
                         <col width="100">
-                        <col width="150">
                         <col>
-                        <col width="100">
-                        <col width="100">
-                        <col width="100">
+                        <col width="150">
+                        <col width="150">
+                        <col width="150">
+                        <col width="200">
                     </colgroup>
                     <thead>
                         <tr>
-                            <th>번호</th>
-                            <th>주문일자</th>
-                            <th>상품명</th>
-                            <th>결제금액</th>
-                            <th>주문상세</th>
-                            <th>배송현황</th>
+                            <th>쿠폰번호</th>
+                            <th>쿠폰이름</th>
+                            <th>쿠폰전용품목</th>
+                            <th>사용가능금액</th>
+                            <th>할인액(률)/적립액(률)</th>
+                            <th>사용기간</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td><time>2016.02.19</time></td>
-                            <td class="title"><a href="#">[Wonderbra] 원더브라 Sexy Wire Free 베이지 브라팬티 WW4H22_T</a></td>
-                            <td>59,000 won</td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
+                            <td>14312890832</td>
+                            <td class="title">회원가입 감사쿠폰(엠코르셋 상품 전용)</td>
+                            <td>(관)엠코르셋(주)</td>
+                            <td>50,000원이상</td>
+                            <td>할인액 10,000원</td>
+                            <td><time>2016-02-18</time> ~ <time>2016-03-19</time></td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td><time>2016.02.19</time></td>
-                            <td class="title"><a href="#">[Wonderbra] 원더브라 Sexy Wire Free 베이지 브라팬티 WW4H22_T</a></td>
-                            <td>59,000 won</td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
-                            <td><a class="btn btn-default btn-search" href="#">조회</a></td>
+                            <td>14312890832</td>
+                            <td class="title">회원가입 감사쿠폰(엠코르셋 상품 전용)</td>
+                            <td>(관)엠코르셋(주)</td>
+                            <td>50,000원이상</td>
+                            <td>할인액 10,000원</td>
+                            <td><time>2016-02-18</time> ~ <time>2016-03-19</time></td>
                         </tr>
                     </tbody>
                 </table>
@@ -87,10 +92,15 @@
                 </ul>
             </nav>
             <div class="notify">
+                <h5>주문 할인쿠폰 적용방법</h5>
+                <p>주문서 쿠폰 선택에서 고객님이 보유하신 [쿠폰번호]를 선택하시면 할인금액(또는 적립금액)이 나타납니다.<br>(정률할인(적립)의 경우, 할인율(적립률)이 나타납니다.)</p>
+                <h5>쿠폰 사용시 유의사항</h5>
                 <ul>
-                    <li><span class="btn btn-default">구매확정</span> 버튼을 통해 구매 확정된 상품에 대해서는 <span class="btn btn-default">후기쓰기</span> 버튼으로 제품의 구매 후기를 작성하실수 있으며 해당 상품에 대한 <i>적립금이 바로 증정</i>됩니다.</li>
-                    <li><i>구매확정 후에는</i> 판매자에게 정산을 지급함에 따라 <i>교환/환불이 불가</i>하며, 문제 발생시 판매자와 구매자가 직접 처리하셔야 합니다.</li>
-                    <li>별도 '구매확정'을 하지 않으실 경우, 배송업체에 따라 상품 <i>배송완료일로부터 7일 이후에 자동으로 구매확정</i>되며 해당 상품에 대한 <i>적립금이 증정</i>됩니다.</li>
+                    <li>쿠폰마다 사용 가능 금액과 사용기한이 정해져 있으며, 1개 주문서에 1개의 쿠폰만을 사용하실 수 있습니다.</li>
+                    <li>쿠폰을 사용한 주문 후 반품/환불/취소의 경우 한번 사용하신 쿠폰은 다시 사용하실 수 없습니다.</li>
+                    <li>쿠폰 적용 품목 및 카테고리가 제한된 경우 해당 품목 또는 카테고리에서만 쿠폰을 사용하실 수 있습니다.</li>
+                    <li>할인/적립 쿠폰은 적립금할인 등을 제외한 실제 결제금액에 적용됩니다.</li>
+                    <li>모바일 아이콘 표시 쿠폰은 모바일에서만 사용이 가능합니다.</li>
                 </ul>
             </div>
         </div>

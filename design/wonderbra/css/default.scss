@@ -2546,5 +2546,177 @@ body.sub {
                 }
             }
         }
+        
+        // 회원정보수정
+        &.myinfo {
+            .pw-form {
+                .form-area {
+                    width: 770px;
+                    padding: 10px;
+                    margin: 0 auto;
+                    background-image: url(/design/wonderbra/images/sub/bg_membership.png);
+                    > div {
+                        padding: 40px 100px;
+                        background-color: #fff;
+                        text-align: center;
+                        h2 {
+                            margin-top: 15px;
+                            margin-bottom: 25px;
+                            @extend .font-abril;
+                            + p {
+                                color: #999;
+                                font-size: 13px;
+                                line-height: 20px;
+                                letter-spacing: -1px;
+                            }
+                        }
+                        dl {
+                            width: 370px;
+                            margin: 40px auto 0;
+                            font-size: 12px;
+                            text-align: left;
+                            dt {
+                                float: left;
+                                width: 70px;
+                                height: 30px;
+                                margin-bottom: 10px;
+                                line-height: 30px;
+                                font-weight: normal;
+                                label {
+                                    margin-bottom: 0;
+                                    font-weight: normal;
+                                }
+                            }
+                            dd {
+                                height: 30px;
+                                margin-left: 70px;
+                                margin-bottom: 10px;
+                                line-height: 30px;
+                                font-weight: bold;
+                                .form-control {
+                                    height: 30px;
+                                    box-shadow: none;
+                                    background-color: #eee;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-top: 50px;
+                    margin-bottom: 150px;
+                    p {
+                        text-align: center;
+                        .btn {
+                            width: 150px;
+                            height: 40px;
+                            background-color: #000;
+                            color: #fff;
+                            line-height: 28px;
+                            font-size: 12px;
+                            &.btn-cancel {
+                                background-color: #555;
+                            }
+                        }
+                    }
+                }
+            }
+            .edit-form {
+                .table {
+                    tbody {
+                        tr {
+                            td:nth-of-type(1) {
+                                padding-left: 70px;
+                                font-size: 14px;
+                                color: #777;
+                                text-align: left;
+                            }
+                            td:nth-of-type(2) {
+                                font-size: 13px;
+                                color: #999;
+                                text-align: left;
+                            }
+                            label {
+                                margin-bottom: 0;
+                                font-weight: normal;
+                            }
+                            p {
+                                margin-top: 10px;
+                                margin-bottom: 0;
+                                font-size: 12px;
+                            }
+                            .form-control {
+                                height: 30px;
+                                width: 270px;
+                                box-shadow: none;
+                                border-radius: 0;
+                            }
+                            input[type="radio"] {
+                                margin-top: -3px;
+                                vertical-align: middle;
+                            }
+                            .btn {
+                                height: 30px;
+                                vertical-align: top;
+                                background-color: #333;
+                                font-size: 12px;
+                                &.btn-zipcode {
+                                    background-color: #555;
+                                }
+                            }
+                            &.name {
+                                td:nth-of-type(2) {
+                                    color: #000;
+                                    font-weight: bold;
+                                }
+                            }
+                            &.birth {
+                                .form-control {
+                                    display: inline-block;
+                                    width: auto;
+                                }
+                            }
+                            &.addr {
+                                .zipcode {
+                                    margin-top: 0;
+                                    .form-control {
+                                        width: 130px;
+                                    }
+                                }
+                                .default,
+                                .details {
+                                    .form-control {
+                                        width: 470px;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(1) {
+                                td {
+                                    border-top: 2px solid #333;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-top: 20px;
+                    margin-bottom: 150px;
+                    p {
+                        text-align: right;
+                        .btn {
+                            width: 90px;
+                            height: 35px;
+                            background-color: #000;
+                            color: #fff;
+                            line-height: 23px;
+                            font-size: 12px;
+                            &.btn-cancel {
+                                background-color: #555;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

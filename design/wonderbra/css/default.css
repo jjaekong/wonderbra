@@ -2,7 +2,7 @@
 .font-maven, body, body.sub .vip.main .vip-main .page-header .page-title, body.sub .board.review .page-header .page-title {
   font-family: 'Maven Pro', sans-serif; }
 
-.font-abril, body.main #whats-style header h2, body.main .sections #news-arrivals h2, body.main .sections #news-arrivals .carousel-indicators > li, body.main .sections #best-seller h2, body.main #editors-pick h2, body.sub .page-header .page-title, body.sub .onair.now .broadcast .page-title, body.sub .special.new-arrivals .type h3, body.sub .board.about #about h2, body.sub .board.about #whats-style header h2 {
+.font-abril, body.main #whats-style header h2, body.main .sections #news-arrivals h2, body.main .sections #news-arrivals .carousel-indicators > li, body.main .sections #best-seller h2, body.main #editors-pick h2, body.sub .page-header .page-title, body.sub .onair.now .broadcast .page-title, body.sub .special.new-arrivals .type h3, body.sub .board.about #about h2, body.sub .board.about #whats-style header h2, body.sub .mypage.myinfo .pw-form .form-area > div h2 {
   font-family: 'Abril Fatface', cursive; }
 
 .font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .function.view #review-benefit > div ul li, body.sub .onair.now .broadcast .product-title,
@@ -1743,5 +1743,121 @@ body.sub .mypage.inquiry .media-write .table tbody tr td {
     width: 870px; }
 body.sub .mypage.inquiry .media-write .table tbody tr.email td .form-control, body.sub .mypage.inquiry .media-write .table tbody tr.mobile td .form-control {
   width: 270px; }
+body.sub .mypage.myinfo .pw-form .form-area {
+  width: 770px;
+  padding: 10px;
+  margin: 0 auto;
+  background-image: url(/design/wonderbra/images/sub/bg_membership.png); }
+  body.sub .mypage.myinfo .pw-form .form-area > div {
+    padding: 40px 100px;
+    background-color: #fff;
+    text-align: center; }
+    body.sub .mypage.myinfo .pw-form .form-area > div h2 {
+      margin-top: 15px;
+      margin-bottom: 25px; }
+      body.sub .mypage.myinfo .pw-form .form-area > div h2 + p {
+        color: #999;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: -1px; }
+    body.sub .mypage.myinfo .pw-form .form-area > div dl {
+      width: 370px;
+      margin: 40px auto 0;
+      font-size: 12px;
+      text-align: left; }
+      body.sub .mypage.myinfo .pw-form .form-area > div dl dt {
+        float: left;
+        width: 70px;
+        height: 30px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        font-weight: normal; }
+        body.sub .mypage.myinfo .pw-form .form-area > div dl dt label {
+          margin-bottom: 0;
+          font-weight: normal; }
+      body.sub .mypage.myinfo .pw-form .form-area > div dl dd {
+        height: 30px;
+        margin-left: 70px;
+        margin-bottom: 10px;
+        line-height: 30px;
+        font-weight: bold; }
+        body.sub .mypage.myinfo .pw-form .form-area > div dl dd .form-control {
+          height: 30px;
+          box-shadow: none;
+          background-color: #eee; }
+body.sub .mypage.myinfo .pw-form .btn-area {
+  margin-top: 50px;
+  margin-bottom: 150px; }
+  body.sub .mypage.myinfo .pw-form .btn-area p {
+    text-align: center; }
+    body.sub .mypage.myinfo .pw-form .btn-area p .btn {
+      width: 150px;
+      height: 40px;
+      background-color: #000;
+      color: #fff;
+      line-height: 28px;
+      font-size: 12px; }
+      body.sub .mypage.myinfo .pw-form .btn-area p .btn.btn-cancel {
+        background-color: #555; }
+body.sub .mypage.myinfo .edit-form .table tbody tr td:nth-of-type(1) {
+  padding-left: 70px;
+  font-size: 14px;
+  color: #777;
+  text-align: left; }
+body.sub .mypage.myinfo .edit-form .table tbody tr td:nth-of-type(2) {
+  font-size: 13px;
+  color: #999;
+  text-align: left; }
+body.sub .mypage.myinfo .edit-form .table tbody tr label {
+  margin-bottom: 0;
+  font-weight: normal; }
+body.sub .mypage.myinfo .edit-form .table tbody tr p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 12px; }
+body.sub .mypage.myinfo .edit-form .table tbody tr .form-control {
+  height: 30px;
+  width: 270px;
+  box-shadow: none;
+  border-radius: 0; }
+body.sub .mypage.myinfo .edit-form .table tbody tr input[type="radio"] {
+  margin-top: -3px;
+  vertical-align: middle; }
+body.sub .mypage.myinfo .edit-form .table tbody tr .btn {
+  height: 30px;
+  vertical-align: top;
+  background-color: #333;
+  font-size: 12px; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr .btn.btn-zipcode {
+    background-color: #555; }
+body.sub .mypage.myinfo .edit-form .table tbody tr.name td:nth-of-type(2) {
+  color: #000;
+  font-weight: bold; }
+body.sub .mypage.myinfo .edit-form .table tbody tr.birth .form-control {
+  display: inline-block;
+  width: auto; }
+body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode {
+  margin-top: 0; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode .form-control {
+    width: 130px; }
+body.sub .mypage.myinfo .edit-form .table tbody tr.addr .default .form-control,
+body.sub .mypage.myinfo .edit-form .table tbody tr.addr .details .form-control {
+  width: 470px; }
+body.sub .mypage.myinfo .edit-form .table tbody tr:nth-of-type(1) td {
+  border-top: 2px solid #333; }
+body.sub .mypage.myinfo .edit-form .btn-area {
+  margin-top: 20px;
+  margin-bottom: 150px; }
+  body.sub .mypage.myinfo .edit-form .btn-area p {
+    text-align: right; }
+    body.sub .mypage.myinfo .edit-form .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #000;
+      color: #fff;
+      line-height: 23px;
+      font-size: 12px; }
+      body.sub .mypage.myinfo .edit-form .btn-area p .btn.btn-cancel {
+        background-color: #555; }
 
 /*# sourceMappingURL=default.css.map */

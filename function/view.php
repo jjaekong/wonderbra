@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 </head>
-<body class="sub">>
+<body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="function">
+    <main id="content" tabindex="-1" class="function view">
         <div class="page-header">
             <div class="container">
                 <h2 class="page-title">FUNCTION</h2>
@@ -56,7 +56,7 @@
                                             <option value="#">옵션 #3</option>
                                             <option value="#">옵션 #4</option>
                                         </select>
-                                        <a href="#"><i>Size Chart</i></a>
+                                        <a id="size-chart" href="#"><i>Size Chart</i></a>
                                     </dd>
                                 </dl>
                                 <dl class="product-quantity dl-horizontal">
@@ -164,6 +164,20 @@
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_4.php'); ?>
                     <div class="details-area">
                     </div>
+                </div>
+                <div class="benefit" id="review-benefit">
+                    <div>
+                        <h4><img src="/design/wonderbra/images/sub/img_review_benefit.gif" alt="상품 구매후기 작성시 고객님께 드리는 혜택"></h4>
+                        <ul>
+                            <li>구매후기를 남겨주시면 적립금 <i>100 <span>WON</span></i></li>
+                            <li>우수 구매후기에 선정되시면 적립금 <i>500 <span>WON</span></i></li>
+                        </ul>
+                    </div>
+                    <ul class="notify">
+                        <li>고객님께서 작성해주시는 구매후기는 다른 분들께 소중한 정보가 됩니다.</li>
+                        <li>작성해주신 구매후기는 모두 공개함이 원칙이나 즉시 자동 반영되지는 않습니다.</li>
+                        <li>후기 게시판 성격에 맞지 않는 글 (광고/교환/반품) 혹은 지나친 비방글에 대한 관리 차원으로 관리자에 의해 삭제될수있습니다.</li>
+                    </ul>
                 </div>
                 <div class="inquiry" tabindex="-1" id="product-inquiry">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_5.php'); ?>

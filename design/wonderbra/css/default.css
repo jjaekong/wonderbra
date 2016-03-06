@@ -5,7 +5,7 @@
 .font-abril, body.main #whats-style header h2, body.main .sections #news-arrivals h2, body.main .sections #news-arrivals .carousel-indicators > li, body.main .sections #best-seller h2, body.main #editors-pick h2, body.sub .page-header .page-title, body.sub .onair.now .broadcast .page-title, body.sub .special.new-arrivals .type h3, body.sub .board.about #about h2, body.sub .board.about #whats-style header h2 {
   font-family: 'Abril Fatface', cursive; }
 
-.font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .onair.now .broadcast .product-title,
+.font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .function.view #review-benefit > div ul li, body.sub .onair.now .broadcast .product-title,
 body.sub .onair.now .broadcast .summary,
 body.sub .onair.now .broadcast .price,
 body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p {
@@ -16,6 +16,9 @@ body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul 
 
 .font-myriad {
   font-family: 'Myriad', sans-serif; }
+
+.font-roboto, body.sub .function.view #review-benefit > div ul li i {
+  font-family: 'Roboto', sans-serif; }
 
 .grayscale, body.sub .vip.main .vip-main a figure img {
   -webkit-filter: grayscale(100%);
@@ -679,6 +682,9 @@ body.sub .product-view {
       body.sub .product-view .overview .product-info dd s {
         color: #999;
         font-size: 18px; }
+      body.sub .product-view .overview .product-info dd #size-chart {
+        color: #555;
+        font-weight: bold; }
   body.sub .product-view .overview .product-quantity {
     height: 82px;
     padding-top: 12px;
@@ -775,6 +781,62 @@ body.sub .cross {
       left: 10px;
       width: 1px;
       height: 100%; }
+body.sub .function.view #related-products .product-list {
+  margin-top: 50px; }
+body.sub .function.view #product-inquiry thead th,
+body.sub .function.view #product-review thead th {
+  border-top: 0 !important;
+  border-bottom-color: #ccc !important; }
+body.sub .function.view #product-inquiry .btn-area p,
+body.sub .function.view #product-review .btn-area p {
+  text-align: right; }
+  body.sub .function.view #product-inquiry .btn-area p .btn,
+  body.sub .function.view #product-review .btn-area p .btn {
+    width: 90px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 21px; }
+    body.sub .function.view #product-inquiry .btn-area p .btn.btn-list,
+    body.sub .function.view #product-review .btn-area p .btn.btn-list {
+      border: 1px solid #777;
+      color: #555; }
+    body.sub .function.view #product-inquiry .btn-area p .btn.btn-inquiry,
+    body.sub .function.view #product-review .btn-area p .btn.btn-inquiry {
+      background-color: #555;
+      color: #fff; }
+body.sub .function.view #review-benefit > div {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4; }
+  body.sub .function.view #review-benefit > div h4 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0; }
+  body.sub .function.view #review-benefit > div ul {
+    float: left;
+    margin-top: 30px; }
+    body.sub .function.view #review-benefit > div ul li {
+      display: inline-block;
+      margin-left: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -1px; }
+      body.sub .function.view #review-benefit > div ul li i {
+        font-size: 36px;
+        font-weight: bold; }
+        body.sub .function.view #review-benefit > div ul li i span {
+          font-size: 20px; }
+      body.sub .function.view #review-benefit > div ul li:before {
+        content: 'ㆍ'; }
+body.sub .function.view #review-benefit .notify {
+  margin-top: 25px; }
+  body.sub .function.view #review-benefit .notify li {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #555; }
+    body.sub .function.view #review-benefit .notify li:before {
+      padding-right: 5px;
+      content: '\203A'; }
 body.sub .onair.now .broadcast {
   margin-bottom: 250px; }
   body.sub .onair.now .broadcast .page-title {

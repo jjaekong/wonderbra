@@ -50,7 +50,7 @@
     <div class="btn-area">
         <p>
             <a href="#" class="btn btn-default btn-list">목록</a>
-            <a href="#" class="btn btn-default btn-inquiry">문의하기</a>
+            <a href="#" class="btn btn-default btn-inquiry">글쓰기</a>
         </p>
     </div>
 </div>

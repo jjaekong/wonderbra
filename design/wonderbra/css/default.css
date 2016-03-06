@@ -1166,6 +1166,8 @@ body.sub .board .media-view {
     line-height: 28px; }
 body.sub .board .media-write {
   margin-bottom: 150px; }
+  body.sub .board .media-write .table tr .form-control {
+    width: 870px; }
   body.sub .board .media-write .table tr:nth-of-type(1) td {
     border-top: 2px solid #333; }
   body.sub .board .media-write .table tr td:nth-of-type(1) label {
@@ -1725,5 +1727,21 @@ body.sub .mypage.coupon .notify h5 {
     margin-top: 20px; }
 body.sub .mypage.coupon .notify li {
   margin-bottom: 0; }
+body.sub .mypage.review .review-list .table tbody tr td {
+  font-size: inherit; }
+body.sub .mypage.review .paging .pagination {
+  margin-bottom: 140px; }
+body.sub .mypage.qna .qna-list .table tbody tr td {
+  font-size: inherit; }
+body.sub .mypage.qna .paging .pagination {
+  margin-bottom: 140px; }
+body.sub .mypage.inquiry .media-write .table tbody tr td {
+  font-size: inherit; }
+  body.sub .mypage.inquiry .media-write .table tbody tr td:nth-of-type(2) {
+    text-align: left; }
+  body.sub .mypage.inquiry .media-write .table tbody tr td .form-control {
+    width: 870px; }
+body.sub .mypage.inquiry .media-write .table tbody tr.email td .form-control, body.sub .mypage.inquiry .media-write .table tbody tr.mobile td .form-control {
+  width: 270px; }
 
 /*# sourceMappingURL=default.css.map */

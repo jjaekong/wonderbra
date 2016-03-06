@@ -1638,6 +1638,9 @@ body.sub {
             margin-bottom: 150px;
             .table {
                 tr {
+                    .form-control {
+                        width: 870px;
+                    }
                     &:nth-of-type(1) {
                         td {
                             border-top: 2px solid #333;
@@ -2475,6 +2478,71 @@ body.sub {
                 }
                 li {
                     margin-bottom: 0;
+                }
+            }
+        }
+        
+        // 후기내역
+        &.review {
+            .review-list {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                font-size: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+            .paging .pagination {
+                margin-bottom: 140px;
+            }
+        }
+        
+        // 상품Q&A
+        &.qna {
+            .qna-list {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                font-size: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+            .paging .pagination {
+                margin-bottom: 140px;
+            }
+        }
+        
+        // 1:1 문의
+        &.inquiry {
+            .media-write {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                font-size: inherit;
+                                &:nth-of-type(2) {
+                                    text-align: left;
+                                }
+                                .form-control {
+                                    width: 870px;
+                                }
+                            }
+                            &.email,
+                            &.mobile {
+                                td {
+                                    .form-control {
+                                        width: 270px;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

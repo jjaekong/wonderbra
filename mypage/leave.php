@@ -54,11 +54,11 @@
                         </colgroup>
                         <tbody>
                             <tr class="id">
-                                <td>회원 아이디</td>
+                                <th>회원 아이디</th>
                                 <td>TEST</td>
                             </tr>
                             <tr>
-                                <td>탈퇴 사유</td>
+                                <th>탈퇴 사유</th>
                                 <td><textarea class="form-control" cols="100" rows="5"></textarea></td>
                             </tr>
                         </tbody>

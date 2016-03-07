@@ -22,7 +22,7 @@
             </div>
             <div class="sorter">
                 <div class="row">
-                    <div class="col-xs-6 text-right">
+                    <div class="col-xs-12 text-center">
                         <div class="by">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-xs btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,6 +37,7 @@
                             </div>
                         </div>
                     </div>
+					<!--
                     <div class="col-xs-6">
                         <div class="view">
                             <strong>VIEW</strong>
@@ -46,6 +47,7 @@
                             </ul>
                         </div>
                     </div>
+					-->
                 </div>
             </div>
             <div class="product-list">

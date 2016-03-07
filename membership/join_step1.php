@@ -16,14 +16,14 @@
                         </ol>
                         <div class="privacy">
                             <h4>개인정보취급방침</h4>
-                            <div class="details"></div>
+                            <textarea cols="100" rows="10" class="form-control" readonly="readonly"></textarea>
                             <label>
                                 <input type="checkbox"> 이용약관에 동의합니다.
                             </label>
                         </div>
                         <div class="terms">
                             <h4>이용약관</h4>
-                            <div class="details"></div>
+                            <textarea cols="100" rows="10" class="form-control" readonly="readonly"></textarea>
                             <label>
                                 <input type="checkbox"> 이용약관에 동의합니다.
                             </label>

@@ -20,7 +20,7 @@
                                     <label for="login-pw" class="control-label">비밀번호</label>
                                     <input type="password" class="form-control" id="login-pw">
                                 </div>
-                                <button class="btn btn-default btn-submit" type="submit">확인</button>
+                                <button class="btn btn-default btn-submit" type="button">확인</button>
                             </form>
                             <ul class="help">
                                 <li>아직 원더브라 회원이 아니신가요? <a class="btn btn-default btn-join" href="#">회원가입</a></li>

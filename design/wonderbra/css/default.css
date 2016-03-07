@@ -8,7 +8,7 @@
 .font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .function.view #review-benefit > div ul li, body.sub .onair.now .broadcast .product-title,
 body.sub .onair.now .broadcast .summary,
 body.sub .onair.now .broadcast .price,
-body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p, body.sub .mypage .page-header .page-title {
+body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p, body.sub .mypage .page-header .page-title, body.sub .mypage .cart-list .table tfoot tr td {
   font-family: 'Noto Sans', sans-serif; }
 
 .font-play, body.sub .vip.main .vip-main a figure figcaption {
@@ -1576,12 +1576,14 @@ body.sub .membership.join {
       margin-top: 0;
       font-size: 14px;
       color: #555; }
-    body.sub .membership.join.step1 .privacy .details,
-    body.sub .membership.join.step1 .terms .details {
-      overflow: auto;
+    body.sub .membership.join.step1 .privacy .form-control,
+    body.sub .membership.join.step1 .terms .form-control {
       width: 100%;
       height: 150px;
-      background-color: #f4f4f4; }
+      background-color: #f4f4f4;
+      box-shadow: none;
+      border-radius: 0;
+      border: 0; }
     body.sub .membership.join.step1 .privacy label,
     body.sub .membership.join.step1 .terms label {
       position: absolute;
@@ -1603,7 +1605,8 @@ body.sub .membership.join {
     text-align: center; }
     body.sub .membership.join.step1 .btn-area p .btn {
       width: 150px;
-      height: 40px; }
+      height: 40px;
+      line-height: 28px; }
       body.sub .membership.join.step1 .btn-area p .btn.btn-cancel {
         background-color: #555; }
   body.sub .membership.join.step2 .join-form {
@@ -1727,6 +1730,47 @@ body.sub .mypage .quantity-counter {
     top: -2px; }
   body.sub .mypage .quantity-counter .btn-down {
     bottom: 2px; }
+body.sub .mypage .wish-list .table tbody tr td {
+  color: #777; }
+  body.sub .mypage .wish-list .table tbody tr td:nth-of-type(8) p {
+    margin-bottom: 0; }
+    body.sub .mypage .wish-list .table tbody tr td:nth-of-type(8) p .btn {
+      width: 70px; }
+      body.sub .mypage .wish-list .table tbody tr td:nth-of-type(8) p .btn.btn-cart {
+        margin-bottom: 5px;
+        background-color: #f15a22; }
+body.sub .mypage .cart-list .table {
+  margin-bottom: 40px; }
+  body.sub .mypage .cart-list .table tbody tr td {
+    color: #777; }
+    body.sub .mypage .cart-list .table tbody tr td:nth-of-type(4) p, body.sub .mypage .cart-list .table tbody tr td:nth-of-type(8) p {
+      margin-bottom: 0; }
+      body.sub .mypage .cart-list .table tbody tr td:nth-of-type(4) p .btn, body.sub .mypage .cart-list .table tbody tr td:nth-of-type(8) p .btn {
+        width: 70px; }
+        body.sub .mypage .cart-list .table tbody tr td:nth-of-type(4) p .btn.btn-wish, body.sub .mypage .cart-list .table tbody tr td:nth-of-type(8) p .btn.btn-wish {
+          margin-bottom: 5px;
+          background-color: #f15a22; }
+        body.sub .mypage .cart-list .table tbody tr td:nth-of-type(4) p .btn.btn-edit-quantity, body.sub .mypage .cart-list .table tbody tr td:nth-of-type(8) p .btn.btn-edit-quantity {
+          width: 40px;
+          padding-left: 0;
+          padding-right: 0;
+          margin-top: 5px;
+          text-align: center; }
+  body.sub .mypage .cart-list .table tfoot tr td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #555; }
+    body.sub .mypage .cart-list .table tfoot tr td dl {
+      margin-bottom: 0;
+      text-align: right; }
+      body.sub .mypage .cart-list .table tfoot tr td dl dt, body.sub .mypage .cart-list .table tfoot tr td dl dd {
+        display: inline-block;
+        font-weight: bold; }
+        body.sub .mypage .cart-list .table tfoot tr td dl dt strong, body.sub .mypage .cart-list .table tfoot tr td dl dd strong {
+          color: #f15a22; }
+      body.sub .mypage .cart-list .table tfoot tr td dl dt:after {
+        content: ':'; }
 body.sub .mypage.coupon .list .btn-area p {
   text-align: right; }
   body.sub .mypage.coupon .list .btn-area p .btn {
@@ -1826,52 +1870,70 @@ body.sub .mypage.myinfo .pw-form .btn-area {
       font-size: 12px; }
       body.sub .mypage.myinfo .pw-form .btn-area p .btn.btn-cancel {
         background-color: #555; }
-body.sub .mypage.myinfo .edit-form .table tbody tr td:nth-of-type(1) {
-  padding-left: 70px;
-  font-size: 14px;
-  color: #777;
-  text-align: left; }
-body.sub .mypage.myinfo .edit-form .table tbody tr td:nth-of-type(2) {
-  font-size: 13px;
-  color: #999;
-  text-align: left; }
-body.sub .mypage.myinfo .edit-form .table tbody tr label {
-  margin-bottom: 0;
-  font-weight: normal; }
-body.sub .mypage.myinfo .edit-form .table tbody tr p {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-size: 12px; }
-body.sub .mypage.myinfo .edit-form .table tbody tr .form-control {
-  height: 30px;
-  width: 270px;
-  box-shadow: none;
-  border-radius: 0; }
-body.sub .mypage.myinfo .edit-form .table tbody tr input[type="radio"] {
-  margin-top: -3px;
-  vertical-align: middle; }
-body.sub .mypage.myinfo .edit-form .table tbody tr .btn {
-  height: 30px;
-  vertical-align: top;
-  background-color: #333;
-  font-size: 12px; }
-  body.sub .mypage.myinfo .edit-form .table tbody tr .btn.btn-zipcode {
-    background-color: #555; }
-body.sub .mypage.myinfo .edit-form .table tbody tr.name td:nth-of-type(2) {
-  color: #000;
-  font-weight: bold; }
-body.sub .mypage.myinfo .edit-form .table tbody tr.birth .form-control {
-  display: inline-block;
-  width: auto; }
-body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode {
-  margin-top: 0; }
-  body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode .form-control {
-    width: 130px; }
-body.sub .mypage.myinfo .edit-form .table tbody tr.addr .default .form-control,
-body.sub .mypage.myinfo .edit-form .table tbody tr.addr .details .form-control {
-  width: 470px; }
-body.sub .mypage.myinfo .edit-form .table tbody tr:nth-of-type(1) td {
-  border-top: 2px solid #333; }
+body.sub .mypage.myinfo .edit-form .table tbody tr {
+  /*
+  td:nth-of-type(1) {
+      padding-left: 70px;
+      font-size: 14px;
+      color: #777;
+      text-align: left;
+  }
+  td:nth-of-type(2) {
+      font-size: 13px;
+      color: #999;
+      text-align: left;
+  }
+  */ }
+  body.sub .mypage.myinfo .edit-form .table tbody tr th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 70px;
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr td {
+    font-size: 13px;
+    color: #999;
+    text-align: left; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr label {
+    margin-bottom: 0;
+    font-weight: normal; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 12px; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr .form-control {
+    height: 30px;
+    width: 270px;
+    box-shadow: none;
+    border-radius: 0; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr input[type="radio"] {
+    margin-top: -3px;
+    vertical-align: middle; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr .btn {
+    height: 30px;
+    vertical-align: top;
+    background-color: #333;
+    font-size: 12px; }
+    body.sub .mypage.myinfo .edit-form .table tbody tr .btn.btn-zipcode {
+      background-color: #555; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr.name td {
+    color: #000;
+    font-weight: bold; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr.birth .form-control {
+    display: inline-block;
+    width: auto; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode {
+    margin-top: 0; }
+    body.sub .mypage.myinfo .edit-form .table tbody tr.addr .zipcode .form-control {
+      width: 130px; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr.addr .default .form-control,
+  body.sub .mypage.myinfo .edit-form .table tbody tr.addr .details .form-control {
+    width: 470px; }
+  body.sub .mypage.myinfo .edit-form .table tbody tr:nth-of-type(1) th, body.sub .mypage.myinfo .edit-form .table tbody tr:nth-of-type(1) td {
+    border-top: 2px solid #333; }
 body.sub .mypage.myinfo .edit-form .btn-area {
   margin-top: 20px;
   margin-bottom: 150px; }
@@ -1908,23 +1970,25 @@ body.sub .mypage.leave .leave-info .notify {
   body.sub .mypage.leave .leave-info .notify ol {
     margin-top: 10px;
     margin-bottom: 10px; }
+body.sub .mypage.leave .leave-form .table tbody tr th {
+  font-size: 13px;
+  vertical-align: middle;
+  border-right: 1px solid #ccc;
+  text-align: left;
+  color: #555;
+  border-bottom: 1px solid #ccc; }
 body.sub .mypage.leave .leave-form .table tbody tr td {
   font-size: 13px;
-  vertical-align: middle; }
-  body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(1) {
-    border-right: 1px solid #ccc;
-    text-align: left;
-    color: #555; }
-  body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(2) {
-    padding-left: 30px;
-    text-align: left; }
-    body.sub .mypage.leave .leave-form .table tbody tr td:nth-of-type(2) .form-control {
-      width: 870px;
-      height: 230px;
-      border-color: #ccc;
-      border-radius: 0;
-      box-shadow: none; }
-body.sub .mypage.leave .leave-form .table tbody tr.id td:nth-of-type(2) {
+  vertical-align: middle;
+  padding-left: 30px;
+  text-align: left; }
+  body.sub .mypage.leave .leave-form .table tbody tr td .form-control {
+    width: 870px;
+    height: 230px;
+    border-color: #ccc;
+    border-radius: 0;
+    box-shadow: none; }
+body.sub .mypage.leave .leave-form .table tbody tr.id td {
   font-weight: bold; }
 body.sub .mypage.leave .leave-form .btn-area {
   margin-top: 20px;
@@ -1941,15 +2005,6 @@ body.sub .mypage.leave .leave-form .btn-area {
       body.sub .mypage.leave .leave-form .btn-area p .btn.btn-cancel {
         background-color: #ffde16;
         color: #000; }
-body.sub .mypage.wish .wish-list .table tbody tr td {
-  color: #777; }
-  body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p {
-    margin-bottom: 0; }
-    body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p .btn {
-      width: 70px; }
-      body.sub .mypage.wish .wish-list .table tbody tr td:nth-of-type(8) p .btn.btn-cart {
-        margin-bottom: 5px;
-        background-color: #f15a22; }
 body.sub .mypage.wish .btn-area {
   margin-top: 20px;
   margin-bottom: 40px; }
@@ -1987,5 +2042,212 @@ body.sub .mypage.recent .btn-area {
       font-size: 12px; }
 body.sub .mypage.recent .paging .pagination {
   margin-bottom: 150px; }
+body.sub .mypage.cart .steps {
+  overflow: hidden;
+  margin-bottom: 40px;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat; }
+  body.sub .mypage.cart .steps li {
+    float: left;
+    width: 33.33333334%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    color: #555;
+    font-weight: bold; }
+    body.sub .mypage.cart .steps li i {
+      float: left;
+      width: 60px;
+      height: 60px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-right: 40px;
+      line-height: 16px;
+      font-style: normal;
+      background-color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold; }
+  body.sub .mypage.cart .steps.step1 {
+    background-image: url(/design/wonderbra/images/sub/bg_cart_step_1.gif); }
+    body.sub .mypage.cart .steps.step1 li:nth-of-type(1) {
+      color: #fff; }
+      body.sub .mypage.cart .steps.step1 li:nth-of-type(1) i {
+        color: #000; }
+  body.sub .mypage.cart .steps.step2 {
+    background-image: url(/design/wonderbra/images/sub/bg_cart_step_2.gif); }
+    body.sub .mypage.cart .steps.step2 li:nth-of-type(2) {
+      color: #fff; }
+      body.sub .mypage.cart .steps.step2 li:nth-of-type(2) i {
+        color: #000; }
+  body.sub .mypage.cart .steps.step3 {
+    background-image: url(/design/wonderbra/images/sub/bg_cart_step_3.gif); }
+    body.sub .mypage.cart .steps.step3 li:nth-of-type(3) {
+      color: #fff; }
+      body.sub .mypage.cart .steps.step3 li:nth-of-type(3) i {
+        color: #000; }
+body.sub .mypage.cart.step1 .cart-list .btn-area {
+  margin-bottom: 100px; }
+  body.sub .mypage.cart.step1 .cart-list .btn-area p {
+    text-align: center; }
+    body.sub .mypage.cart.step1 .cart-list .btn-area p .btn {
+      width: 185px;
+      height: 50px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #444;
+      line-height: 38px; }
+      body.sub .mypage.cart.step1 .cart-list .btn-area p .btn.btn-submit {
+        background-color: #000; }
+body.sub .mypage.cart.step1 .wish-list {
+  margin-bottom: 150px; }
+  body.sub .mypage.cart.step1 .wish-list h4 {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000;
+    background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
+body.sub .mypage.cart.step2 .cart-list {
+  margin-bottom: 70px; }
+  body.sub .mypage.cart.step2 .cart-list .table tfoot td {
+    border-bottom: 0; }
+body.sub .mypage.cart.step2 h4 {
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  line-height: 50px; }
+  body.sub .mypage.cart.step2 h4 label {
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #999; }
+    body.sub .mypage.cart.step2 h4 label input[type="checkbox"] {
+      margin-top: -3px;
+      vertical-align: middle; }
+body.sub .mypage.cart.step2 .orderer,
+body.sub .mypage.cart.step2 .delivery,
+body.sub .mypage.cart.step2 .coupon,
+body.sub .mypage.cart.step2 .total {
+  margin-bottom: 70px; }
+  body.sub .mypage.cart.step2 .orderer th,
+  body.sub .mypage.cart.step2 .delivery th,
+  body.sub .mypage.cart.step2 .coupon th,
+  body.sub .mypage.cart.step2 .total th {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    line-height: 30px;
+    font-size: 13px; }
+  body.sub .mypage.cart.step2 .orderer td,
+  body.sub .mypage.cart.step2 .delivery td,
+  body.sub .mypage.cart.step2 .coupon td,
+  body.sub .mypage.cart.step2 .total td {
+    padding-left: 30px;
+    text-align: left;
+    font-size: 13px; }
+  body.sub .mypage.cart.step2 .orderer label,
+  body.sub .mypage.cart.step2 .delivery label,
+  body.sub .mypage.cart.step2 .coupon label,
+  body.sub .mypage.cart.step2 .total label {
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-weight: normal; }
+    body.sub .mypage.cart.step2 .orderer label input[type="radio"],
+    body.sub .mypage.cart.step2 .orderer label input[type="checkbox"],
+    body.sub .mypage.cart.step2 .delivery label input[type="radio"],
+    body.sub .mypage.cart.step2 .delivery label input[type="checkbox"],
+    body.sub .mypage.cart.step2 .coupon label input[type="radio"],
+    body.sub .mypage.cart.step2 .coupon label input[type="checkbox"],
+    body.sub .mypage.cart.step2 .total label input[type="radio"],
+    body.sub .mypage.cart.step2 .total label input[type="checkbox"] {
+      margin-top: -3px;
+      vertical-align: middle; }
+  body.sub .mypage.cart.step2 .orderer .table,
+  body.sub .mypage.cart.step2 .delivery .table,
+  body.sub .mypage.cart.step2 .coupon .table,
+  body.sub .mypage.cart.step2 .total .table {
+    margin-bottom: 0; }
+    body.sub .mypage.cart.step2 .orderer .table .form-control,
+    body.sub .mypage.cart.step2 .delivery .table .form-control,
+    body.sub .mypage.cart.step2 .coupon .table .form-control,
+    body.sub .mypage.cart.step2 .total .table .form-control {
+      width: 250px;
+      height: 30px;
+      box-shadow: none;
+      border-radius: 0; }
+body.sub .mypage.cart.step2 .delivery .addr .zipcode .form-control {
+  width: 130px; }
+body.sub .mypage.cart.step2 .delivery .addr .zipcode .btn {
+  width: 100px;
+  height: 30px;
+  background-color: #555;
+  vertical-align: top; }
+body.sub .mypage.cart.step2 .delivery .addr .default .form-control,
+body.sub .mypage.cart.step2 .delivery .addr .details .form-control {
+  width: 470px; }
+body.sub .mypage.cart.step2 .delivery .note .form-control,
+body.sub .mypage.cart.step2 .delivery .ask .form-control {
+  width: 470px; }
+body.sub .mypage.cart.step2 .coupon .use .form-control {
+  width: 250px; }
+body.sub .mypage.cart.step2 .coupon .use .btn-coupon {
+  background-color: #f15a22;
+  width: 90px;
+  height: 25px;
+  margin-top: 2px;
+  vertical-align: top; }
+body.sub .mypage.cart.step2 .coupon .use em {
+  margin-left: 10px;
+  font-style: normal;
+  font-size: 13px;
+  color: #555;
+  letter-spacing: -1px; }
+body.sub .mypage.cart.step2 .coupon .use p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #999; }
+  body.sub .mypage.cart.step2 .coupon .use p strong {
+    color: #f15a22; }
+body.sub .mypage.cart.step2 .total h4 {
+  color: #ffde16; }
+body.sub .mypage.cart.step2 .total p {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555; }
+  body.sub .mypage.cart.step2 .total p:nth-of-type(1) {
+    margin-top: 20px; }
+  body.sub .mypage.cart.step2 .total p strong {
+    color: #f15a22; }
+body.sub .mypage.cart.step2 .total em {
+  color: #f15a22;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal; }
+body.sub .mypage.cart.step2 .btn-area {
+  margin-bottom: 150px; }
+  body.sub .mypage.cart.step2 .btn-area p {
+    text-align: center; }
+    body.sub .mypage.cart.step2 .btn-area p .btn {
+      width: 150px;
+      height: 40px;
+      line-height: 28px;
+      background-color: #000;
+      color: #fff;
+      font-size: 12px; }
+      body.sub .mypage.cart.step2 .btn-area p .btn.btn-cancel {
+        background-color: #555; }
 
 /*# sourceMappingURL=default.css.map */

@@ -35,11 +35,11 @@
                     </colgroup>
                     <tbody>
                         <tr class="name">
-                            <td>아이디</td>
+                            <th>아이디</th>
                             <td>TEST</td>
                         </tr>
                         <tr>
-                            <td>비밀번호</td>
+                            <th>비밀번호</th>
                             <td>
                                 <label>
                                     <input class="form-control" type="password">
@@ -47,7 +47,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>비밀번호 확인</td>
+                            <th>비밀번호 확인</th>
                             <td>
                                 <label>
                                     <input class="form-control" type="password">
@@ -55,7 +55,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>이름</td>
+                            <th>이름</th>
                             <td>
                                 <label>
                                     <input class="form-control" type="text">
@@ -63,7 +63,7 @@
                             </td>
                         </tr>
                         <tr class="birth">
-                            <td>생년월일</td>
+                            <th>생년월일</th>
                             <td>
                                 <select class="form-control">
                                     <option value="">선택</option>
@@ -83,7 +83,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>이메일</td>
+                            <th>이메일</th>
                             <td>
                                 <label>
                                     <input class="form-control" type="email">
@@ -100,7 +100,7 @@
                             </td>
                         </tr>
                         <tr class="addr">
-                            <td>주소</td>
+                            <th>주소</th>
                             <td>
                                 <p class="zipcode">
                                     <label>
@@ -125,7 +125,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>핸드폰</td>
+                            <th>핸드폰</th>
                             <td>
                                 <label>
                                     <input class="form-control" type="text">

@@ -50,12 +50,6 @@ body.sub .onair.now .broadcast .details, body.sub .onair.replay .replay-list ul 
   width: 1200px !important;
   min-width: 1200px !important; }
 
-html {
-  min-width: 1200px; }
-
-body {
-  min-width: 1200px; }
-
 ul, ol {
   list-style: none;
   padding-left: 0;
@@ -2326,5 +2320,167 @@ body.sub .mypage.cart.step3 .paydone {
         body.sub .mypage.cart.step3 .paydone > .btn-area p .btn.btn-print {
           background-color: #ffde16;
           color: #000; }
+
+body.popup #content {
+  margin-top: 0; }
+body.popup .category {
+  margin-bottom: 40px;
+  text-align: center; }
+  body.popup .category .nav li {
+    float: none;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 11px; }
+    body.popup .category .nav li a {
+      min-width: 90px;
+      color: #333;
+      border-radius: 0;
+      background-color: #f5f5f5;
+      border: 1px solid #eee;
+      font-weight: bold; }
+    body.popup .category .nav li.active a {
+      background-color: #ffde16;
+      border-color: #ffde16; }
+body.popup #content.review,
+body.popup #content.order {
+  padding: 20px; }
+  body.popup #content.review .page-header,
+  body.popup #content.order .page-header {
+    padding: 10px;
+    border-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: url(/design/wonderbra/images/sub/bg_membership.png); }
+    body.popup #content.review .page-header > div,
+    body.popup #content.order .page-header > div {
+      padding-top: 35px;
+      padding-bottom: 35px;
+      background-color: #fff; }
+      body.popup #content.review .page-header > div .page-title,
+      body.popup #content.order .page-header > div .page-title {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 30px;
+        color: #333;
+        font-weight: bold; }
+      body.popup #content.review .page-header > div p,
+      body.popup #content.order .page-header > div p {
+        margin-bottom: 0;
+        font-size: 13px;
+        color: #777; }
+        body.popup #content.review .page-header > div p strong,
+        body.popup #content.order .page-header > div p strong {
+          color: #000; }
+  body.popup #content.review h4,
+  body.popup #content.order h4 {
+    height: 50px;
+    padding: 0 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    line-height: 50px; }
+  body.popup #content.review .orderer,
+  body.popup #content.review .delivery,
+  body.popup #content.order .orderer,
+  body.popup #content.order .delivery {
+    margin-bottom: 40px; }
+    body.popup #content.review .orderer th,
+    body.popup #content.review .delivery th,
+    body.popup #content.order .orderer th,
+    body.popup #content.order .delivery th {
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 30px;
+      border-bottom: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      line-height: 30px;
+      font-size: 13px; }
+    body.popup #content.review .orderer td,
+    body.popup #content.review .delivery td,
+    body.popup #content.order .orderer td,
+    body.popup #content.order .delivery td {
+      padding-left: 30px;
+      text-align: left;
+      font-size: 13px; }
+    body.popup #content.review .orderer .table,
+    body.popup #content.review .delivery .table,
+    body.popup #content.order .orderer .table,
+    body.popup #content.order .delivery .table {
+      margin-bottom: 0; }
+  body.popup #content.review .btn-area p,
+  body.popup #content.order .btn-area p {
+    text-align: right; }
+    body.popup #content.review .btn-area p .btn,
+    body.popup #content.order .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #000;
+      color: #fff;
+      font-size: 13px;
+      line-height: 23px; }
+      body.popup #content.review .btn-area p .btn.btn-cancel,
+      body.popup #content.order .btn-area p .btn.btn-cancel {
+        background-color: #555; }
+body.popup #content.coupon h4 {
+  height: 50px;
+  padding: 0 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: center; }
+body.popup #content.coupon .coupon-write .coupon-body {
+  padding: 20px; }
+body.popup #content.coupon .coupon-write .coupon-form {
+  width: 460px;
+  height: 200px;
+  padding: 5px;
+  margin: 0 auto;
+  background-image: url(/design/wonderbra/images/sub/bg_membership.png); }
+  body.popup #content.coupon .coupon-write .coupon-form > div {
+    height: 100%;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center; }
+    body.popup #content.coupon .coupon-write .coupon-form > div h5 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold; }
+    body.popup #content.coupon .coupon-write .coupon-form > div .form-group {
+      display: inline-block;
+      margin-bottom: 0;
+      text-align: center; }
+      body.popup #content.coupon .coupon-write .coupon-form > div .form-group .form-control {
+        display: inline-block;
+        width: 60px;
+        height: 32px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 0;
+        box-shadow: none; }
+    body.popup #content.coupon .coupon-write .coupon-form > div .btn {
+      display: inline-block;
+      width: 70px;
+      height: 32px;
+      padding-right: 0;
+      padding-left: 0;
+      color: #fff;
+      font-size: 12px;
+      line-height: 20px;
+      background-color: #f15a22;
+      vertical-align: top; }
+    body.popup #content.coupon .coupon-write .coupon-form > div p {
+      margin-top: 25px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #777; }
 
 /*# sourceMappingURL=default.css.map */

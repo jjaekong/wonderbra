@@ -18,7 +18,7 @@
             <h4>주문자 정보</h4>
             <table class="table">
                 <colgroup>
-                    <col width="175">
+                    <col style="width: 175px">
                     <col>
                 </colgroup>
                 <tbody>
@@ -28,7 +28,7 @@
                     </tr>
                     <tr>
                         <th>주문일자</th>
-                        <td><time>2015.02.01</time></td>
+                        <td>2015.02.01</td>
                     </tr>
                     <tr>
                         <th>주문자</th>
@@ -49,7 +49,7 @@
             <h4>배송지 정보</h4>
             <table class="table">
                 <colgroup>
-                    <col width="175">
+                    <col style="width: 175px">
                     <col>
                 </colgroup>
                 <tbody>
@@ -76,12 +76,56 @@
                 </tbody>
             </table>
         </div>
+        <div class="order-list">
+            <h4>주문상품정보</h4>
+            <table class="table">
+                <colgroup>
+                    <col>
+                    <col>
+                    <col style="width: 100px;">
+                    <col style="width: 50px;">
+                    <col style="width: 100px;">
+                    <col style="width: 70px;">
+                    <col style="width: 80px;">
+                    <col style="width: 100px;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>주문상품정보</th>
+                        <th>상품별주문정보</th>
+                        <th>수량</th>
+                        <th>가격</th>
+                        <th>적립금</th>
+                        <th>처리상태</th>
+                        <th>배송번호</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="/design/wonderbra/images/dummy/img_review_1.gif" alt=""></td>
+                        <td class="title">
+                            <a href="#">[Wonderbra] 원더브라 Sexy Wire Free 
+베이지 브라팬티 WW4H22_T</a>
+                            <p class="option">[사이즈 : 75B(90) 1개]</p>
+                        </td>
+                        <td>20160221181102-45825225632_[1]</td>
+                        <td>1</td>
+                        <td>59,000 won</td>
+                        <td>590</td>
+                        <td>결제대기</td>
+                        <td>S-16022118-325839641-00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="total"><strong>59,900(상품구매금액) (할인/추가금액) = 59,900원</strong></p>
+        </div>
         <div class="payinfo">
             <h4>결제정보</h4>
             <table class="table">
                 <colgroup>
-                    <col width="175">
-                    <col width="175">
+                    <col style="width: 175px">
+                    <col style="width: 175px">
                     <col>
                 </colgroup>
                 <thead>
@@ -98,6 +142,11 @@
                         <td></td>
                     </tr>
                     <tr>
+                        <td>사용한 예치금</td>
+                        <td>원</td>
+                        <td></td>
+                    </tr>
+                    <tr class="paytype">
                         <td>무통장</td>
                         <td>59,000원</td>
                         <td>우리은행 [가상]61650219418043 김두리</td>

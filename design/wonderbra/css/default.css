@@ -2337,28 +2337,17 @@ body.sub .mypage.cart.step3 .paydone {
           color: #000; }
 body.sub .review .media-view {
   margin-bottom: 40px; }
-  body.sub .review .media-view article header {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 145px;
-    padding: 25px 40px; }
-    body.sub .review .media-view article header img {
-      float: left; }
-    body.sub .review .media-view article header h3 {
-      float: left;
-      padding-top: 35px;
-      padding-bottom: 35px;
-      margin-left: 30px;
-      margin-right: 30px;
-      line-height: 20px; }
-    body.sub .review .media-view article header p {
-      float: right;
-      padding-top: 25px;
-      padding-bottom: 25px;
-      line-height: 20px;
-      color: #777;
-      text-align: center; }
+body.sub .review .ordered-item {
+  margin-bottom: 40px; }
+  body.sub .review .ordered-item .table {
+    margin-bottom: 0; }
+    body.sub .review .ordered-item .table tbody tr td {
+      padding-top: 25px !important;
+      padding-bottom: 25px !important; }
+    body.sub .review .ordered-item .table tbody tr:nth-of-type(1) td {
+      border-top: 2px solid #333; }
+    body.sub .review .ordered-item .table tbody .title {
+      text-align: left; }
 body.sub .review .comment-write {
   padding: 0 30px 30px;
   border: 1px solid #ccc;

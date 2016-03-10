@@ -27,12 +27,30 @@
                     <li role="presentation"><a href="#">회원탈퇴</a></li>
                 </ul>
             </div>
+            <div class="ordered-item">
+                <table class="table">
+                    <colgroup>
+                        <col style="width: 150px;">
+                        <col>
+                        <col style="width: 150px;">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td><img src="/design/wonderbra/images/dummy/img_review_1.gif" alt=""></td>
+                            <td class="title">
+                                <a href="#">[Wonderbra] 원더브라 Sexy Wire Free 베이지 브라팬티 WW4H22_T</a>
+                                <p class="option">[사이즈 : 75B(90) 1개]</p>
+                            </td>
+                            <td>59,000 won</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div class="media-view">
                 <article>
                     <header>
-                        <img src="/design/wonderbra/images/dummy/img_review_1.gif" alt="">
-                        <h3>원더브라 Sexy Wirefree 베이지 2종세트 WW2D51_T </h3>
-                        <p>wonder***<br><img src="/design/wonderbra/images/sub/img_star_1.gif" alt="5점"></p>
+                        <h3>배송도 빠르고 제품도 정말 좋아요!</h3>
+                        <time>2016.02.01</time>
                     </header>
                     <div class="details">
                         <div>

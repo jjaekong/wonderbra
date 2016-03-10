@@ -2680,6 +2680,89 @@ body.sub {
                     }
                 }
             }
+            .inquiry-view {
+                .table {
+                    tbody {
+                        tr {
+                            th, td {
+                                padding-top: 14px !important;
+                                padding-bottom: 14px !important;
+                                border-bottom: 1px solid #ccc;
+                                line-height: 22px;
+                            }
+                            th {
+                                padding-left: 70px;
+                                font-weight: normal;
+                                color: #777;
+                                vertical-align: middle;
+                            }
+                            td {
+                                text-align: left;
+                                font-size: 13px;
+                            }
+                            &:nth-of-type(1) {
+                                th, td {
+                                    border-top: 2px solid #333;
+                                }
+                            }
+                        }
+                        .title {
+                            td {
+                                color: #333;
+                            }
+                        }
+                        .question,
+                        .answer {
+                            th, td {
+                                padding-top: 30px !important;
+                                padding-bottom: 30px !important;
+                            }
+                        }
+                    }
+                }
+                .util {
+                    li {
+                        display: inline-block;
+                        margin-right: 10px;
+                        a {
+                            padding-left: 15px;
+                            color: #333;
+                            background-repeat: no-repeat;
+                            background-position: 0 50%;
+                        }
+                        &.edit {
+                            a {
+                                background-image: url(/design/wonderbra/images/sub/ico_pancil.gif);
+                            }
+                        }
+                        &.delete {
+                            a {
+                                background-image: url(/design/wonderbra/images/sub/ico_trash.gif);
+                            }
+                        }
+                        &.reply {
+                            a {
+                                background-image: url(/design/wonderbra/images/sub/ico_reply.gif);
+                            }
+                        }
+                    }
+                }
+                .btn-area {
+                    margin-bottom: 150px;
+                    p {
+                        margin-bottom: 0;
+                        text-align: right;
+                        .btn {
+                            width: 90px;
+                            height: 35px;
+                            background-color: #000;
+                            color: #fff;
+                            font-size: 13px;
+                            line-height: 23px;
+                        }
+                    }
+                }
+            }
         }
         
         // 회원정보수정

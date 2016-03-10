@@ -1823,6 +1823,54 @@ body.sub .mypage.inquiry .media-write .table tbody tr td {
     width: 870px; }
 body.sub .mypage.inquiry .media-write .table tbody tr.email td .form-control, body.sub .mypage.inquiry .media-write .table tbody tr.mobile td .form-control {
   width: 270px; }
+body.sub .mypage.inquiry .inquiry-view .table tbody tr th, body.sub .mypage.inquiry .inquiry-view .table tbody tr td {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  border-bottom: 1px solid #ccc;
+  line-height: 22px; }
+body.sub .mypage.inquiry .inquiry-view .table tbody tr th {
+  padding-left: 70px;
+  font-weight: normal;
+  color: #777;
+  vertical-align: middle; }
+body.sub .mypage.inquiry .inquiry-view .table tbody tr td {
+  text-align: left;
+  font-size: 13px; }
+body.sub .mypage.inquiry .inquiry-view .table tbody tr:nth-of-type(1) th, body.sub .mypage.inquiry .inquiry-view .table tbody tr:nth-of-type(1) td {
+  border-top: 2px solid #333; }
+body.sub .mypage.inquiry .inquiry-view .table tbody .title td {
+  color: #333; }
+body.sub .mypage.inquiry .inquiry-view .table tbody .question th, body.sub .mypage.inquiry .inquiry-view .table tbody .question td,
+body.sub .mypage.inquiry .inquiry-view .table tbody .answer th,
+body.sub .mypage.inquiry .inquiry-view .table tbody .answer td {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important; }
+body.sub .mypage.inquiry .inquiry-view .util li {
+  display: inline-block;
+  margin-right: 10px; }
+  body.sub .mypage.inquiry .inquiry-view .util li a {
+    padding-left: 15px;
+    color: #333;
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
+  body.sub .mypage.inquiry .inquiry-view .util li.edit a {
+    background-image: url(/design/wonderbra/images/sub/ico_pancil.gif); }
+  body.sub .mypage.inquiry .inquiry-view .util li.delete a {
+    background-image: url(/design/wonderbra/images/sub/ico_trash.gif); }
+  body.sub .mypage.inquiry .inquiry-view .util li.reply a {
+    background-image: url(/design/wonderbra/images/sub/ico_reply.gif); }
+body.sub .mypage.inquiry .inquiry-view .btn-area {
+  margin-bottom: 150px; }
+  body.sub .mypage.inquiry .inquiry-view .btn-area p {
+    margin-bottom: 0;
+    text-align: right; }
+    body.sub .mypage.inquiry .inquiry-view .btn-area p .btn {
+      width: 90px;
+      height: 35px;
+      background-color: #000;
+      color: #fff;
+      font-size: 13px;
+      line-height: 23px; }
 body.sub .mypage.myinfo .pw-form .form-area {
   width: 770px;
   padding: 10px;

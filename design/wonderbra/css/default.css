@@ -777,6 +777,29 @@ body.sub .cross {
       left: 10px;
       width: 1px;
       height: 100%; }
+body.sub .function.view #product-details .general-info {
+  margin-top: 50px; }
+  body.sub .function.view #product-details .general-info h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold; }
+    body.sub .function.view #product-details .general-info h3 i {
+      font-style: normal;
+      color: #777; }
+  body.sub .function.view #product-details .general-info .table tr th, body.sub .function.view #product-details .general-info .table tr td {
+    border-bottom: 1px solid #ccc; }
+  body.sub .function.view #product-details .general-info .table tr th {
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #ccc; }
+  body.sub .function.view #product-details .general-info .table tr td {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left; }
+  body.sub .function.view #product-details .general-info .table tr:nth-of-type(1) th, body.sub .function.view #product-details .general-info .table tr:nth-of-type(1) td {
+    border-top: 2px solid #333; }
 body.sub .function.view #related-products .product-list {
   margin-top: 50px; }
 body.sub .function.view #product-inquiry thead th,

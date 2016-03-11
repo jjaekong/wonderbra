@@ -83,6 +83,53 @@
                     <div class="details-area">
                         <img src="/design/wonderbra/images/dummy/img_product_details.gif">
                     </div>
+                    <div class="general-info">
+                        <h3>상품 일반정보</h3>
+                        <table class="table">
+							<colgroup>
+								<col style="width:250px;">
+                                <col>
+							</colgroup>
+							<tbody>
+                                <tr>
+								    <th><span>제품소재</span></th>
+								    <td><span>WWBR3G61T - 나일론61%, 폴리우레탄39%, 폴리에스터 WWPT3G61T - 나일론62%, 폴리우레탄38%</span></td>  
+                                </tr>
+								<tr>
+								    <th><span>색상</span></th>
+								    <td><span>레드</span></td>
+                                </tr>
+                                <tr>
+								    <th><span>치수</span></th>
+								    <td><span>70A(90)~75A(90)~75B(90)~75C(90)~80A(95)~80B(95)~80C(95)~85A(100)~85B(100)~85C(100)</span></td>
+                                </tr>
+                                <tr>
+								    <th><span>제조자</span></th>
+								    <td><span>HBI JAPAN INC.</span></td>
+                                </tr>
+								<tr>
+								    <th><span>제조국</span></th>
+								    <td><span>태국</span></td>
+                                </tr>
+								<tr>
+								    <th><span>세탁방법 및 취급시 주의사항</span></th>
+								    <td><span>중성세제 사용 손세탁 와이어 변형 위험-비틀어 짜지 않습니다</span></td>
+                                </tr>
+                                <tr>
+								    <th><span>제조연월</span></th>
+								    <td><span>2013-08</span></td>
+                                </tr>
+								<tr>
+								    <th><span>품질보증기준</span></th>
+								    <td><span>관련 법 및 소비자 분쟁해결 규정에 따름.7일 이내 반품/교환 교환/반품시 왕복배송비 고객부담(5천원) 상품하자일경우 당사 부담 AS경우 품질보증 기간 1년</span></td>
+                                </tr>
+                                <tr>
+								    <th><span>A/S 책임자와 전화번호</span></th>
+								    <td><span>엠코르셋㈜/1544-6101</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="related" tabindex="-1" id="related-products">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_2.php'); ?>

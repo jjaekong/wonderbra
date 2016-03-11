@@ -1066,6 +1066,44 @@ body.sub {
     // function 메뉴
     .function {
         &.view {
+            #product-details {
+                .general-info {
+                    margin-top: 50px;
+                    h3 {
+                        margin-top: 0;
+                        margin-bottom: 15px;
+                        font-size: 16px;
+                        text-align: center;
+                        font-weight: bold;
+                        i {
+                            font-style: normal;
+                            color: #777;
+                        }
+                    }
+                    .table {
+                        tr {
+                            th, td {
+                                border-bottom: 1px solid #ccc;
+                            }
+                            th {
+                                text-align: center;
+                                vertical-align: middle;
+                                border-right: 1px solid #ccc;
+                            }
+                            td {
+                                padding-left: 50px;
+                                padding-right: 50px;
+                                text-align: left;
+                            }
+                            &:nth-of-type(1) {
+                                th, td {
+                                    border-top: 2px solid #333;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             #related-products {
                 .product-list {
                     margin-top: 50px;

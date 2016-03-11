@@ -2667,10 +2667,12 @@ body.popup .table {
     padding-top: 0;
     padding-bottom: 0; }
 body.popup #content.review,
-body.popup #content.order {
+body.popup #content.order,
+body.popup #content.coupon {
   padding: 20px; }
   body.popup #content.review .page-header,
-  body.popup #content.order .page-header {
+  body.popup #content.order .page-header,
+  body.popup #content.coupon .page-header {
     padding: 10px;
     border-bottom: 0;
     margin-top: 0;
@@ -2678,27 +2680,32 @@ body.popup #content.order {
     text-align: center;
     background-image: url(/design/wonderbra/images/sub/bg_membership.png); }
     body.popup #content.review .page-header > div,
-    body.popup #content.order .page-header > div {
+    body.popup #content.order .page-header > div,
+    body.popup #content.coupon .page-header > div {
       padding-top: 35px;
       padding-bottom: 35px;
       background-color: #fff; }
       body.popup #content.review .page-header > div .page-title,
-      body.popup #content.order .page-header > div .page-title {
+      body.popup #content.order .page-header > div .page-title,
+      body.popup #content.coupon .page-header > div .page-title {
         margin-top: 0;
         margin-bottom: 25px;
         font-size: 30px;
         color: #333;
         font-weight: bold; }
       body.popup #content.review .page-header > div p,
-      body.popup #content.order .page-header > div p {
+      body.popup #content.order .page-header > div p,
+      body.popup #content.coupon .page-header > div p {
         margin-bottom: 0;
         font-size: 13px;
         color: #777; }
         body.popup #content.review .page-header > div p strong,
-        body.popup #content.order .page-header > div p strong {
+        body.popup #content.order .page-header > div p strong,
+        body.popup #content.coupon .page-header > div p strong {
           color: #000; }
   body.popup #content.review h4,
-  body.popup #content.order h4 {
+  body.popup #content.order h4,
+  body.popup #content.coupon h4 {
     height: 50px;
     padding: 0 20px;
     margin-top: 0;
@@ -2708,10 +2715,12 @@ body.popup #content.order {
     font-size: 13px;
     line-height: 50px; }
   body.popup #content.review .btn-area p,
-  body.popup #content.order .btn-area p {
+  body.popup #content.order .btn-area p,
+  body.popup #content.coupon .btn-area p {
     text-align: right; }
     body.popup #content.review .btn-area p .btn,
-    body.popup #content.order .btn-area p .btn {
+    body.popup #content.order .btn-area p .btn,
+    body.popup #content.coupon .btn-area p .btn {
       width: 90px;
       height: 35px;
       background-color: #000;
@@ -2719,7 +2728,8 @@ body.popup #content.order {
       font-size: 13px;
       line-height: 23px; }
       body.popup #content.review .btn-area p .btn.btn-cancel,
-      body.popup #content.order .btn-area p .btn.btn-cancel {
+      body.popup #content.order .btn-area p .btn.btn-cancel,
+      body.popup #content.coupon .btn-area p .btn.btn-cancel {
         background-color: #555; }
 body.popup #content.order .orderer,
 body.popup #content.order .delivery {
@@ -2856,5 +2866,51 @@ body.popup #content.coupon .coupon-write .coupon-form {
       font-size: 12px;
       line-height: 20px;
       color: #777; }
+body.popup #content.coupon .coupon-list {
+  margin-bottom: 55px; }
+  body.popup #content.coupon .coupon-list .btn-area P .btn-coupon {
+    background-color: #f15a22;
+    width: 90px;
+    height: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2px;
+    vertical-align: top;
+    font-size: 11px; }
+body.popup #content.coupon .coupon-select header {
+  overflow: hidden;
+  margin-bottom: 10px; }
+  body.popup #content.coupon .coupon-select header h4 {
+    float: left;
+    height: auto;
+    padding: 0 0 0 10px;
+    background-color: transparent;
+    color: #333;
+    line-height: 30px;
+    background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
+  body.popup #content.coupon .coupon-select header select {
+    float: left;
+    width: auto;
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
+    font-size: 12px;
+    box-shadow: none;
+    border-radius: 0; }
+body.popup #content.coupon .coupon-select .total {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #555;
+  text-align: right;
+  font-weight: bold; }
+  body.popup #content.coupon .coupon-select .total strong {
+    color: #f15a22; }
+body.popup #content.coupon .notify {
+  margin-top: 50px;
+  border: 1px solid #eee; }
 
 /*# sourceMappingURL=default.css.map */

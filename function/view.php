@@ -60,21 +60,19 @@
                                     </dd>
                                 </dl>
                                 <dl class="product-quantity dl-horizontal">
-                                    <dt>
-                                        70A(90)
-                                        <div class="quantity-counter">
-                                            <input class="form-control input-sm" type="text" name="#" value="1">
-                                            <button class="btn btn-link btn-xs btn-up" type="button">
-                                                <span class="glyphicon glyphicon-triangle-top"></span>
-                                            </button>
-                                            <button class="btn btn-link btn-xs btn-down" type="button">
-                                                <span class="glyphicon glyphicon-triangle-bottom"></span>
-                                            </button>
+                                    <div class="MK_optAddWrap">
+                                        <div id="MK_innerOptWrap">
+                                            <div id="MK_innerOptScroll">
+                                                <ul id="MK_innerOpt_01" class="MK_inner-opt-cm"><li id="basic_1"><input type="hidden" id="MS_keys_basic_1" value="0:1" class="basic_option"><span class="MK_p-name">85B(100)</span><div class="MK_qty-ctrl"><input type="text" id="MS_amount_basic_1" name="amount[]" value="1" onfocusout="set_amount(this, 'basic');" size="4" style="text-align: right; float: left;" class="basic_option"><a href="javascript:set_amount('MS_amount_basic_1', 'basic', 'up');" class="MK_btn-up"><img src="http://www.wonderbramall.co.kr/images/common/basket_up.gif" alt="수량증가" border="0"></a><a href="javascript:set_amount('MS_amount_basic_1', 'basic', 'down');" class="MK_btn-dw"><img src="http://www.wonderbramall.co.kr/images/common/basket_down.gif" alt="수량감소" border="0"></a></div><strong class="MK_price"><span id="MK_p_price_basic_1">39,900</span>원</strong><a class="MK_btn-del" href="javascript:delete_option('basic_1', 1, 'basic');" id="MK_btn_del_undefined"><img src="http://www.wonderbramall.co.kr/board/images/btn_comment_del.gif" alt="삭제" border="0"></a></li><li id="basic_2"><input type="hidden" id="MS_keys_basic_2" value="0:2" class="basic_option"><span class="MK_p-name">85C(100)</span><div class="MK_qty-ctrl"><input type="text" id="MS_amount_basic_2" name="amount[]" value="1" onfocusout="set_amount(this, 'basic');" size="4" style="text-align: right; float: left;" class="basic_option"><a href="javascript:set_amount('MS_amount_basic_2', 'basic', 'up');" class="MK_btn-up"><img src="http://www.wonderbramall.co.kr/images/common/basket_up.gif" alt="수량증가" border="0"></a><a href="javascript:set_amount('MS_amount_basic_2', 'basic', 'down');" class="MK_btn-dw"><img src="http://www.wonderbramall.co.kr/images/common/basket_down.gif" alt="수량감소" border="0"></a></div><strong class="MK_price"><span id="MK_p_price_basic_2">39,900</span>원</strong><a class="MK_btn-del" href="javascript:delete_option('basic_2', 2, 'basic');" id="MK_btn_del_undefined"><img src="http://www.wonderbramall.co.kr/board/images/btn_comment_del.gif" alt="삭제" border="0"></a></li><li id="basic_3"><input type="hidden" id="MS_keys_basic_3" value="0:0" class="basic_option"><span class="MK_p-name">85A(100)</span><div class="MK_qty-ctrl"><input type="text" id="MS_amount_basic_3" name="amount[]" value="1" onfocusout="set_amount(this, 'basic');" size="4" style="text-align: right; float: left;" class="basic_option"><a href="javascript:set_amount('MS_amount_basic_3', 'basic', 'up');" class="MK_btn-up"><img src="http://www.wonderbramall.co.kr/images/common/basket_up.gif" alt="수량증가" border="0"></a><a href="javascript:set_amount('MS_amount_basic_3', 'basic', 'down');" class="MK_btn-dw"><img src="http://www.wonderbramall.co.kr/images/common/basket_down.gif" alt="수량감소" border="0"></a></div><strong class="MK_price"><span id="MK_p_price_basic_3">39,900</span>원</strong><a class="MK_btn-del" href="javascript:delete_option('basic_3', 3, 'basic');" id="MK_btn_del_undefined"><img src="http://www.wonderbramall.co.kr/board/images/btn_comment_del.gif" alt="삭제" border="0"></a></li></ul>											<ul id="MK_innerOpt_02" class="MK_inner-opt-cm"></ul>							
+                                            </div>
+                                            <div id="MK_innerOptTotal">
+                                                <span class="MK_txt-total">총 상품 금액</span>
+                                                <strong class="MK_total" id="MK_p_total">119,700</strong>
+                                                <span class="MK_txt-won">원</span>
+                                            </div>
                                         </div>
-                                    </dt>
-                                    <dd>54,000 won</dd>
-                                    <dt>총 상품 금액</dt>
-                                    <dd>54,000 won</dd>
+                                    </div>
+								</div>
                                 </dl>
                                 <div class="btn-area">
                                     <div class="row">

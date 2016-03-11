@@ -1,7 +1,24 @@
 <footer id="footer">
     <div class="information">
         <div class="container">
-            <h2 class="logo"><img src="/design/wonderbra/images/logo_footer.png" alt="wonderbra"></h2>
+            <div class="row">
+                <div class="col-xs-3">
+                    <h2 class="logo"><img src="/design/wonderbra/images/logo_footer.png" alt="wonderbra"></h2>
+                </div>
+                <div class="col-xs-1">
+                </div>
+                <div class="col-xs-8">
+                    <div class="policy">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">매장안내</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-3">
                     <div class="introduce">
@@ -17,6 +34,8 @@
                         <dl>
                             <dt>주소</dt>
                             <dd><address>서울 강남구 언주로 151길 7 주성빌딩 2,3F</address></dd>
+                        </dl>
+                        <dl>
                             <dt>TEL</dt>
                             <dd>1544-6101</dd>
                             <dt>FAX</dt>
@@ -27,24 +46,22 @@
                             <dd>원더브라</dd>
                             <dt>대표이사</dt>
                             <dd>문영우</dd>
-                            <dt>개인정보관리책임자</dt>
-                            <dd>김진국</dd>
                         </dl>
                         <dl>
                             <dt>사업자등록번호</dt>
                             <dd>109-81-59281</dd>
+                        </dl>
+                        <dl>
                             <dt>통신판매업</dt>
                             <dd>강남5526호 [<a href="#" target="_blank">사업자정보확인</a>]</dd>
                         </dl>
+                        <dl>
+                            <dt>개인정보관리책임자</dt>
+                            <dd>김진국</dd>
+                        </dl>
                     </div>
-                    <div class="policy">
-                        <ul>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">이용약관</a></li>
-                            <li><a href="#">개인정보취급방침</a></li>
-                            <li><a href="#">고객센터</a></li>
-                            <li><a href="#">매장안내</a></li>
-                        </ul>
+                    <div class="escrow">
+                        <p><a href="#" target="_blank"><img src="/design/wonderbra/images/KCPescr_bn_02.gif" alt=""></a></p>
                     </div>
                 </div>
                 <div class="col-xs-1">

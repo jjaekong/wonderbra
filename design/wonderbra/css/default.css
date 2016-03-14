@@ -2643,6 +2643,28 @@ body.sub .store .store-list .table tr td {
     color: #fff;
     font-size: 13px;
     line-height: 23px; }
+body.sub #content.search .search-form {
+  margin-bottom: 60px; }
+  body.sub #content.search .search-form .table tbody th, body.sub #content.search .search-form .table tbody td {
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle; }
+  body.sub #content.search .search-form .table tbody td {
+    text-align: left; }
+  body.sub #content.search .search-form .table tbody .form-control {
+    border-radius: 0;
+    box-shadow: none; }
+  body.sub #content.search .search-form .table tbody tr:nth-of-type(1) th, body.sub #content.search .search-form .table tbody tr:nth-of-type(1) td {
+    border-top: 2px solid #333; }
+  body.sub #content.search .search-form .table tbody .price .form-control {
+    display: inline-block;
+    width: 100px; }
+  body.sub #content.search .search-form .table tbody .btn-area .btn-search {
+    background-color: #000;
+    color: #fff; }
+body.sub #content.search .summary p {
+  font-weight: bold; }
+body.sub #content.search .sorter {
+  margin-top: 10px; }
 
 body.popup #content {
   margin-top: 0; }

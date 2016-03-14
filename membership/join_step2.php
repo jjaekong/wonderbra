@@ -81,7 +81,7 @@
                                                 <label>
                                                     <input type="email" class="form-control">
                                                 </label>
-                                                <button type="button" class="btn btn-default btn-check-email">이메일 중복확인</button>
+                                                <a href="#" class="btn btn-default btn-check-email">이메일 중복확인</a>
                                                 <p>
                                                     <label>
                                                         <input type="radio"> 메일수신

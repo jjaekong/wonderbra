@@ -9,11 +9,13 @@
                     <li data-target="#campaign-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#campaign-carousel" data-slide-to="1"></li>
                     <li data-target="#campaign-carousel" data-slide-to="2"></li>
+                    <li data-target="#campaign-carousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <a class="item active" href="#1" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
-                    <a class="item" href="#2" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
-                    <a class="item" href="#3" style="background-image: url(/design/wonderbra/images/dummy/img_campaign.jpg);"></a>
+                    <a class="item active" href="#1" style="background-image: url(/design/wonderbra/images/main/banner_01.jpg);"></a>
+                    <a class="item" href="#2" style="background-image: url(/design/wonderbra/images/main/banner_02.jpg);"></a>
+                    <a class="item" href="#3" style="background-image: url(/design/wonderbra/images/main/banner_03.jpg);"></a>
+                    <a class="item" href="#4" style="background-image: url(/design/wonderbra/images/main/banner_04.jpg);"></a>
                 </div>
             </div>
         </div>

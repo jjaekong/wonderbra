@@ -3873,6 +3873,54 @@ body.sub {
             }
         }
     }
+    
+    // 통합검색
+    #content.search {
+        // 검색폼
+        .search-form {
+            margin-bottom: 60px;
+            .table {
+                tbody {
+                    th, td {
+                        border-bottom: 1px solid #ccc;
+                        vertical-align: middle;
+                    }
+                    td {
+                        text-align: left;                        
+                    }
+                    .form-control {
+                        border-radius: 0;
+                        box-shadow: none;
+                    }
+                    tr:nth-of-type(1) {
+                        th, td {
+                            border-top: 2px solid #333;
+                        }
+                    }
+                    .price {
+                        .form-control {
+                            display: inline-block;
+                            width: 100px;
+                        }
+                    }
+                    .btn-area {
+                        .btn-search {
+                            background-color: #000;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .summary {
+            p {
+                font-weight: bold;
+            }
+        }
+        .sorter {
+            margin-top: 10px;
+        }
+    }
 }
 
 // 팝업페이지
@@ -4295,3 +4343,4 @@ body.popup {
         }
     }
 }
+

@@ -194,8 +194,6 @@
                 </div>
                 <div class="review" tabindex="-1" id="product-review">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_4.php'); ?>
-                    <div class="details-area">
-                    </div>
                 </div>
                 <div class="benefit" id="review-benefit">
                     <div>
@@ -213,7 +211,8 @@
                 </div>
                 <div class="inquiry" tabindex="-1" id="product-inquiry">
                     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/product_details_tab_5.php'); ?>
-                    <div class="details-area">
+                    <div class="nothing">
+                        <p>등록된 문의가 없습니다.</p>
                     </div>
                 </div>
             </div>

@@ -102,7 +102,7 @@ body > .sr-only-focusable {
             font-weight: bold;
             a {
                 font-size: 11px;
-                color: #777;
+                color: #ccc;
                 line-height: 40px;
             }
             &::before {
@@ -336,16 +336,20 @@ body > .sr-only-focusable {
             margin-top: 75px;
             li {
                 display: inline-block;
-                margin-right: 29px;
+                margin-left: 25px;
                 a {
                     font-size: 14px;
                     color: #999;
+                }
+                &:first-child {
+                    margin-left: 0;
                 }
             }
         }
         .contact {
             strong {
                 display: block;
+                margin-bottom: 20px;
                 font-size: 40px;
                 letter-spacing: -2px;
                 line-height: 32px;
@@ -353,7 +357,6 @@ body > .sr-only-focusable {
                 text-indent: -2px;
             }
             dl {
-                margin-top: 20px;
                 margin-bottom: 0;
             }
             dt, dd {
@@ -370,6 +373,11 @@ body > .sr-only-focusable {
                 color: #666;
                 letter-spacing: -1px;
             }
+        }
+        .fct {
+            margin-top: 70px;
+            margin-bottom: 0;
+            text-align: right;
         }
     }
     .copyright {
@@ -399,18 +407,45 @@ body.main {
         }
         .carousel-control {
             background-image: none;
+            img {
+                position: absolute;
+                top: 50%;
+                width: 77px;
+                height: 149px;
+                margin-top: -75px;
+            }
+            .glyphicon {
+                position: absolute;
+                top: 50%;
+                font-size: 50px;
+                width: 50px;
+                height: 50px;
+                margin-top: -25px;
+                text-shadow: none;
+                color: rgba(0, 0, 0, .7);
+            }
+            &.left {
+                .glyphicon {
+                    left: 50%;
+                }
+            }
+            &.right {
+                .glyphicon {
+                    right: 50%;
+                }
+            }
         }
         .carousel-indicators li {
             width: 18px;
             height: 18px;
             margin: 0 0 0 10px;
-            border: 3px solid rgba(255, 255, 255, 0.5);
+            border: 3px solid rgba(0, 0, 0, .5);
             &:first-child {
                 margin-left: 0;
             }
             &.active {
                 background-color: transparent;
-                border-color: rgba(255, 255, 255, 1);
+                border-color: rgba(0, 0, 0, 1);
             }
         }
     }
@@ -589,13 +624,10 @@ body.main {
             .item {
                 display: block;
                 text-align: center;
-                border-bottom: 2px solid transparent;
                 text-decoration: none;
                 @extend .font-noto;
                 color: #000;
                 font-size: 14px;
-                -webkt-transition: border .5s;
-                transition: border .5s;
                 figcaption {
                     margin-top: 15px;
                     small {
@@ -607,9 +639,6 @@ body.main {
                     p:nth-of-type(2) {
                         margin-bottom: 15px;
                     }
-                }
-                &:hover, &:focus {
-                    border-bottom: 2px solid black;
                 }
             }
         }
@@ -629,13 +658,10 @@ body.main {
         .item {
             display: block;
             text-align: center;
-            border-bottom: 2px solid #fff;
             text-decoration: none;
             @extend .font-noto;
             color: #333;
             font-size: 14px;
-            -webkt-transition: border .5s;
-            transition: border .5s;
             figcaption {
                 margin-top: 15px;
                 small {
@@ -648,9 +674,6 @@ body.main {
                 p:nth-of-type(2) {
                     margin-bottom: 15px;
                 }
-            }
-            &:hover, &:focus {
-                border-bottom: 2px solid black;
             }
         }
     }
@@ -796,13 +819,11 @@ body.sub {
             a {
                 display: block;
                 height: 100%;
-                border-bottom: 3px solid transparent;
                 text-decoration: none;
                 color: #333;
                 @extend .font-noto;
                 text-align: center;
                 font-size: 14px;
-                transition: border .3s;
                 figcaption {
                     padding-left: 10px;
                     padding-right: 10px;
@@ -817,9 +838,6 @@ body.sub {
                         color: #777;
                         font-size: 11px;
                     }
-                }
-                &:hover, &:focus {
-                    border-bottom-color: #2b2829;
                 }
             }
         }
@@ -1005,6 +1023,14 @@ body.sub {
         #related-products .details-area {
             li {
                 margin-bottom: 0;
+            }
+        }
+        .nothing {
+            p {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-bottom: 0;
+                text-align: center;
             }
         }
     }
@@ -2297,6 +2323,140 @@ body.sub {
             }
             &.step1 {
                 background-image: url(/design/wonderbra/images/sub/bg_join1.gif);
+                #chkwrap {
+                    width: 695px;
+                    margin: 0 auto 40px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    label {
+                        margin-bottom: 0;
+                    }
+                    > div {
+                        > ul {
+                            margin-bottom: 10px;
+                            > li {
+                                > a {
+                                    display: inline-block;
+                                    width: 70px;
+                                    height: 20px;
+                                    background-color: #000;
+                                    color: #fff;
+                                    border-color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+                .new-btn-area {
+                    text-align: center;
+                    a {
+                        display: inline-block;
+                        width: 150px;
+                        height: 40px;
+                        background-color: #000;
+                        color: #fff;
+                        line-height: 40px;
+                        text-align: center;
+                        text-decoration: none;
+                    }
+                }
+                #chk_cont1 {
+                    width: 695px;
+                    margin: 75px auto 10px;
+                }
+                .privercy-contract {
+                    width: 695px;
+                    margin: 0 auto 10px;
+                    textarea {
+                        width: 100%;
+                        border: 0;
+                        padding: 10px;
+                        background-color: #f1f1f1;
+                        font-size: 12px;
+                    }
+                }
+                #chk_cont2 {
+                    width: 695px;
+                    margin: 40px auto 10px;
+                }
+                .contract-tbl {
+                    width: 695px;
+                    margin: 0 auto;
+                    caption {
+                        position: absolute;
+                        width: 1px;
+                        height: 1px;
+                        text-indent: -9999px;
+                    }
+                    th, td {
+                        border-bottom: 1px solid #ccc;
+                        border-right: 1px solid #ccc;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                    thead {
+                        tr {
+                            th {
+                                border-top: 2px solid #333;
+                                background-color: #f1f1f1;
+                                div {
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                    text-align: center;
+                                }
+                                &:nth-of-type(1) {
+                                    border-left: 1px solid #ccc;
+                                    text-align: center;
+                                    div {
+                                        width: 80px;
+                                    }
+                                }
+                                &:nth-of-type(2),
+                                &:nth-of-type(3),
+                                &:nth-of-type(4) {
+                                    width: 33.33333333%;
+                                    text-align: center;
+                                    div {
+                                        width: 200px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            th {
+                                &:nth-of-type(1) {
+                                    border-left: 1px solid #ccc;
+                                    text-align: center;
+                                    div {
+                                        width: 80px;
+                                        padding-top: 20px;
+                                        padding-bottom: 20px;
+                                        margin-right: 0;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            td {
+                                width: 33.33333333%;
+                                text-align: center;
+                                div {
+                                    width: 200px;
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btm-msg {
+                    width: 695px;
+                    margin: 0 auto;
+                    font-size: 12px;
+                    color: #f15a22;
+                    letter-spacing: -1px;
+                }
                 .agree,
                 .terms,
                 .privacy {

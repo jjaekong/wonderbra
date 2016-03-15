@@ -26,7 +26,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="/function/list.php">FUNCTION</a>
+                    <a href="/function/list.php">LINE</a>
                     <ul>
                         <!-- li class="active"><a href="#">WIREFREE</a></li -->
                         <li><a href="/function/list.php">WIREFREE</a></li>
@@ -66,9 +66,9 @@
                 <li>
                     <a href="#">ITEM</a>
                     <ul>
-                        <li><a href="#">BRA</a></li>
-                        <li><a href="#">PANTY</a></li>
-                        <li><a href="#">SET</a></li>
+                        <li><a href="#">1SET</a></li>
+                        <li><a href="#">2SET</a></li>
+                        <li><a href="#">FULL SET</a></li>
                         <li><a href="#">ETC</a></li>
                     </ul>
                 </li>

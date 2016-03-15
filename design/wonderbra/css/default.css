@@ -116,7 +116,7 @@ body > .sr-only-focusable {
       font-weight: bold; }
       #topnav .member li a {
         font-size: 11px;
-        color: #777;
+        color: #ccc;
         line-height: 40px; }
       #topnav .member li::before {
         margin-left: 5px;
@@ -291,19 +291,21 @@ body > .sr-only-focusable {
       margin-top: 75px; }
       #footer .information .policy li {
         display: inline-block;
-        margin-right: 29px; }
+        margin-left: 25px; }
         #footer .information .policy li a {
           font-size: 14px;
           color: #999; }
+        #footer .information .policy li:first-child {
+          margin-left: 0; }
     #footer .information .contact strong {
       display: block;
+      margin-bottom: 20px;
       font-size: 40px;
       letter-spacing: -2px;
       line-height: 32px;
       color: #aaa;
       text-indent: -2px; }
     #footer .information .contact dl {
-      margin-top: 20px;
       margin-bottom: 0; }
     #footer .information .contact dt, #footer .information .contact dd {
       display: inline;
@@ -316,6 +318,10 @@ body > .sr-only-focusable {
       font-size: 12px;
       color: #666;
       letter-spacing: -1px; }
+    #footer .information .fct {
+      margin-top: 70px;
+      margin-bottom: 0;
+      text-align: right; }
   #footer .copyright {
     background-color: #181818; }
     #footer .copyright p {
@@ -333,16 +339,35 @@ body.main #campaign .carousel-inner .item {
   background-repeat: no-repeat; }
 body.main #campaign .carousel-control {
   background-image: none; }
+  body.main #campaign .carousel-control img {
+    position: absolute;
+    top: 50%;
+    width: 77px;
+    height: 149px;
+    margin-top: -75px; }
+  body.main #campaign .carousel-control .glyphicon {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    text-shadow: none;
+    color: rgba(0, 0, 0, 0.7); }
+  body.main #campaign .carousel-control.left .glyphicon {
+    left: 50%; }
+  body.main #campaign .carousel-control.right .glyphicon {
+    right: 50%; }
 body.main #campaign .carousel-indicators li {
   width: 18px;
   height: 18px;
   margin: 0 0 0 10px;
-  border: 3px solid rgba(255, 255, 255, 0.5); }
+  border: 3px solid rgba(0, 0, 0, 0.5); }
   body.main #campaign .carousel-indicators li:first-child {
     margin-left: 0; }
   body.main #campaign .carousel-indicators li.active {
     background-color: transparent;
-    border-color: white; }
+    border-color: black; }
 body.main #whats-style {
   height: 525px;
   background-image: url(/design/wonderbra/images/bg_whats.jpg);
@@ -458,12 +483,9 @@ body.main .sections {
   body.main .sections #best-seller .item {
     display: block;
     text-align: center;
-    border-bottom: 2px solid transparent;
     text-decoration: none;
     color: #000;
-    font-size: 14px;
-    -webkt-transition: border .5s;
-    transition: border .5s; }
+    font-size: 14px; }
     body.main .sections #best-seller .item figcaption {
       margin-top: 15px; }
       body.main .sections #best-seller .item figcaption small {
@@ -472,8 +494,6 @@ body.main .sections {
         margin-bottom: 5px; }
       body.main .sections #best-seller .item figcaption p:nth-of-type(2) {
         margin-bottom: 15px; }
-    body.main .sections #best-seller .item:hover, body.main .sections #best-seller .item:focus {
-      border-bottom: 2px solid black; }
 body.main #editors-pick h2 {
   margin-top: 70px;
   margin-bottom: 55px;
@@ -485,12 +505,9 @@ body.main #editors-pick h2 {
 body.main #editors-pick .item {
   display: block;
   text-align: center;
-  border-bottom: 2px solid #fff;
   text-decoration: none;
   color: #333;
-  font-size: 14px;
-  -webkt-transition: border .5s;
-  transition: border .5s; }
+  font-size: 14px; }
   body.main #editors-pick .item figcaption {
     margin-top: 15px; }
     body.main #editors-pick .item figcaption small {
@@ -500,8 +517,6 @@ body.main #editors-pick .item {
       margin-bottom: 5px; }
     body.main #editors-pick .item figcaption p:nth-of-type(2) {
       margin-bottom: 15px; }
-  body.main #editors-pick .item:hover, body.main #editors-pick .item:focus {
-    border-bottom: 2px solid black; }
 body.main .banner-area-2 {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -597,12 +612,10 @@ body.sub .product-list li {
   body.sub .product-list li a {
     display: block;
     height: 100%;
-    border-bottom: 3px solid transparent;
     text-decoration: none;
     color: #333;
     text-align: center;
-    font-size: 14px;
-    transition: border .3s; }
+    font-size: 14px; }
     body.sub .product-list li a figcaption {
       padding-left: 10px;
       padding-right: 10px;
@@ -615,8 +628,6 @@ body.sub .product-list li {
       body.sub .product-list li a figcaption small {
         color: #777;
         font-size: 11px; }
-    body.sub .product-list li a:hover, body.sub .product-list li a:focus {
-      border-bottom-color: #2b2829; }
 body.sub .paging {
   text-align: center; }
   body.sub .paging .pagination {
@@ -738,6 +749,11 @@ body.sub .product-view {
     text-align: center; }
   body.sub .product-view #related-products .details-area li {
     margin-bottom: 0; }
+  body.sub .product-view .nothing p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-align: center; }
 body.sub .table thead th {
   padding-top: 14px !important;
   padding-bottom: 14px !important;
@@ -1603,6 +1619,100 @@ body.sub .membership.join {
         color: #fff; }
   body.sub .membership.join.step1 {
     background-image: url(/design/wonderbra/images/sub/bg_join1.gif); }
+    body.sub .membership.join.step1 #chkwrap {
+      width: 695px;
+      margin: 0 auto 40px;
+      font-size: 12px;
+      line-height: 20px; }
+      body.sub .membership.join.step1 #chkwrap label {
+        margin-bottom: 0; }
+      body.sub .membership.join.step1 #chkwrap > div > ul {
+        margin-bottom: 10px; }
+        body.sub .membership.join.step1 #chkwrap > div > ul > li > a {
+          display: inline-block;
+          width: 70px;
+          height: 20px;
+          background-color: #000;
+          color: #fff;
+          border-color: #000; }
+    body.sub .membership.join.step1 .new-btn-area {
+      text-align: center; }
+      body.sub .membership.join.step1 .new-btn-area a {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        background-color: #000;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none; }
+    body.sub .membership.join.step1 #chk_cont1 {
+      width: 695px;
+      margin: 75px auto 10px; }
+    body.sub .membership.join.step1 .privercy-contract {
+      width: 695px;
+      margin: 0 auto 10px; }
+      body.sub .membership.join.step1 .privercy-contract textarea {
+        width: 100%;
+        border: 0;
+        padding: 10px;
+        background-color: #f1f1f1;
+        font-size: 12px; }
+    body.sub .membership.join.step1 #chk_cont2 {
+      width: 695px;
+      margin: 40px auto 10px; }
+    body.sub .membership.join.step1 .contract-tbl {
+      width: 695px;
+      margin: 0 auto; }
+      body.sub .membership.join.step1 .contract-tbl caption {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        text-indent: -9999px; }
+      body.sub .membership.join.step1 .contract-tbl th, body.sub .membership.join.step1 .contract-tbl td {
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        font-size: 12px;
+        color: #999; }
+      body.sub .membership.join.step1 .contract-tbl thead tr th {
+        border-top: 2px solid #333;
+        background-color: #f1f1f1; }
+        body.sub .membership.join.step1 .contract-tbl thead tr th div {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          text-align: center; }
+        body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(1) {
+          border-left: 1px solid #ccc;
+          text-align: center; }
+          body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(1) div {
+            width: 80px; }
+        body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(2), body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(3), body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(4) {
+          width: 33.33333333%;
+          text-align: center; }
+          body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(2) div, body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(3) div, body.sub .membership.join.step1 .contract-tbl thead tr th:nth-of-type(4) div {
+            width: 200px; }
+      body.sub .membership.join.step1 .contract-tbl tbody tr th:nth-of-type(1) {
+        border-left: 1px solid #ccc;
+        text-align: center; }
+        body.sub .membership.join.step1 .contract-tbl tbody tr th:nth-of-type(1) div {
+          width: 80px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          margin-right: 0;
+          text-align: center; }
+      body.sub .membership.join.step1 .contract-tbl tbody tr td {
+        width: 33.33333333%;
+        text-align: center; }
+        body.sub .membership.join.step1 .contract-tbl tbody tr td div {
+          width: 200px;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+    body.sub .membership.join.step1 .btm-msg {
+      width: 695px;
+      margin: 0 auto;
+      font-size: 12px;
+      color: #f15a22;
+      letter-spacing: -1px; }
     body.sub .membership.join.step1 .agree,
     body.sub .membership.join.step1 .terms,
     body.sub .membership.join.step1 .privacy {

@@ -17,6 +17,15 @@
                     <a class="item" href="#3" style="background-image: url(/design/wonderbra/images/main/banner_03.jpg);"></a>
                     <a class="item" href="#4" style="background-image: url(/design/wonderbra/images/main/banner_04.jpg);"></a>
                 </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#campaign-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                    <span class="sr-only">이전</span>
+                </a>
+                <a class="right carousel-control" href="#campaign-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                    <span class="sr-only">다음</span>
+                </a>
             </div>
         </div>
         <section id="whats-style">

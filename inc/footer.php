@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-xs-1">
                 </div>
-                <div class="col-xs-8">
+                <div class="col-xs-5">
                     <div class="policy">
                         <ul>
                             <li><a href="#">회사소개</a></li>
@@ -17,6 +17,13 @@
                             <li><a href="#">매장안내</a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="col-xs-1">
+                </div>
+                <div class="col-xs-2">
+                    <p class="fct">
+                        <a href="http://www.ftc.go.kr/info/bizinfo/communicationList.jsp" target="_blank"><img src="/design/wonderbra/images/img_fct.png" alt="공정거래위원회"></a>
+                    </p>
                 </div>
             </div>
             <div class="row">
@@ -71,8 +78,12 @@
                     <div class="contact">
                         <strong>1544·6101</strong>
                         <dl>
-                            <dt>TIME</dt>
-                            <dd>AM09:30 ~ PM17:00</dd>
+                            <dt>평일</dt>
+                            <dd>10:00 ~ 17:00</dd>
+                        </dl>
+                        <dl>
+                            <dt>점심시간</dt>
+                            <dd>11:40 ~ 12:00</dd>
                         </dl>
                         <p>※ 주말 및 공휴일은 휴무입니다.</p>
                     </div>

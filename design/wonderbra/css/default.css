@@ -1852,6 +1852,14 @@ body.sub .membership.join {
         width: 150px;
         height: 40px;
         line-height: 28px; }
+  body.sub .membership.join.step2.simple .table {
+    width: 400px;
+    margin: 0 auto 20px; }
+  body.sub .membership.join.step2.simple .adult {
+    width: 380px;
+    margin: 0 auto 40px;
+    font-size: 12px;
+    color: #777; }
 body.sub .mypage .page-header .page-title {
   font-weight: bold; }
 body.sub .mypage .category {

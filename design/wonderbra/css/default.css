@@ -152,14 +152,14 @@ body > .sr-only-focusable {
     #header .logo img {
       display: block; }
   #header .menu {
-    margin-left: 245px; }
+    margin-left: 235px; }
     #header .menu > ul > li {
       position: relative;
       float: left;
       height: 60px;
       padding-top: 20px;
       padding-bottom: 20px;
-      padding-right: 70px; }
+      padding-right: 80px; }
       #header .menu > ul > li > a {
         display: block;
         color: #333;
@@ -3049,6 +3049,14 @@ body.popup #content.coupon .coupon-write .coupon-form {
       color: #777; }
 body.popup #content.coupon .coupon-list {
   margin-bottom: 55px; }
+  body.popup #content.coupon .coupon-list h4 {
+    padding-left: 15px;
+    background-color: transparent;
+    color: #333;
+    background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-align: left; }
   body.popup #content.coupon .coupon-list .btn-area P .btn-coupon {
     background-color: #f15a22;
     width: 90px;
@@ -3058,29 +3066,24 @@ body.popup #content.coupon .coupon-list {
     margin-top: 2px;
     vertical-align: top;
     font-size: 11px; }
-body.popup #content.coupon .coupon-select header {
-  overflow: hidden;
-  margin-bottom: 10px; }
-  body.popup #content.coupon .coupon-select header h4 {
-    float: left;
-    height: auto;
-    padding: 0 0 0 10px;
-    background-color: transparent;
-    color: #333;
-    line-height: 30px;
-    background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
-    background-repeat: no-repeat;
-    background-position: 0 50%; }
-  body.popup #content.coupon .coupon-select header select {
-    float: left;
-    width: auto;
-    height: 30px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 10px;
-    font-size: 12px;
-    box-shadow: none;
-    border-radius: 0; }
+body.popup #content.coupon .coupon-select h4 {
+  padding-left: 15px;
+  background-color: transparent;
+  color: #333;
+  background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  text-align: left; }
+body.popup #content.coupon .coupon-select select.form-control {
+  float: left;
+  width: auto;
+  height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 10px;
+  font-size: 12px;
+  box-shadow: none;
+  border-radius: 0; }
 body.popup #content.coupon .coupon-select .total {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -3090,8 +3093,13 @@ body.popup #content.coupon .coupon-select .total {
   font-weight: bold; }
   body.popup #content.coupon .coupon-select .total strong {
     color: #f15a22; }
+body.popup #content.coupon .coupon-select .btn-area {
+  margin-bottom: 50px; }
 body.popup #content.coupon .notify {
-  margin-top: 50px;
-  border: 1px solid #eee; }
+  border: 1px solid #eee;
+  margin-bottom: 30px; }
+  body.popup #content.coupon .notify h5 {
+    margin-top: 0;
+    line-height: 20px; }
 
 /*# sourceMappingURL=default.css.map */

@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-xs-2">
                     <p class="fct">
-                        <a href="http://www.ftc.go.kr/info/bizinfo/communicationList.jsp" target="_blank"><img src="/design/wonderbra/images/img_fct.png" alt="공정거래위원회"></a>
+                        <a href="#" onclick="window.open('http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=1098159281', 'communicationViewPopup', 'width=750, height=700');"><img src="/design/wonderbra/images/img_fct.png" alt="공정거래위원회"></a>
                     </p>
                 </div>
             </div>

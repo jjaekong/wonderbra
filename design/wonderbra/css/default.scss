@@ -148,7 +148,7 @@ body > .sr-only-focusable {
         }
     }
     .menu {
-        margin-left: 245px;
+        margin-left: 235px;
         > ul {
             > li {
                 position: relative;
@@ -156,7 +156,7 @@ body > .sr-only-focusable {
                 height: 60px;
                 padding-top: 20px;
                 padding-bottom: 20px;
-                padding-right: 70px;
+                padding-right: 80px;
                 > a {
                     display: block;
                     color: #333;
@@ -4455,6 +4455,15 @@ body.popup {
         }
         .coupon-list {
             margin-bottom: 55px;
+            h4 {
+                padding-left: 15px;
+                background-color: transparent;
+                color: #333;
+                background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+                text-align: left;
+            }
             .btn-area {
                 P {
                     .btn-coupon {
@@ -4471,31 +4480,25 @@ body.popup {
             }
         }
         .coupon-select {
-            header {
-                overflow: hidden;
-                margin-bottom: 10px;
-                h4 {
-                    float: left;
-                    height: auto;
-                    padding: 0 0 0 10px;
-                    background-color: transparent;
-                    color: #333;
-                    line-height: 30px;
-                    background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
-                    background-repeat: no-repeat;
-                    background-position: 0 50%;
-                }
-                select {
-                    float: left;
-                    width: auto;
-                    height: 30px;
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    margin-left: 10px;
-                    font-size: 12px;
-                    box-shadow: none;
-                    border-radius: 0;
-                }
+            h4 {
+                padding-left: 15px;
+                background-color: transparent;
+                color: #333;
+                background-image: url(/design/wonderbra/images/sub/ico_arrow_xs.gif);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+                text-align: left;
+            }
+            select.form-control {
+                float: left;
+                width: auto;
+                height: 30px;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-left: 10px;
+                font-size: 12px;
+                box-shadow: none;
+                border-radius: 0;
             }
             .total {
                 margin-top: 20px;
@@ -4508,10 +4511,17 @@ body.popup {
                     color: #f15a22;
                 }
             }
+            .btn-area {
+                margin-bottom: 50px;
+            }
         }
         .notify {
-            margin-top: 50px;
             border: 1px solid #eee;
+            margin-bottom: 30px;
+            h5 {
+                margin-top: 0;
+                line-height: 20px;
+            }
         }
     }
 }

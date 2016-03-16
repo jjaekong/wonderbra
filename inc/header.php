@@ -1,5 +1,10 @@
 <a class="sr-only sr-only-focusable" href="#header">주메뉴로 건너뛰기</a>
 <a class="sr-only sr-only-focusable" href="#content">컨텐츠로 건너뛰기</a>
+<div id="topbn">
+    <div class="container">
+        <p><a href="#"><img src="http://brapra.com/design/brapra/images/banner/topbanner/topbanner_160314.gif" alt=""></a></p>
+    </div>
+</div>
 <nav id="topnav">
     <div class="container">
         <ul class="sites">
@@ -15,7 +20,6 @@
         </ul>
         <ul class="sns">
             <li><a href="#"><img src="/design/wonderbra/images/ico_facebook.png" alt="페이스북"></a></li>
-            <li><a href="#"><img src="/design/wonderbra/images/ico_twitter.png" alt="트위터"></a></li>
             <li><a href="#"><img src="/design/wonderbra/images/ico_instagram.png" alt="인스타그램"></a></li>
         </ul>
     </div>
@@ -28,7 +32,6 @@
                 <li>
                     <a href="/function/list.php">LINE</a>
                     <ul>
-                        <!-- li class="active"><a href="#">WIREFREE</a></li -->
                         <li><a href="/function/list.php">WIREFREE</a></li>
                         <li><a href="#">LIGHT LIFE</a></li>
                         <li><a href="#">SECRET AGENT</a></li>

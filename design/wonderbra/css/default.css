@@ -74,14 +74,19 @@ body > .sr-only-focusable {
     top: 0;
     left: 0; }
 
+#topbn p {
+  margin-bottom: 0;
+  text-align: center; }
+
 #topnav {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   min-width: 1200px;
   height: 40px;
-  background-color: #000; }
+  background-color: #000;
+  z-index: 1; }
   #topnav > .container {
     position: relative; }
   #topnav .sites li {
@@ -110,7 +115,7 @@ body > .sr-only-focusable {
   #topnav .member {
     position: absolute;
     top: 0;
-    right: 160px; }
+    right: 120px; }
     #topnav .member li {
       float: left;
       font-weight: bold; }
@@ -133,7 +138,7 @@ body > .sr-only-focusable {
       border-left: 1px solid black; }
 
 #header {
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 0;
   width: 100%;
@@ -233,6 +238,9 @@ body > .sr-only-focusable {
 #content {
   margin-top: 100px;
   min-height: 500px; }
+
+#topbn + #topnav + #header + #content {
+  margin-top: 0; }
 
 #footer {
   background-color: #242424; }

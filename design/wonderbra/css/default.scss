@@ -836,14 +836,15 @@ body.sub {
                     padding-right: 10px;
                     margin-top: 20px;
                     strong {
-                        overflow: hidden;
-                        display: block;    
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
+                        display: block;
+                        font-weight: normal;
                     }
                     small {
                         color: #777;
                         font-size: 11px;
+                    }
+                    p {
+                        font-weight: 700;
                     }
                 }
             }

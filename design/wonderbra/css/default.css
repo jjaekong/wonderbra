@@ -626,13 +626,13 @@ body.sub .product-list li {
       padding-right: 10px;
       margin-top: 20px; }
       body.sub .product-list li a figcaption strong {
-        overflow: hidden;
         display: block;
-        text-overflow: ellipsis;
-        white-space: nowrap; }
+        font-weight: normal; }
       body.sub .product-list li a figcaption small {
         color: #777;
         font-size: 11px; }
+      body.sub .product-list li a figcaption p {
+        font-weight: 700; }
 body.sub .paging {
   text-align: center; }
   body.sub .paging .pagination {
@@ -1482,8 +1482,7 @@ body.sub .membership .membership-wrapper {
     background-color: #fff; }
 body.sub .membership .page-header {
   padding-top: 0;
-  padding-bottom: 38px;
-  }
+  padding-bottom: 55px; }
 body.sub .membership .btn {
   background-color: #000;
   color: #fff; }

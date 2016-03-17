@@ -580,7 +580,7 @@ body.main {
                         > figcaption {
                             margin-top: 20px;
                             strong {
-                                font-weight: normal;
+                                font-weight: lighter;
                             }
                             small {
                                 color: #666;
@@ -593,6 +593,7 @@ body.main {
                                 margin-bottom: 0;
                                 color: #999;
                                 font-size: 16px;
+                                font-weight: bold;
                             }
                         }
                     }
@@ -637,6 +638,9 @@ body.main {
                 font-size: 14px;
                 figcaption {
                     margin-top: 15px;
+                    strong {
+                        font-weight: lighter;
+                    }
                     small {
                         font-size: 11px;
                     }
@@ -645,6 +649,7 @@ body.main {
                     }
                     p:nth-of-type(2) {
                         margin-bottom: 15px;
+                        font-weight: bold;
                     }
                 }
             }
@@ -671,6 +676,9 @@ body.main {
             font-size: 14px;
             figcaption {
                 margin-top: 15px;
+                strong {
+                    font-weight: lighter;
+                }
                 small {
                     color: #999;
                     font-size: 11px;
@@ -680,6 +688,7 @@ body.main {
                 }
                 p:nth-of-type(2) {
                     margin-bottom: 15px;
+                    font-weight: bold;
                 }
             }
         }

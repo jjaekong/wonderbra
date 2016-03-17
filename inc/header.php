@@ -1,6 +1,6 @@
 <a class="sr-only sr-only-focusable" href="#header">주메뉴로 건너뛰기</a>
 <a class="sr-only sr-only-focusable" href="#content">컨텐츠로 건너뛰기</a>
-<div id="topbn">
+<div id="topbn" style="background-color: #FFBFBB;">
     <div class="container">
         <p><a href="#"><img src="http://brapra.com/design/brapra/images/banner/topbanner/topbanner_160314.gif" alt=""></a></p>
     </div>

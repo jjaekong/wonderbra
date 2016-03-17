@@ -239,9 +239,6 @@ body > .sr-only-focusable {
   margin-top: 100px;
   min-height: 500px; }
 
-#topbn + #topnav + #header + #content {
-  margin-top: 0; }
-
 #footer {
   background-color: #242424; }
   #footer .logo {
@@ -1485,7 +1482,8 @@ body.sub .membership .membership-wrapper {
     background-color: #fff; }
 body.sub .membership .page-header {
   padding-top: 0;
-  padding-bottom: 55px; }
+  padding-bottom: 38px;
+  }
 body.sub .membership .btn {
   background-color: #000;
   color: #fff; }

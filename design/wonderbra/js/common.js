@@ -15,7 +15,6 @@
     
     // 윈도우 로딩 후 상단 배너가 있을 때
     existTopBanner = ($('#topbn').length === 1) ? true : false;
-    console.log(existTopBanner);
     $(window).on('load', function() {
         $('#topnav').css({ 'position' : 'absolute', 'top' : $('#topbn').height() });
         $('#header').css({ 'position' : 'absolute', 'top' : $('#topbn').height() + $('#topnav').height() });

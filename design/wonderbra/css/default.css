@@ -5,7 +5,7 @@
 .font-abril, body.main #whats-style header h2, body.main .sections #news-arrivals h2, body.main .sections #news-arrivals .carousel-indicators > li, body.main .sections #best-seller h2, body.main #editors-pick h2, body.sub .page-header .page-title, body.sub .onair.now .broadcast .page-title, body.sub .special.new-arrivals .type h3, body.sub .board.about #about h2, body.sub .board.about #whats-style header h2, body.sub .mypage.myinfo .pw-form .form-area > div h2 {
   font-family: 'Abril Fatface', cursive; }
 
-.font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .function.view #review-benefit > div ul li, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p, body.sub .mypage .page-header .page-title, body.sub .mypage .cart-list .table tfoot tr td {
+.font-noto, #header .search form .form-control, #footer .information .introduce, #footer .information .business dt, #footer .information .business dd, body.main #whats-style ul li a figure figcaption p, body.main .sections #news-arrivals .item a, body.main .sections #best-seller .item, body.main #editors-pick .item, body.sub .product-list li a, body.sub .product-view .overview, body.sub .table tbody td.title a, body.sub .function.view #review-benefit > div ul li, body.sub .onair.replay .replay-list ul li, body.sub .special.event .event-list li a figure figcaption p, body.sub .special.event .event-list li a .closed-cover, body.sub .special.new-arrivals .type h3 span, body.sub .board .media-view article > header h3, body.sub .board.about #whats-style ul li a figure figcaption p, body.sub .board.review .page-header p, body.sub .mypage .page-header .page-title, body.sub .mypage .cart-list .table tfoot tr td {
   font-family: 'Noto Sans', sans-serif; }
 
 .font-play, body.sub .vip.main .vip-main a figure figcaption {
@@ -470,6 +470,10 @@ body.main .sections {
           color: #999;
           font-size: 16px;
           font-weight: bold; }
+          body.main .sections #news-arrivals .item a figure > figcaption p:nth-of-type(2) strike {
+            font-size: 14px;
+            font-weight: 100;
+            color: #666; }
       body.main .sections #news-arrivals .item a:hover figure > div > span, body.main .sections #news-arrivals .item a:focus figure > div > span {
         position: absolute;
         top: 0;
@@ -503,6 +507,10 @@ body.main .sections {
       body.main .sections #best-seller .item figcaption p:nth-of-type(2) {
         margin-bottom: 15px;
         font-weight: bold; }
+        body.main .sections #best-seller .item figcaption p:nth-of-type(2) strike {
+          font-size: 14px;
+          font-weight: 100;
+          color: #666; }
 body.main #editors-pick h2 {
   margin-top: 70px;
   margin-bottom: 55px;
@@ -529,6 +537,10 @@ body.main #editors-pick .item {
     body.main #editors-pick .item figcaption p:nth-of-type(2) {
       margin-bottom: 15px;
       font-weight: bold; }
+      body.main #editors-pick .item figcaption p:nth-of-type(2) strike {
+        font-size: 14px;
+        font-weight: 100;
+        color: #666; }
 body.main .banner-area-2 {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -640,6 +652,10 @@ body.sub .product-list li {
         font-size: 11px; }
       body.sub .product-list li a figcaption p {
         font-weight: 700; }
+        body.sub .product-list li a figcaption p strike {
+          font-size: 13px;
+          font-weight: 100;
+          color: #666; }
 body.sub .paging {
   text-align: center; }
   body.sub .paging .pagination {

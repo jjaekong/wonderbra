@@ -594,6 +594,11 @@ body.main {
                                 color: #999;
                                 font-size: 16px;
                                 font-weight: bold;
+                                strike {
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                    color: #666;
+                                }
                             }
                         }
                     }
@@ -650,6 +655,11 @@ body.main {
                     p:nth-of-type(2) {
                         margin-bottom: 15px;
                         font-weight: bold;
+                        strike {
+                            font-size: 14px;
+                            font-weight: 100;
+                            color: #666;
+                        }
                     }
                 }
             }
@@ -689,6 +699,11 @@ body.main {
                 p:nth-of-type(2) {
                     margin-bottom: 15px;
                     font-weight: bold;
+                    strike {
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: #666;
+                    }
                 }
             }
         }
@@ -854,6 +869,11 @@ body.sub {
                     }
                     p {
                         font-weight: 700;
+                        strike {
+                            font-size: 13px;
+                            font-weight: 100;
+                            color: #666;
+                        }
                     }
                 }
             }
@@ -1514,6 +1534,7 @@ body.sub {
                     span {
                         padding-right: 20px;
                         background-color: #fff;
+                        @extend .font-noto;
                     }
                 }
                 &.set-type {

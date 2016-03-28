@@ -1,0 +1,671 @@
+// 공통
+.btn {
+    border-radius: 0;
+    border: 0;
+}
+.form-control {
+    border-radius: 0;
+    -webkit-transition: none;
+    transition: none;
+    box-shadow: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.font-abril {
+    font-family: 'Abril Fatface', cursive;
+}
+.font-noto {
+    font-family: 'Noto Sans', sans-serif;
+}
+.font-maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+.font-color {
+    color: #333;
+}
+body {
+    @extend .font-noto, .font-color;
+    font-size: 12px;
+    background-color: #181818;
+}
+a {
+    @extend .font-color;
+    &:hover, &:focus {
+        @extend .font-color;
+        text-decoration: none;
+    }
+}
+p {
+    margin-bottom: 0;
+}
+address {
+    margin-bottom: 0;
+}
+dl {
+    margin-bottom: 0;
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+        > { 
+            .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+.section-header {
+    /*
+    margin-left: 20px;
+    margin-right: 20px;
+    */
+    text-align: center;
+    .heading {
+        margin: 0;
+        @extend .font-abril;
+        font-size: 25px;
+    }
+}
+
+// 헤더 영역
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    .top {
+        position: relative;
+        height: 68px;
+        padding-left: 200px;
+        background-color: #111;
+        .btn-menu {
+            position: absolute;
+            top: 18px;
+            left: 10px;
+            width: 35px;
+            height: 30px;
+            padding: 5px;
+            background-color: transparent;
+            .bar {
+                display: block;
+                width: 100%;
+                height: 3px;
+                margin-top: 5px;
+                background-color: #fff;
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 54px;
+            width: 133px;
+            height: 18px;
+            margin: 0;
+            img {
+                display: block;
+            }
+        }
+        .search {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 175px;
+            height: 41px;
+            border-bottom: 1px solid #fff;
+            .form-control {
+                float: left;
+                width: 135px;
+                height: 40px;
+                border: 0;
+                background-color: transparent;
+                color: #fff;
+            }
+            .btn-search {
+                float: right;
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                background-color: transparent;
+                img {
+                    width: 21px;
+                }
+            }
+        }
+    }
+    .quick {
+        border-top: 1px solid rgba(#8b8b8b, .4);
+        border-bottom: 3px solid rgba(#8b8b8b, .4);
+        background-color: #fff;
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 25%;
+                height: 44px;
+                line-height: 44px;
+                border-left: 1px solid rgba(#8b8b8b, .4);
+                &:first-child {
+                    border-left: 0;
+                }
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    @extend .font-maven;
+                    text-align: center;
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+// 중앙컨텐츠
+#content {
+    margin-top: 116px;
+    background-color: #fff;
+    .page-header {
+        padding-bottom: 0;
+        margin: 0;
+        border-bottom: 0;
+        .title {
+            padding: 40px 0;
+            margin: 0;
+            @extend .font-abril;
+            text-align: center;
+        }
+    }
+    .overview {
+        p {
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    .category {
+        padding: 20px;
+        text-align: center;
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    min-width: 60px;
+                    height: 30px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin: 5px;
+                    background-color: #f5f5f5;
+                    line-height: 30px;
+                    border: 1px solid #eee;
+                }
+                &.active {
+                    a {
+                        background-color: #ffde16;
+                        border-color: #ffde16;
+                    }
+                }
+            }
+        }
+    }
+    .sorter {
+        text-align: center;
+        .btn-group {
+            .btn {
+                background-color: transparent;
+                box-shadow: none;
+            }
+            .dropdown-menu {
+                border-radius: 0;
+                box-shadow: none;
+                border-color: #999;
+                min-width: 110px;
+                text-align: center;
+                li {
+                    a {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .product-list {
+        li {
+            margin-bottom: 30px;
+        }
+        .title, .price {
+            text-align: center;
+        }
+        .title {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .paging {
+        margin-bottom: 60px;
+        text-align: center;
+        .pagination {
+            margin: 0 auto;
+            li {
+                a {
+                    margin: 0 1px;
+                    border-radius: 0;
+                    border-color: #ccc;
+                    color: #555;
+                    font-size: 14px;
+                    .glyphicon {
+                        font-size: 11px;
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: #ffde16;
+                        border-color: #ffde16;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 푸터
+#footer {
+    padding-bottom: 70px;
+    .quick-nav {
+        padding: 20px 15px;
+        border-top: 1px solid rgba(#6a6a6a, .25);
+        border-bottom: 1px solid rgba(#6a6a6a, .25);
+        background-color: #f0f0f0;
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 25%;
+                padding: 10px;
+                text-align: center;
+                p {
+                    height: 65px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    margin-bottom: 5px;
+                    background-color: #242424;
+                    img {
+                        display: block;
+                        height: 25px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    .cs {
+        padding: 25px;
+        background-color: #fff;
+        a {
+            display: block;
+            height: 60px;
+            background-color: #242424;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            dl {
+                dt, dd {
+                    display: inline;
+                    line-height: 60px;
+                }
+                dt {
+                    font-weight: normal;
+                    vertical-align: top;
+                    &:after {
+                        padding-left: 10px;
+                        padding-right: 5px;
+                        content: '|';
+                        font-size: 10px;
+                        font-weight: 100;
+                        vertical-align: top;
+                    }
+                }
+                dd {
+                    font-family: 'Arial';
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .information {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #242424;
+        color: #666;
+        a {
+            color: #666;
+        }
+        h2 {
+            margin: 0 0 15px 0;
+            text-align: center;
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .company {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            dl {
+                display: inline-block;
+                dt, dd {
+                    display: inline;
+                }
+                dt {
+                    margin-left: 5px;
+                    font-weight: normal;
+                    &:after {
+                        padding-left: 3px;
+                        content: ':';
+                    }
+                }
+                dd {
+                    margin-right: 5px;
+                    address {
+                        display: inline;
+                    }
+                }
+            }
+        }
+        .policy {
+            ul {
+                overflow: hidden;
+                padding-left: 10px;
+                padding-right: 10px;
+                li {
+                    float: left;
+                    width: 25%;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    a {
+                        display: block;
+                        height: 40px;
+                        padding-top: 11px;
+                        padding-bottom: 11px;
+                        border: 1px solid #444;
+                        text-align: center;
+                        line-height: 16px;
+                    }
+                    &:nth-of-type(3) {
+                        a {
+                            padding-top: 4px;
+                            padding-bottom: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        height: 66px;
+        padding-top: 15px;
+        background-color: #181818;
+        p {
+            font-size: 11px;
+            color: #888;
+            text-align: center;
+            i {
+                color: #555;
+                font-style: normal;
+            }
+        }
+    }
+    .quick {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #242424;
+        z-index: 990;
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 20%;
+                height: 70px;
+                border-left: 1px solid #4d4d4d;
+                text-align: center;
+                &:first-child {
+                    border-left: 0;
+                }
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    color: #888;
+                    font-size: 12px;
+                    p {
+                        height: 30px;
+                        margin-top: 15px;
+                        margin-bottom: 0;
+                        img {
+                            vertical-align: bottom;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 메인페이지
+#content.main {
+    .section-header {
+        margin-bottom: 30px;
+    }
+    .visual {
+        .carousel-indicators {
+            bottom: 20px;
+            li {
+                width: 10px;
+                height: 10px;
+                margin: 0 2px;
+                border-width: 2px;
+                border-color: #5a5a5a;
+                &.active {    
+                    border-color: #fff;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .whats {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        background-image: url(/design/wonderbra/mobile/images/main/bg_whats.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-header {
+            p {
+                color: #333;
+            }
+        }
+        #whats-carousel {
+            .item {
+                text-align: center;
+                .container {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                    .title {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .carousel-control {
+                width: 50px;
+                background-image: none;
+            }
+        }
+    }
+    .banner {
+        margin-bottom: 30px;
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 50%;
+            }
+        }
+    }
+    .arrivals {
+        padding-bottom: 10px;
+        margin-bottom: 40px;
+        background-image: url(/design/wonderbra/mobile/images/bg_arrivals.gif);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 100% auto;
+        background-color: #ffde16;
+        .product-list {
+            li:nth-of-type(1),
+            li:nth-of-type(2) {
+                .title, .price {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .best {
+        padding-bottom: 10px;
+    }
+    .editors {
+        padding-bottom: 10px;
+        .section-header {
+            .heading {
+                background-image: url(/design/wonderbra/mobile/images/bg_sec_header.png);
+                background-position: 0 50%;
+                background-repeat: repeat-x;
+                background-size: auto 30%;
+                span {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// LINE 메뉴
+#content.line {
+    .product-list {
+        margin-top: 30px;
+    }
+    &.view {
+        .summary {
+            .container {
+                .section-header {
+                    h3 {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        border-top: 2px solid #333;
+                        border-bottom: 1px solid #333;
+                        margin-bottom: 25px;
+                        @extend .font-noto;
+                    }
+                }
+                dt {
+                    clear: left;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: normal;
+                    letter-spacing: -1px;
+                }
+                dd {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    color: #999;
+                }
+                .price, .added, .option {
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #ccc;
+                    margin-top: 20px;
+                }
+                .price {
+                    strong {
+                        color: #f1af00;
+                        font-size: 16px;
+                    }
+                }
+                .option {
+                    dt {
+                        line-height: 30px;
+                    }
+                }
+                .counter {
+                    position: relative;
+                    padding-right: 70px;
+                    .btn {
+                        position: absolute;
+                        top: 0;
+                        width: 30px;
+                        height: 30px;
+                        padding-left: 0;
+                        padding-right: 0;
+                        background-color: #666;
+                        color: #fff;
+                    }
+                    .btn-plus {
+                        right: 35px;
+                    }
+                    .btn-minus {
+                        right: 0;
+                    }
+                }
+                .total {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    text-align: right;
+                    dt, dd {
+                        display: inline-block;
+                    }
+                    dd {
+                        padding-left: 10px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #f1af00;
+                    }
+                }
+                .btn-area {
+                    p {
+                        display: inline-block;
+                    }
+                    .btn {
+                        padding-left: 0;
+                        padding-right: 0;
+                        background-color: gray;
+                    }
+                }
+            }
+        }
+    }
+}

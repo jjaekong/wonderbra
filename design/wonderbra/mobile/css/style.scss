@@ -250,6 +250,9 @@ dl {
     .product-list {
         li {
             margin-bottom: 30px;
+            &:nth-of-type(odd) {
+                clear: both;
+            }
         }
         .title, .price {
             text-align: center;

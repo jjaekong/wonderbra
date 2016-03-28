@@ -193,6 +193,8 @@ dl {
         padding-right: 5px; }
   #content .product-list li {
     margin-bottom: 30px; }
+    #content .product-list li:nth-of-type(odd) {
+      clear: both; }
   #content .product-list .title, #content .product-list .price {
     text-align: center; }
   #content .product-list .title {

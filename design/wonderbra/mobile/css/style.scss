@@ -259,6 +259,7 @@ dl {
             margin-bottom: 10px;
         }
     }
+    
     .paging {
         margin-bottom: 60px;
         text-align: center;
@@ -498,6 +499,11 @@ dl {
                 }
             }
         }
+        .item {
+            img {
+                margin: 0 auto;
+            }
+        }
     }
     .whats {
         padding-top: 30px;
@@ -538,6 +544,9 @@ dl {
             li {
                 float: left;
                 width: 50%;
+                img {
+                    margin: 0 auto;
+                }
             }
         }
     }
@@ -579,8 +588,8 @@ dl {
     }
 }
 
-// LINE 메뉴
-#content.line {
+// 서브페이지
+#content.sub {
     .product-list {
         margin-top: 30px;
     }
@@ -606,6 +615,27 @@ dl {
                 }
             }
             
+        }
+    }
+    .event-list {
+        li {
+            margin-bottom: 30px;
+            figure {
+                position: relative;
+                img {
+                    margin: 0 auto;
+                }
+                figcaption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    padding: 6px 10px;
+                    line-height: 18px;
+                    background-color: rgba(0, 0, 0, .8);
+                    color: #fff;
+                }
+            }
         }
     }
     &.view {

@@ -81,8 +81,8 @@
                                         <figure>
                                             <img class="img-responsive" src="/design/wonderbra/mobile/images/main/img_style_1.png" alt="">
                                             <figcaption>
-                                                <p class="title"><strong>WIREFREE</strong></p>
-                                                <p>볼륨을 살린 원더브라 노와이어 라인</p>
+                                                <p class="title"><strong>WONDER BOOST</strong></p>
+                                                <p>볼륨을 극대화한 디자인</p>
                                             </figcaption>
                                         </figure>
                                     </a>
@@ -92,8 +92,8 @@
                                         <figure>
                                             <img class="img-responsive" src="/design/wonderbra/mobile/images/main/img_style_2.png" alt="">
                                             <figcaption>
-                                                <p class="title"><strong>WIREFREE</strong></p>
-                                                <p>볼륨을 살린 원더브라 노와이어 라인</p>
+                                                <p class="title"><strong>FULL COVERAGE</strong></p>
+                                                <p>와이드날개로 안정감있는 보정라인</p>
                                             </figcaption>
                                         </figure>
                                     </a>

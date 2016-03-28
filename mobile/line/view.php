@@ -1,7 +1,7 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 </head>
 <body>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
     <main id="content" class="sub line view">
         <div class="page-header">
             <h2 class="title">LINE</h2>
@@ -67,42 +67,321 @@
                     </dl>
                 </div>
                 <div class="btn-area">
-                    <div class="row">
                     <p>
-                        <a class="btn btn-default btn-buy btn-block;" href="#">BUY NOW</a>
+                        <a class="btn btn-default btn-buy btn-block" href="#">BUY NOW</a>
                     </p>
                     <p>
-                        <a class="btn btn-default btn-cart" href="#">CART</a>
+                        <a class="btn btn-default btn-cart btn-block" href="#">CART</a>
                     </p>
                     <p>
-                        <a class="btn btn-default btn-wish" href="#">WISH LIST</a>
+                        <a class="btn btn-default btn-wish btn-block" href="#">WISH LIST</a>
                     </p>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="details">
-            <div class="section-header">
-                <h3>상품설명</h3>
+        <section class="details">
+            <header class="section-header">
+                <h3 class="heading">상품설명</h3>
+            </header>
+            <div class="container">
+                <p>
+                    <img src="/design/wonderbra/mobile/images/dummy/img_product_details.jpg" alt="">
+                </p>
             </div>
-        </div>
+        </section>
         <section class="related">
-            <div class="section-header">
-                <h3>관련상품</h3>
+            <header class="section-header">
+                <h3 class="heading">관련상품</h3>
+            </header>
+            <div id="related-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#related-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#related-carousel" data-slide-to="1"></li>
+                    <li data-target="#related-carousel" data-slide-to="2"></li>
+                    <li data-target="#related-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="container product-list">
+                            <ul class="row">
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_1.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_2.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_3.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container product-list">
+                            <ul class="row">
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_1.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_2.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_3.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container product-list">
+                            <ul class="row">
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_1.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_2.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_3.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container product-list">
+                            <ul class="row">
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_1.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_2.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                                <li class="col-xs-4">
+                                    <a href="#">
+                                        <figure>
+                                            <img class="img-responsive" src="/design/wonderbra/mobile/images/dummy/img_product_3.jpg" alt="">
+                                            <figcaption>
+                                                <p class="title">[Wonderbra] 원더브라 Sexy Non-Wire 네이비 2종세트</p>
+                                                <p class="price"><strong>67,000</strong></p>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="review">
-            <div class="section-header">
-                <h3>상품후기</h3>
+            <header class="section-header">
+                <h3 class="heading">상품후기</h3>
+            </header>
+            <div class="container">
+                <ol class="board-list">
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                </ol>
+                <nav class="paging">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <section class="inquiry">
-            <div class="section-header">
-                <h3>상품문의</h3>
+            <header class="section-header">
+                <h3 class="heading">상품문의</h3>
+            </header>
+            <div class="container">
+                <ol class="board-list">
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
+                        </a>
+                    </li>
+                </ol>
+                <nav class="paging">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
     </main>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
 </html>

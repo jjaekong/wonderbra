@@ -15,7 +15,7 @@ ul, ol {
   margin: 0;
   padding: 0; }
 
-.font-abril, .section-header .heading, #content .page-header .title {
+.font-abril, #content .page-header .title, #content.main .section-header .heading {
   font-family: 'Abril Fatface', cursive; }
 
 .font-noto, body, #content.line.view .summary .container .section-header h3 {
@@ -61,7 +61,9 @@ dl {
   text-align: center; }
   .section-header .heading {
     margin: 0;
-    font-size: 25px; }
+    font-size: 25px;
+    color: #333;
+    letter-spacing: -1px; }
 
 #header {
   position: fixed;
@@ -359,6 +361,8 @@ dl {
 
 #content.main .section-header {
   margin-bottom: 30px; }
+  #content.main .section-header .heading {
+    letter-spacing: 0; }
 #content.main .visual .carousel-indicators {
   bottom: 20px; }
   #content.main .visual .carousel-indicators li {
@@ -426,64 +430,130 @@ dl {
 
 #content.line .product-list {
   margin-top: 30px; }
-#content.line.view .summary .container .section-header h3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 2px solid #333;
-  border-bottom: 1px solid #333;
-  margin-bottom: 25px; }
-#content.line.view .summary .container dt {
-  clear: left;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #333;
-  font-weight: normal;
-  letter-spacing: -1px; }
-#content.line.view .summary .container dd {
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: #999; }
-#content.line.view .summary .container .price, #content.line.view .summary .container .added, #content.line.view .summary .container .option {
-  padding-bottom: 10px;
+#content.line .board-list {
+  margin-top: 10px; }
+  #content.line .board-list li {
+    border-bottom: 1px solid #ebebeb; }
+    #content.line .board-list li a {
+      display: block;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      #content.line .board-list li a .date {
+        color: #999; }
+        #content.line .board-list li a .date:before {
+          padding-left: 5px;
+          padding-right: 5px;
+          content: '|'; }
+      #content.line .board-list li a .content {
+        margin-top: 5px;
+        font-size: 14px; }
+#content.line.view .summary {
+  margin-bottom: 30px; }
+  #content.line.view .summary .container .section-header h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #333;
+    margin-bottom: 25px; }
+  #content.line.view .summary .container dt {
+    clear: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    letter-spacing: -1px; }
+  #content.line.view .summary .container dd {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999; }
+  #content.line.view .summary .container .price, #content.line.view .summary .container .added, #content.line.view .summary .container .option {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px; }
+  #content.line.view .summary .container .price strong {
+    color: #f1af00;
+    font-size: 16px; }
+  #content.line.view .summary .container .option dt {
+    line-height: 30px; }
+  #content.line.view .summary .container .counter {
+    position: relative;
+    padding-right: 70px; }
+    #content.line.view .summary .container .counter .btn {
+      position: absolute;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      padding-left: 0;
+      padding-right: 0;
+      background-color: #666;
+      color: #fff; }
+    #content.line.view .summary .container .counter .btn-plus {
+      right: 35px; }
+    #content.line.view .summary .container .counter .btn-minus {
+      right: 0; }
+  #content.line.view .summary .container .total {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right; }
+    #content.line.view .summary .container .total dt, #content.line.view .summary .container .total dd {
+      display: inline-block; }
+    #content.line.view .summary .container .total dd {
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #f1af00; }
+  #content.line.view .summary .container .btn-area {
+    overflow: hidden; }
+    #content.line.view .summary .container .btn-area p {
+      float: left;
+      width: 33.33%;
+      padding: 0 1px; }
+      #content.line.view .summary .container .btn-area p .btn {
+        height: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        background-color: gray;
+        line-height: 28px;
+        font-size: 13px;
+        color: #fff; }
+        #content.line.view .summary .container .btn-area p .btn.btn-buy {
+          background-color: #000; }
+#content.line.view .details .section-header h3,
+#content.line.view .related .section-header h3,
+#content.line.view .review .section-header h3,
+#content.line.view .inquiry .section-header h3 {
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-top: 20px; }
-#content.line.view .summary .container .price strong {
-  color: #f1af00;
-  font-size: 16px; }
-#content.line.view .summary .container .option dt {
-  line-height: 30px; }
-#content.line.view .summary .container .counter {
-  position: relative;
-  padding-right: 70px; }
-  #content.line.view .summary .container .counter .btn {
-    position: absolute;
-    top: 0;
-    width: 30px;
-    height: 30px;
-    padding-left: 0;
-    padding-right: 0;
-    background-color: #666;
-    color: #fff; }
-  #content.line.view .summary .container .counter .btn-plus {
-    right: 35px; }
-  #content.line.view .summary .container .counter .btn-minus {
-    right: 0; }
-#content.line.view .summary .container .total {
+  font-size: 20px;
+  text-align: left; }
+#content.line.view .details .container {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; }
+  #content.line.view .details .container img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; }
+#content.line.view .related .carousel-indicators {
+  top: -30px;
+  right: 20px;
+  left: auto;
+  height: 20px;
   text-align: right; }
-  #content.line.view .summary .container .total dt, #content.line.view .summary .container .total dd {
-    display: inline-block; }
-  #content.line.view .summary .container .total dd {
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f1af00; }
-#content.line.view .summary .container .btn-area p {
-  display: inline-block; }
-#content.line.view .summary .container .btn-area .btn {
-  padding-left: 0;
-  padding-right: 0;
-  background-color: gray; }
+  #content.line.view .related .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-color: #5a5a5a;
+    border-width: 2px;
+    margin: 0 3px;
+    opacity: .5; }
+    #content.line.view .related .carousel-indicators li.active {
+      opacity: 1; }
+#content.line.view .related .container {
+  margin-top: 20px; }
+#content.line.view .review .paging,
+#content.line.view .inquiry .paging {
+  margin-top: 20px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */

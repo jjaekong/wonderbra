@@ -72,8 +72,9 @@ dl {
     text-align: center;
     .heading {
         margin: 0;
-        @extend .font-abril;
         font-size: 25px;
+        color: #333;
+        letter-spacing: -1px;
     }
 }
 
@@ -477,6 +478,10 @@ dl {
 #content.main {
     .section-header {
         margin-bottom: 30px;
+        .heading {
+            @extend .font-abril;
+            letter-spacing: 0;
+        }
     }
     .visual {
         .carousel-indicators {
@@ -579,8 +584,33 @@ dl {
     .product-list {
         margin-top: 30px;
     }
+    .board-list {
+        margin-top: 10px;
+        li {
+            border-bottom: 1px solid #ebebeb;
+            a {
+                display: block;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .date {
+                    color: #999;
+                    &:before {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        content: '|';
+                    }
+                }
+                .content {
+                    margin-top: 5px;
+                    font-size: 14px;
+                }
+            }
+            
+        }
+    }
     &.view {
         .summary {
+            margin-bottom: 30px;
             .container {
                 .section-header {
                     h3 {
@@ -656,15 +686,80 @@ dl {
                     }
                 }
                 .btn-area {
+                    overflow: hidden;
                     p {
-                        display: inline-block;
-                    }
-                    .btn {
-                        padding-left: 0;
-                        padding-right: 0;
-                        background-color: gray;
+                        float: left;
+                        width: 33.33%;
+                        padding: 0 1px;
+                        .btn {
+                            height: 40px;
+                            padding-left: 0;
+                            padding-right: 0;
+                            background-color: gray;
+                            line-height: 28px;
+                            font-size: 13px;
+                            color: #fff;
+                            &.btn-buy {
+                                background-color: #000;
+                            }
+                        }
                     }
                 }
+            }
+        }
+        .details,
+        .related,
+        .review, 
+        .inquiry {
+            .section-header {
+                h3 {
+                    padding: 10px 20px;
+                    border-top: 1px solid #ccc;
+                    border-bottom: 1px solid #ccc;
+                    font-size: 20px;
+                    text-align: left;
+                }
+            }
+        }
+        .details {
+            .container {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                img {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .related {
+            .carousel-indicators {
+                top: -30px;
+                right: 20px;
+                left: auto;
+                height: 20px;
+                text-align: right;
+                li {
+                    width: 10px;
+                    height: 10px;
+                    border-color: #5a5a5a;
+                    border-width: 2px;
+                    margin: 0 3px;
+                    opacity: .5;
+                    &.active {
+                        opacity: 1;
+                    }
+                }
+            }
+            .container {
+                margin-top: 20px;
+            }
+        }
+        .review,
+        .inquiry {
+            .paging {
+                margin-top: 20px;
+                margin-bottom: 30px;
             }
         }
     }

@@ -2,7 +2,7 @@
 </head>
 <body>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
-    <main id="content" class="sub line list">
+    <main id="content" class="sub line">
         <div class="page-header">
             <h2 class="title">LINE</h2>
         </div>

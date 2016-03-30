@@ -90,7 +90,7 @@ dl {
         height: 68px;
         padding-left: 200px;
         background-color: #111;
-        .btn-menu {
+        .btn-navbar-open {
             position: absolute;
             top: 18px;
             left: 10px;
@@ -148,7 +148,6 @@ dl {
         }
     }
     .quick {
-        border-top: 1px solid rgba(#8b8b8b, .4);
         border-bottom: 3px solid rgba(#8b8b8b, .4);
         background-color: #fff;
         ul {
@@ -156,8 +155,8 @@ dl {
             li {
                 float: left;
                 width: 25%;
-                height: 44px;
-                line-height: 44px;
+                height: 45px;
+                line-height: 45px;
                 border-left: 1px solid rgba(#8b8b8b, .4);
                 &:first-child {
                     border-left: 0;
@@ -176,6 +175,128 @@ dl {
         }
     }
 }
+
+// GNB 네비
+#navbar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #1b191a;
+    z-index: 9990;
+    -webkit-transition: left .3s;
+    transition: left .3s;
+    > header {
+        position: relative;
+        height: 68px;
+        .btn-navbar-close {
+            position: absolute;
+            top: 18px;
+            left: 10px;
+            width: 35px;
+            height: 30px;
+            padding: 0;
+            background-color: transparent;
+        }
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 54px;
+            width: 133px;
+            height: 18px;
+            margin: 0;
+            img {
+                display: block;
+            }
+        }
+    }
+    .member {
+        overflow: hidden;
+        background-color: #ffde16;
+        li {
+            float: left;
+            width: 25%;
+            height: 45px;
+            border-left: 1px solid rgba(#000, .5);
+            a {
+                display: block;
+                font-size: 16px;
+                line-height: 45px;
+                @extend .font-maven;
+                font-weight: bold;
+                text-align: center;
+            }
+            &:first-child {
+                border-left: 0;
+            }
+        }
+    }
+    .gnb {
+        > li {
+            border-bottom: 1px solid #222;
+            > a {
+                display: block;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 50px;
+                font-size: 20px;
+                line-height: 50px;
+                @extend .font-maven;
+                color: #fff;
+                > span {
+                    float: right;
+                    margin-top: 12px;
+                    color: #555;
+                    font-weight: 100;
+                }
+            }
+            > ul {
+                display: none;
+            }
+            &.active {
+                > ul {
+                    display: block;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    background-color: #222;
+                    > li {
+                        > a {
+                            display: block;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            line-height: 20px;
+                            font-size: 14px;
+                            color: #fff;
+                        }
+                        &.active {
+                            > a {
+                                padding-left: 15px;
+                                color: #ffde16;
+                                background-image: url(/design/wonderbra/mobile/images/ico_diagonal.png);
+                                background-position: 0 10px;
+                                background-repeat: no-repeat;
+                                background-size: 10px 10px;
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
+
+body.navbar-opened {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    #navbar {
+        left: 0;
+    }
+}
+
 
 // 중앙컨텐츠
 #content {
@@ -716,23 +837,30 @@ dl {
                     }
                 }
                 .counter {
-                    position: relative;
-                    padding-right: 70px;
-                    .btn {
-                        position: absolute;
-                        top: 0;
-                        width: 30px;
-                        height: 30px;
-                        padding-left: 0;
-                        padding-right: 0;
-                        background-color: #666;
-                        color: #fff;
+                    margin-bottom: 5px;
+                    .input-group {
+                        .input-group-addon,
+                        .form-control {
+                            border-radius: 0;
+                        }
                     }
-                    .btn-plus {
-                        right: 35px;
-                    }
-                    .btn-minus {
-                        right: 0;
+                    p {
+                        margin-top: 5px;
+                        text-align: right;
+                        .btn {
+                            top: 0;
+                            width: 30px;
+                            height: 30px;
+                            padding-left: 0;
+                            padding-right: 0;
+                            background-color: #666;
+                            color: #fff;
+                        }
+                        .btn-delete {
+                            background-color: #fff;
+                            border: 1px solid #ccc;
+                            color: #666;
+                        }
                     }
                 }
                 .total {
@@ -834,6 +962,37 @@ dl {
             }
         }
     }
+    .product-comm {
+        margin-top: 10px;
+        li {
+            border-bottom: 1px solid #ebebeb;
+            a {
+                display: block;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .date {
+                    color: #999;
+                    &:before {
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        content: '|';
+                    }
+                }
+                .title {
+                    margin-top: 5px;
+                }
+            }
+            .content {
+                display: none;
+                margin-bottom: 15px;
+            }
+            &.active {
+                .content {
+                    display: block;
+                }
+            }
+        }
+    }
     .board-list {
         margin-top: 10px;
         li {
@@ -913,6 +1072,13 @@ dl {
                         width: 100%;
                     }
                 }
+            }
+            .btn-attach {
+                height: 30px;
+                background-color: #000;
+                color: #fff;
+                font-size: 12px;
+                vertical-align: top;
             }
         }
         .btn-area {
@@ -1026,9 +1192,13 @@ dl {
             }
             .content {
                 margin-top: 5px;
-            }
-            .btn-reply {
-                display: inline-block;
+                p {
+                    margin-bottom: 10px;
+                }
+                .btn-reply, .btn-delete {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
             }
             &.reply-reply {
                 padding-left: 50px;

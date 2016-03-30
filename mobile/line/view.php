@@ -47,16 +47,41 @@
                                     <option value="">70A(90)</option>
                                 </select>
                             </dd>
-                            <dt class="col-xs-4">수령</dt>
+                            <dt class="col-xs-4">수량</dt>
                             <dd class="col-xs-8">
                                 <div class="counter">
-                                    <input type="text" class="form-control input-sm">
-                                    <button type="button" class="btn btn-default btn-plus">
-                                        <span class="glyphicon glyphicon-plus"></span>
-                                    </button>
-                                    <button type="button" class="btn btn-default btn-minus">
-                                        <span class="glyphicon glyphicon-minus"></span>
-                                    </button>
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon">70A(90)</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <p>
+                                        <button type="button" class="btn btn-default btn-plus">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-default btn-minus">
+                                            <span class="glyphicon glyphicon-minus"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-default btn-delete">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="counter">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon">70A(90)</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <p>
+                                        <button type="button" class="btn btn-default btn-plus">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-default btn-minus">
+                                            <span class="glyphicon glyphicon-minus"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-default btn-delete">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </button>
+                                    </p>
                                 </div>
                             </dd>
                         </dl>
@@ -266,38 +291,44 @@
                     <h3 class="heading">상품후기</h3>
                 </header>
                 <div class="container">
-                    <ol class="board-list">
-                        <li>
+                    <ol class="product-comm">
+                        <li class="active">
                             <a href="#">
                                 <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                                <div class="content">
-                                    댓글을 남겨주세요. 댓글을 남겨주세요.
-                                </div>
+                                <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                             </a>
+                            <div class="content">
+                                댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다.<br>
+                                댓글 내용입니다.댓글 내용입니다.<br>
+                                댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다.
+                            </div>
                         </li>
                         <li>
                             <a href="#">
                                 <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                                <div class="content">
-                                    댓글을 남겨주세요. 댓글을 남겨주세요.
-                                </div>
+                                <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                             </a>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
                         </li>
                         <li>
                             <a href="#">
                                 <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                                <div class="content">
-                                    댓글을 남겨주세요. 댓글을 남겨주세요.
-                                </div>
+                                <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                             </a>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
                         </li>
                         <li>
                             <a href="#">
                                 <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                                <div class="content">
-                                    댓글을 남겨주세요. 댓글을 남겨주세요.
-                                </div>
+                                <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                             </a>
+                            <div class="content">
+                                댓글을 남겨주세요. 댓글을 남겨주세요.
+                            </div>
                         </li>
                     </ol>
                     <nav class="paging">
@@ -326,38 +357,44 @@
                 <h3 class="heading">상품문의</h3>
             </header>
             <div class="container">
-                <ol class="board-list">
-                    <li>
+                <ol class="product-comm">
+                    <li class="active">
                         <a href="#">
                             <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                            <div class="content">
-                                댓글을 남겨주세요. 댓글을 남겨주세요.
-                            </div>
+                            <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                         </a>
+                        <div class="content">
+                            댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다.<br>
+                            댓글 내용입니다.댓글 내용입니다.<br>
+                            댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다. 댓글 내용입니다.
+                        </div>
                     </li>
                     <li>
                         <a href="#">
                             <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                            <div class="content">
-                                댓글을 남겨주세요. 댓글을 남겨주세요.
-                            </div>
+                            <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                         </a>
+                        <div class="content">
+                            댓글을 남겨주세요. 댓글을 남겨주세요.
+                        </div>
                     </li>
                     <li>
                         <a href="#">
                             <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                            <div class="content">
-                                댓글을 남겨주세요. 댓글을 남겨주세요.
-                            </div>
+                            <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                         </a>
+                        <div class="content">
+                            댓글을 남겨주세요. 댓글을 남겨주세요.
+                        </div>
                     </li>
                     <li>
                         <a href="#">
                             <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
-                            <div class="content">
-                                댓글을 남겨주세요. 댓글을 남겨주세요.
-                            </div>
+                            <p class="title">댓글을 남겨주세요. 댓글을 남겨주세요.</p>
                         </a>
+                        <div class="content">
+                            댓글을 남겨주세요. 댓글을 남겨주세요.
+                        </div>
                     </li>
                 </ol>
                 <nav class="paging">
@@ -385,5 +422,15 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+    <script>
+        (function($) {
+            $("#related-carousel").swiperight(function() {
+                $(this).carousel('prev');  
+            });
+            $("#related-carousel").swipeleft(function() {
+                $(this).carousel('next');  
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

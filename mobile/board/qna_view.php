@@ -60,13 +60,17 @@
                     <li>
                         <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
                         <div class="content">
-                            댓글을 남겨주세요. 댓글을 남겨주세요. 댓글을 남겨주세요. <a href="#" class="btn-reply"><img src="/design/wonderbra/mobile/images/ico_balloon.png" alt="" width="12"> 댓글달기</a>
+                            <p>댓글을 남겨주세요. 댓글을 남겨주세요. 댓글을 남겨주세요.</p>
+                            <a href="#" class="btn-reply"><img src="/design/wonderbra/mobile/images/ico_balloon.png" alt="" width="12"> 댓글달기</a>
+                            <a href="#" class="btn-delete"><img src="/design/wonderbra/mobile/images/ico_trash.png" alt="" width="10"> 댓글삭제</a>
                         </div>
                     </li>
                     <li class="reply-reply">
                         <strong class="writer">원더브라</strong><span class="date">2016.02.01</span>
                         <div class="content">
-                            댓글을 남겨주세요. 댓글을 남겨주세요.
+                            <p>댓글을 남겨주세요. 댓글을 남겨주세요.</p>
+                            <a href="#" class="btn-reply"><img src="/design/wonderbra/mobile/images/ico_balloon.png" alt="" width="12"> 댓글달기</a>
+                            <a href="#" class="btn-delete"><img src="/design/wonderbra/mobile/images/ico_trash.png" alt="" width="10"> 댓글삭제</a>
                         </div>
                     </li>
                     <li>

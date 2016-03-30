@@ -13,16 +13,24 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        <a href="#">
+                            <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        <a href="#">
+                            <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        <a href="#">
+                            <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        <a href="#">
+                            <img src="/design/wonderbra/mobile/images/main/img_visual_1.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -32,7 +40,7 @@
                 <h3 class="heading">What's Your Style?</h3>
                 <p>WONDERBRA IS THE ORIGINAL</p>
             </header>
-            <div id="whats-carousel" class="carousel" data-ride="carousel">
+            <div id="whats-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="container">

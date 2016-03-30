@@ -46,8 +46,9 @@
                             <th>첨부파일</th>
                             <td>
                                 <label>
-                                    <input type="file" class="form-control input-sm">
+                                    <input type="text" class="form-control input-sm">
                                 </label>
+                                <button type="button" class="btn btn-default btn-attach">첨부파일</button>
                             </td>
                         </tr>
                     </tbody>

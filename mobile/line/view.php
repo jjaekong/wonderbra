@@ -7,7 +7,7 @@
             <h2 class="title">LINE</h2>
         </div>
         <div class="product-view">
-            <div class="summary">
+            <section class="summary">
                 <div class="container">
                     <div class="section-header">
                         <h3 class="heading">Sexy volume up 블랙 2종세트</h3>
@@ -104,7 +104,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
             <section class="details">
                 <header class="section-header">
                     <h3 class="heading">상품설명</h3>
@@ -113,6 +113,52 @@
                     <p>
                         <img src="/design/wonderbra/mobile/images/dummy/img_product_details.jpg" alt="">
                     </p>
+                </div>
+            </section>
+            <section class="inform">
+                <header class="section-header">
+                    <h3 class="heading">상품 일반정보</h3>
+                </header>
+                <div class="container">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th>제품소재</th>
+                                <td>IV-나일론90%, 폴리우레탄10%/BD,BK-폴리에스터89%, 폴리우레탄11%/CO-폴리에스터88%, 폴리우레탄12%</td>  
+                            </tr>
+                            <tr>
+                                <th>색상</th>
+                                <td>IV/BD/BK/CO</td>  
+                            </tr>
+                            <tr>
+                                <th>치수</th>    <td>75A(90)~75B(90)~75C(90)~80A(95)~80B(95)~80C(95)~85A(100)~85B(100)~85C(100)</td>  
+                            </tr>
+                            <tr>
+                                <th>제조자</th>
+                                <td>HBI JAPAN INC.</td>  
+                            </tr>
+                            <tr>
+                                <th>제조국</th>
+                                <td>인도네시아/베트남</td>  
+                            </tr>
+                            <tr>
+                                <th>세탁방법 및 취급시 주의사항</th>
+                                <td>중성세제 사용 손세탁-비틀어 짜지 않습니다</td>  
+                            </tr>
+                            <tr>
+                                <th>제조연월</th>
+                                <td>20150901</td>  
+                            </tr>
+                            <tr>
+                                <th>품질보증기준</th>
+                                <td>관련 법 및 소비자 분쟁해결 규정에 따름. 7일 이내 반품/교환 교환/반품시 왕복배송비 고객부담(5천원) 상품하자일경우 당사 부담 AS경우 품질보증 기간 1년</td>  
+                            </tr>
+                            <tr>
+                                <th>A/S 책임자와 전화번호</th>
+                                <td>엠코르셋㈜/1544-6101</td>  
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </section>
             <section class="related">
@@ -286,6 +332,16 @@
                     </div>
                 </div>
             </section>
+            <section class="return">
+                <header class="section-header">
+                    <h3 class="heading">교환 및 배송안내</h3>
+                </header>
+                <div class="container">
+                    <p>
+                        <img class="img-responsive" src="http://wonderbramall.co.kr/design/wonderbra/images/dummy/img_return_product.gif" alt="">
+                    </p>
+                </div>
+            </section>
             <section class="review">
                 <header class="section-header">
                     <h3 class="heading">상품후기</h3>
@@ -424,11 +480,9 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
     <script>
         (function($) {
-            $("#related-carousel").swiperight(function() {
-                $(this).carousel('prev');  
-            });
-            $("#related-carousel").swipeleft(function() {
-                $(this).carousel('next');  
+            $(document).on('click', '.product-comm > li > a', function() {
+                $(this).parent().toggleClass('active');
+                return false;
             });
         })(jQuery);
     </script>

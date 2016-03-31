@@ -300,7 +300,7 @@ body.navbar-opened {
 
 // 중앙컨텐츠
 #content {
-    margin-top: 116px;
+    margin-top: 115px;
     background-color: #fff;
     .page-header {
         padding-bottom: 0;
@@ -835,6 +835,66 @@ body.navbar-opened {
                     dt {
                         line-height: 30px;
                     }
+                    .MK_inner-opt-cm {
+                        li {
+                            padding-bottom: 10px;
+                            text-align: right;
+                            &:last-child {
+                                padding-bottom: 0;
+                            }
+                            .MK_p-name {
+                                display: block;
+                                margin-bottom: 5px;
+                                line-height: 30px;
+                                color: #666;
+                                text-align: left;
+                                background-color: #f1f1f1;
+                                text-align: center;
+                            }
+                            .MK_qty-ctrl {
+                                position: relative;
+                                height: 30px;
+                                padding-right: 70px;
+                                margin-bottom: 5px;
+                                vertical-align: top;
+                                text-align: right;
+                                .basic_option {
+                                    width: 100%;
+                                    height: 30px;
+                                    padding-left: 5px;
+                                    padding-right: 5px;
+                                    border: 1px solid #ccc;
+                                }
+                                .btn-type-02 {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    display: inline-block;
+                                    width: 30px;
+                                    height: 30px;
+                                    text-align: center;
+                                    line-height: 30px;
+                                    background-color: #666;
+                                    color: #fff;
+                                    @extend .font-maven;
+                                    font-size: 16px;
+                                    &:nth-of-type(1) {
+                                        right: 35px;
+                                    }
+                                }
+                            }
+                            .MK_price {
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                color: #f1af00;
+                            }
+                            .MK_btn-del {
+                                img {
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
                 }
                 .counter {
                     margin-bottom: 5px;
@@ -899,6 +959,8 @@ body.navbar-opened {
                 }
             }
         }
+        .inform,
+        .return,
         .details,
         .related,
         .review, 
@@ -917,6 +979,7 @@ body.navbar-opened {
             .container {
                 padding-top: 20px;
                 padding-bottom: 20px;
+                background-color: #201E21;
                 img {
                     display: block;
                     max-width: 100%;
@@ -959,6 +1022,33 @@ body.navbar-opened {
             .paging {
                 margin-top: 20px;
                 margin-bottom: 30px;
+            }
+        }
+        .return {
+            .container {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                img {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .inform {
+            .container {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                .table {
+                    th {
+                        width: 100px;
+                        text-align: center;
+                    }
+                    td {
+                        text-align: left;
+                        word-break: break-all;
+                    }
+                }
             }
         }
     }

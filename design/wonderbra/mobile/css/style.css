@@ -1210,5 +1210,51 @@ body.navbar-opened {
       margin-top: 10px; }
       #content.sub .order-shipping .order-form .btn-area .btn {
         background-color: #555; }
+#content.sub .find-area .find-form {
+  margin-bottom: 20px; }
+  #content.sub .find-area .find-form .form-group {
+    margin-bottom: 5px; }
+    #content.sub .find-area .find-form .form-group label {
+      line-height: 30px; }
+    #content.sub .find-area .find-form .form-group .form-control {
+      background-color: #eee; }
+  #content.sub .find-area .find-form .btn-area {
+    margin-top: 10px; }
+#content.sub .join-area {
+  position: relative; }
+  #content.sub .join-area .steps {
+    position: absolute;
+    top: 0;
+    right: 0; }
+    #content.sub .join-area .steps li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      font-size: 13px;
+      color: #999;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 18px; }
+      #content.sub .join-area .steps li.active {
+        background-color: #000;
+        color: #fff; }
+  #content.sub .join-area .join-form {
+    margin-bottom: 20px; }
+    #content.sub .join-area .join-form .form-group {
+      margin-bottom: 5px; }
+      #content.sub .join-area .join-form .form-group label {
+        line-height: 30px; }
+      #content.sub .join-area .join-form .form-group .form-control {
+        background-color: #eee; }
+      #content.sub .join-area .join-form .form-group .help-block {
+        margin-bottom: 0; }
+      #content.sub .join-area .join-form .form-group.agree .help-block {
+        margin-top: 0; }
+    #content.sub .join-area .join-form .btn-area {
+      margin-top: 20px; }
+      #content.sub .join-area .join-form .btn-area p {
+        text-align: center; }
+        #content.sub .join-area .join-form .btn-area p .btn {
+          min-width: 100px; }
 
 /*# sourceMappingURL=style.css.map */

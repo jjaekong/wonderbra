@@ -15,7 +15,7 @@ ul, ol {
   margin: 0;
   padding: 0; }
 
-.font-abril, #content .page-header .title, #content.main .section-header .heading, #content.sub .confirm-pw .section-header .heading {
+.font-abril, #content .page-header .title, #content.main .section-header .heading, #content.sub .confirm-pw .section-header .heading, #content.sub.mypage.edit .page-header .title {
   font-family: 'Abril Fatface', cursive; }
 
 .font-noto, body, #content.sub .product-view .summary .container .section-header h3, #content.sub.mypage .page-header .title {
@@ -1250,6 +1250,31 @@ body.navbar-opened {
         margin-bottom: 0; }
       #content.sub .join-area .join-form .form-group.agree .help-block {
         margin-top: 0; }
+      #content.sub .join-area .join-form .form-group.birth select {
+        display: inline-block;
+        width: 70px; }
+      #content.sub .join-area .join-form .form-group.sex p label {
+        margin-right: 10px; }
+        #content.sub .join-area .join-form .form-group.sex p label input {
+          margin-top: -1px;
+          vertical-align: middle; }
+      #content.sub .join-area .join-form .form-group.email .btn {
+        margin-top: 5px;
+        font-size: 12px;
+        background-color: #000;
+        color: #fff; }
+      #content.sub .join-area .join-form .form-group.addr p {
+        margin-bottom: 5px; }
+        #content.sub .join-area .join-form .form-group.addr p label {
+          width: 100%; }
+        #content.sub .join-area .join-form .form-group.addr p.zipcode label {
+          width: 80px; }
+        #content.sub .join-area .join-form .form-group.addr p.zipcode .btn-zipcode {
+          height: 30px;
+          font-size: 12px;
+          background-color: #000;
+          color: #fff;
+          vertical-align: top; }
     #content.sub .join-area .join-form .btn-area {
       margin-top: 20px; }
       #content.sub .join-area .join-form .btn-area p {
@@ -1264,6 +1289,15 @@ body.navbar-opened {
   padding: 20px;
   border: 1px solid #ccc;
   margin-bottom: 40px; }
+  #content.sub.mypage .notify h5 {
+    margin-top: 0;
+    font-size: 12px;
+    color: #f15a22; }
+  #content.sub.mypage .notify p {
+    color: #999;
+    font-size: 12px; }
+    #content.sub.mypage .notify p + h5 {
+      margin-top: 10px; }
   #content.sub.mypage .notify li {
     padding-left: 10px;
     margin-bottom: 5px;
@@ -1274,6 +1308,11 @@ body.navbar-opened {
     background-position: 0 5px; }
     #content.sub.mypage .notify li:last-child {
       margin-bottom: 0; }
+#content.sub.mypage.edit {
+  background-image: url(/design/wonderbra/mobile/images/bg_member.png);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
 #content.sub .order-steps {
   margin-bottom: 30px; }
   #content.sub .order-steps ol {
@@ -1511,49 +1550,30 @@ body.navbar-opened {
     margin-bottom: 50px; }
     #content.sub .cart-section + .btn-area p {
       text-align: center; }
-#content.sub .coupon-list > .title {
-  padding-left: 10px;
-  font-size: 12px;
-  font-weight: bold;
-  background-image: url(/design/wonderbra/mobile/images/ico_arrow_right_sm.png);
-  background-repeat: no-repeat;
-  background-position: 0 50%;
-  background-size: 4px auto; }
-#content.sub .coupon-list > .table {
-  margin-bottom: 0; }
-  #content.sub .coupon-list > .table tbody td {
-    text-align: left; }
-    #content.sub .coupon-list > .table tbody td.number {
-      text-align: center; }
-      #content.sub .coupon-list > .table tbody td.number label {
-        font-weight: normal; }
-    #content.sub .coupon-list > .table tbody td.details dl {
-      overflow: hidden;
-      color: #666; }
-      #content.sub .coupon-list > .table tbody td.details dl dt {
-        float: left;
-        font-weight: normal; }
-        #content.sub .coupon-list > .table tbody td.details dl dt:after {
-          content: ':'; }
-#content.sub .coupon-list > .total {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px; }
-  #content.sub .coupon-list > .total p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+#content.sub .coupon-list > .btn-area {
+  margin-bottom: 10px; }
+  #content.sub .coupon-list > .btn-area p {
     text-align: right; }
-    #content.sub .coupon-list > .total p strong {
-      color: #f15a22; }
-#content.sub .coupon-list > .btn-area p {
-  text-align: center; }
-  #content.sub .coupon-list > .btn-area p .btn {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 3px;
-    font-size: 12px;
-    background-color: #555; }
-    #content.sub .coupon-list > .btn-area p .btn.btn-confirm {
-      background-color: #000; }
+    #content.sub .coupon-list > .btn-area p .btn {
+      height: 30px;
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: 12px;
+      background-color: #f15a22; }
+#content.sub .coupon-list > .table {
+  margin-bottom: 40px; }
+  #content.sub .coupon-list > .table tbody td {
+    text-align: center; }
+    #content.sub .coupon-list > .table tbody td.details {
+      text-align: left; }
+      #content.sub .coupon-list > .table tbody td.details dl {
+        overflow: hidden;
+        color: #666; }
+        #content.sub .coupon-list > .table tbody td.details dl dt {
+          float: left;
+          font-weight: normal; }
+          #content.sub .coupon-list > .table tbody td.details dl dt:after {
+            content: ':'; }
 #content.sub .point-list {
   margin-bottom: 30px; }
   #content.sub .point-list > .table {
@@ -1572,6 +1592,160 @@ body.navbar-opened {
     #content.sub .point-list > .table tfoot td {
       border-bottom: 1px solid #ccc;
       color: #000; }
+#content.sub .wish-list,
+#content.sub .recent-list {
+  margin-bottom: 40px; }
+  #content.sub .wish-list > .table,
+  #content.sub .recent-list > .table {
+    margin-bottom: 20px; }
+    #content.sub .wish-list > .table tbody td,
+    #content.sub .recent-list > .table tbody td {
+      text-align: left; }
+      #content.sub .wish-list > .table tbody td.check,
+      #content.sub .recent-list > .table tbody td.check {
+        vertical-align: top;
+        text-align: center; }
+      #content.sub .wish-list > .table tbody td.figure,
+      #content.sub .recent-list > .table tbody td.figure {
+        vertical-align: top; }
+      #content.sub .wish-list > .table tbody td .summary,
+      #content.sub .recent-list > .table tbody td .summary {
+        display: block;
+        margin-bottom: 10px; }
+        #content.sub .wish-list > .table tbody td .summary strong,
+        #content.sub .recent-list > .table tbody td .summary strong {
+          display: block;
+          margin-bottom: 5px; }
+        #content.sub .wish-list > .table tbody td .summary dl,
+        #content.sub .recent-list > .table tbody td .summary dl {
+          overflow: hidden;
+          color: #666; }
+          #content.sub .wish-list > .table tbody td .summary dl dt,
+          #content.sub .recent-list > .table tbody td .summary dl dt {
+            float: left;
+            font-weight: normal; }
+            #content.sub .wish-list > .table tbody td .summary dl dt:after,
+            #content.sub .recent-list > .table tbody td .summary dl dt:after {
+              content: ':'; }
+      #content.sub .wish-list > .table tbody td .btns .btn,
+      #content.sub .recent-list > .table tbody td .btns .btn {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 30px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px; }
+        #content.sub .wish-list > .table tbody td .btns .btn.btn-cart,
+        #content.sub .recent-list > .table tbody td .btns .btn.btn-cart {
+          background-color: #f15a22; }
+  #content.sub .wish-list > .btn-area p,
+  #content.sub .recent-list > .btn-area p {
+    text-align: right; }
+    #content.sub .wish-list > .btn-area p .btn,
+    #content.sub .recent-list > .btn-area p .btn {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 3px;
+      font-size: 12px;
+      background-color: #555; }
+      #content.sub .wish-list > .btn-area p .btn.btn-delete-all,
+      #content.sub .recent-list > .btn-area p .btn.btn-delete-all {
+        background-color: #000; }
+#content.sub .inquiry-list {
+  margin-bottom: 30px; }
+  #content.sub .inquiry-list .table tbody td {
+    text-align: center;
+    color: #777; }
+    #content.sub .inquiry-list .table tbody td.title {
+      text-align: left; }
+  #content.sub .inquiry-list .btn-area p {
+    text-align: right; }
+    #content.sub .inquiry-list .btn-area p .btn {
+      color: #fff;
+      background-color: #000; }
+#content.sub .inquiry-write {
+  margin-bottom: 50px; }
+  #content.sub .inquiry-write .table tbody td {
+    text-align: left; }
+    #content.sub .inquiry-write .table tbody td label {
+      width: 100%; }
+  #content.sub .inquiry-write .btn-area p {
+    text-align: right; }
+    #content.sub .inquiry-write .btn-area p .btn {
+      color: #fff;
+      background-color: #000; }
+      #content.sub .inquiry-write .btn-area p .btn.btn-cancel {
+        background-color: #555; }
+#content.sub .inquiry-write {
+  margin-bottom: 50px; }
+  #content.sub .inquiry-write .table tbody td {
+    text-align: left; }
+    #content.sub .inquiry-write .table tbody td label {
+      width: 100%; }
+  #content.sub .inquiry-write .btn-area p {
+    text-align: right; }
+    #content.sub .inquiry-write .btn-area p .btn {
+      color: #fff;
+      background-color: #000; }
+      #content.sub .inquiry-write .btn-area p .btn.btn-cancel {
+        background-color: #555; }
+#content.sub .inquiry-view {
+  margin-bottom: 50px; }
+  #content.sub .inquiry-view .table tbody td {
+    text-align: left; }
+  #content.sub .inquiry-view .btn-area p {
+    text-align: right; }
+    #content.sub .inquiry-view .btn-area p .btn {
+      color: #fff;
+      background-color: #000; }
+#content.sub .order-list,
+#content.sub .return-list {
+  margin-bottom: 40px; }
+  #content.sub .order-list > .table,
+  #content.sub .return-list > .table {
+    margin-bottom: 0; }
+    #content.sub .order-list > .table tbody td,
+    #content.sub .return-list > .table tbody td {
+      text-align: left; }
+      #content.sub .order-list > .table tbody td.date,
+      #content.sub .return-list > .table tbody td.date {
+        text-align: center; }
+      #content.sub .order-list > .table tbody td.figure,
+      #content.sub .return-list > .table tbody td.figure {
+        vertical-align: top; }
+      #content.sub .order-list > .table tbody td .summary,
+      #content.sub .return-list > .table tbody td .summary {
+        display: block;
+        margin-bottom: 10px; }
+        #content.sub .order-list > .table tbody td .summary strong,
+        #content.sub .return-list > .table tbody td .summary strong {
+          display: block;
+          margin-bottom: 5px; }
+        #content.sub .order-list > .table tbody td .summary dl,
+        #content.sub .return-list > .table tbody td .summary dl {
+          overflow: hidden;
+          color: #666; }
+          #content.sub .order-list > .table tbody td .summary dl dt,
+          #content.sub .return-list > .table tbody td .summary dl dt {
+            float: left;
+            font-weight: normal; }
+            #content.sub .order-list > .table tbody td .summary dl dt:after,
+            #content.sub .return-list > .table tbody td .summary dl dt:after {
+              content: ':'; }
+      #content.sub .order-list > .table tbody td .btns .btn,
+      #content.sub .return-list > .table tbody td .btns .btn {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 30px;
+        background-color: #000;
+        color: #fff;
+        font-size: 12px; }
+        #content.sub .order-list > .table tbody td .btns .btn.btn-details,
+        #content.sub .return-list > .table tbody td .btns .btn.btn-details {
+          background-color: #555; }
+  #content.sub .order-list + .paging,
+  #content.sub .return-list + .paging {
+    margin-bottom: 50px; }
 
 .modal .modal-content {
   padding: 10px;
@@ -1623,5 +1797,48 @@ body.navbar-opened {
   line-height: 22px; }
   .modal .btn-area .btn.btn-cancel {
     background-color: #555; }
+.modal .coupon-list > .title {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background-image: url(/design/wonderbra/mobile/images/ico_arrow_right_sm.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 4px auto; }
+.modal .coupon-list > .table {
+  margin-bottom: 0; }
+  .modal .coupon-list > .table tbody td {
+    text-align: left; }
+    .modal .coupon-list > .table tbody td.number {
+      text-align: center; }
+      .modal .coupon-list > .table tbody td.number label {
+        font-weight: normal; }
+    .modal .coupon-list > .table tbody td.details dl {
+      overflow: hidden;
+      color: #666; }
+      .modal .coupon-list > .table tbody td.details dl dt {
+        float: left;
+        font-weight: normal; }
+        .modal .coupon-list > .table tbody td.details dl dt:after {
+          content: ':'; }
+.modal .coupon-list > .total {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .modal .coupon-list > .total p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right; }
+    .modal .coupon-list > .total p strong {
+      color: #f15a22; }
+.modal .coupon-list > .btn-area p {
+  text-align: center; }
+  .modal .coupon-list > .btn-area p .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    background-color: #555; }
+    .modal .coupon-list > .btn-area p .btn.btn-confirm {
+      background-color: #000; }
 
 /*# sourceMappingURL=style.css.map */

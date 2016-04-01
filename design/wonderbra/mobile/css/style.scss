@@ -1819,4 +1819,346 @@ body.navbar-opened {
             }
         }
     }
+    &.mypage {
+        .page-header {
+            .title {
+                @extend .font-noto;
+                font-weight: bold;
+            }
+        }
+    }
+    .order-steps {
+        margin-bottom: 30px;
+        ol {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 33.33%;
+                height: 45px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: #f1f1f1;
+                text-align: center;
+                line-height: 25px;
+                font-weight: bold;
+                color: #555;
+                i {
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 5px;
+                    font-style: normal;
+                    border-radius: 50%;
+                    background-color: #fff;
+                }
+                &.active {
+                    background-image: url(/design/wonderbra/mobile/images/bg_order_step.png);
+                    background-size: 3px auto;
+                    color: #fff;
+                    i {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .cart-list {
+        margin-bottom: 40px;
+        > .title {
+            padding-left: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            background-image: url(/design/wonderbra/mobile/images/ico_arrow_right_sm.png);
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            background-size: 4px auto;
+        }
+        > .table {
+            margin-bottom: 0;
+            tbody {
+                td {
+                    text-align: left;
+                    &.check {
+                        vertical-align: top;
+                        text-align: center;
+                    }
+                    &.figure {
+                        vertical-align: top;
+                    }
+                    .summary {
+                        display: block;
+                        margin-bottom: 10px;
+                        strong {
+                            display: block;
+                            margin-bottom: 5px;
+                        }
+                        dl {
+                            overflow: hidden;
+                            color: #666;
+                            dt {
+                                float: left;
+                                font-weight: normal;
+                                &:after {
+                                    content: ':';
+                                }
+                            }
+                        }
+                    }
+                    .counter {
+                        margin-bottom: 10px;
+                        .form-control {
+                            display: inline-block;
+                            width: 50px;
+                        }
+                        .btn {
+                            width: 30px;
+                            heigtt: 30px;
+                            padding-left: 0;
+                            padding-right: 0;
+                            background-color: #555;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            &.btn-edit {
+                                padding-left: 5px;
+                                padding-right: 5px;
+                                width: auto;
+                                background-color: #000;
+                            }
+                        }
+                    }
+                    .btns {
+                        .btn {
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            height: 30px;
+                            background-color: #000;
+                            color: #fff;
+                            font-size: 12px;
+                            &.btn-wish {
+                                background-color: #f15a22;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        > .total {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            p {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: right;
+                strong {
+                    color: #f15a22;
+                }
+            }
+        }
+        > .btn-area {
+            p {
+                text-align: center;
+                .btn {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin-bottom: 3px;
+                    font-size: 12px;
+                    background-color: #555;
+                    &.btn-order {
+                        background-color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .cart-section {
+        margin-bottom: 40px;
+        header {
+            height: 40px;
+            padding: 10px;
+            background-color: #000;
+            line-heigth: 20px;
+            h4 {
+                display: inline-block;
+                margin: 0;
+                font-size: 12px;
+                color: #fff;
+            }
+            label {
+                margin-left: 10px;
+                color: #999;
+                font-weight: normal;
+                input {
+                    margin-top: 0;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .table {
+            border-top: 0;
+            tbody {
+                th {
+                    border-right: 1px solid #ccc;
+                }
+                td {
+                    text-align: left;
+                }
+                .contact {
+                    .form-control {
+                        width: 50px;
+                    }
+                }
+                .addr {
+                    p {
+                        margin-bottom: 10px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .type {
+                        label {
+                            margin-right: 5px;
+                            color: #777;
+                        }
+                    }
+                    .zipcode {
+                        label {
+                            width: 80px;
+                        }
+                        .btn-zipcode {
+                            height: 30px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            background-color: #555;
+                            color: #fff;
+                            font-size: 12px;
+                            vertical-align: top;
+                        }
+                    }
+                    .default,
+                    .details {
+                        label {
+                            width: 100%;
+                        }
+                        .form-control {
+                            max-width: 100%;
+                        }
+                    }
+                }
+                .message {
+                    .form-control {
+                        width: 100%;
+                        height: 100px;
+                    }
+                }
+                .point {
+                    /*
+                    label {
+                        display: inline;
+                        .form-control {
+                            display: inline-block;
+                            width: 80px;
+                            margin-bottom: 5px;
+                        }
+                    }
+                    span {
+                        color: #777;
+                    }
+                    */
+                    p {
+                        margin-bottom: 5px;
+                        &:last-child {
+                            margin-bottom: 0;
+                            label {
+                                .form-control {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                        label {
+                            width: 100%;
+                            color: #777;
+                            font-weight: normal;
+                            .form-control {
+                                display: inline-block;
+                                width: 70px;
+                                margin-bottom: 5px;
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+                .coupon {
+                    p {
+                        margin-bottom: 10px;
+                        label {
+                            margin-bottom: 5px;
+                        }
+                        .btn-coupon {
+                            height: 30px;
+                            background-color: #f15a22;
+                            color: #fff;
+                            font-size: 12px;
+                            vertical-align: top;
+                        }
+                        &:last-child {
+                            margin-bottom: 0;
+                            color: #777;
+                        }
+                        i {
+                            font-style: normal;
+                            color: #f15a22;
+                        }
+                    }
+                }
+            }
+        }
+        &.total {
+            header {
+                h4 {
+                    color: #ffde16;
+                }
+            }
+            dl {
+                padding-top: 10px;
+                padding-bottom: 5px;
+                text-align: right;
+                dt, dd {
+                    display: inline;
+                    strong {
+                        color: #f15a22;
+                    }
+                }
+                dt:after {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    content: ':';
+                }
+            }
+            p {
+                color: #f15a22;
+                text-align: right;
+            }
+        }
+        &.done {
+            strong {
+                font-size: 16px;
+                letter-spacing: -1px;
+            }
+            p {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                i {
+                    color: #f15a22;
+                    font-style: normal;
+                }
+            }
+        }
+        & + .btn-area {
+            margin-bottom: 50px;
+            p {
+                text-align: center;
+            }
+        }
+    }
 }

@@ -202,7 +202,7 @@
                             <td>
                                 <p>
                                     <label><input type="text" class="form-control input-sm"></label>
-                                    <button type="button" class="btn btn-default btn-coupon">쿠폰 등록</button>
+                                    <button type="button" class="btn btn-default btn-coupon" data-toggle="modal" data-target="#coupon">쿠폰 적용</button>
                                 </p>
                                 <p>
                                     보유하신 쿠폰을 적용하시면 할인 또는 추가적립 혜택을 받으실 수 있습니다.
@@ -233,6 +233,64 @@
             </div>
         </div>
     </main>
+    <div id="coupon" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="coupon-modal-title">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h4 id="coupon-modal-title" class="modal-title">쿠폰조회 및 적용</h4>
+                        <p>할인율(%) 쿠폰은 해당되는 상품별로 할인내역이 표시됩니다.</p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="coupon-list">
+                        <h4 class="title">보유 쿠폰 내역</h4>
+                        <table class="table">
+                            <colgroup>
+                                <col style="width: 100px;">
+                                <col>
+                                <col>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>쿠폰번호</th>
+                                    <th>쿠폰정보</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="number"><label><input type="radio"> 102310321</label></td>
+                                    <td class="details">
+                                        <dl>
+                                            <dt>쿠폰적용상품</dt>
+                                            <dd>전상품</dd>
+                                            <dt>사용가능금액</dt>
+                                            <dd>50,000원이상</dd>
+                                            <dt>사용범위</dt>
+                                            <dd>웹+모바일</dd>
+                                            <dt>할인/적립율</dt>
+                                            <dd>할인액 3,000원</dd>
+                                            <dt>사용기간</dt>
+                                            <dd>2016.02.02 ~ 2017.02.01</dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="total">
+                            <p>총 구매금액  :  169,000원 - 그룹할인 25,350원 = <strong>143,650원</strong> (적립금 1,690원)</p>
+                        </div>
+                        <div class="btn-area">
+                            <p>
+                                <button type="button" class="btn btn-default btn-cancel" data-dismiss="modal">취소</button>
+                                <button type="button" class="btn btn-default btn-confirm">확인</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>

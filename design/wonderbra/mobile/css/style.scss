@@ -2525,6 +2525,56 @@ body.navbar-opened {
             margin-bottom: 50px;
         }
     }
+    .exhibit-visual {
+        p {
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    .exhibit-list {
+        padding: 20px;
+        background-color: #f3f3f3;
+        li {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    &.onair {
+        .cast {
+            .page-header {
+                padding-bottom: 20px;
+                background-color: #ffde16;
+                .title {
+                    padding-bottom: 0;
+                }
+                hr {
+                    width: 40px;
+                    border-top: 2px solid #000;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                .count {
+                    font-size: 30px;
+                    text-align: center;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 100;
+                    font-size: 70px;
+                    line-height: 70px;
+                } 
+            }
+        }
+        .best {
+            .product-list {
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 // 모달

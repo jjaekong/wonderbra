@@ -25,6 +25,18 @@
     });  
     $(".carousel-inner").parent().swipeleft(function() {  
         $(this).carousel('next');  
-    }); 
+    });
+    
+    // 상단 검색버튼
+    $(document).on('click', '#header .btn-search-open', function() {
+        $('#header > .search').show().find('.form-control').focus();
+        $(this).removeClass('btn-search-open').addClass('btn-search-close');
+        $(this).html('<img src="/design/wonderbra/mobile/images/ico_close.png" alt="검색영역 닫기">');
+    });
+    $(document).on('click', '#header .btn-search-close', function() {
+        $('#header > .search').hide();
+        $(this).removeClass('btn-search-close').addClass('btn-search-open');
+        $(this).html('<img src="/design/wonderbra/mobile/images/ico_search.png" alt="검색영역 열기">');
+    });
     
 })(jQuery);

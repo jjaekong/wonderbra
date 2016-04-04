@@ -43,6 +43,9 @@ address {
 dl {
   margin-bottom: 0; }
 
+.img-responsive {
+  margin: 0 auto; }
+
 .container {
   padding-left: 20px;
   padding-right: 20px; }
@@ -78,7 +81,35 @@ label {
     position: relative;
     height: 68px;
     padding-left: 200px;
-    background-color: #111; }
+    background-color: #111;
+    /*
+    .search {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 175px;
+        height: 41px;
+        border-bottom: 1px solid #fff;
+        .form-control {
+            float: left;
+            width: 135px;
+            height: 40px;
+            border: 0;
+            background-color: transparent;
+            color: #fff;
+        }
+        .btn-search {
+            float: right;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            background-color: transparent;
+            img {
+                width: 21px;
+            }
+        }
+    }
+    */ }
     #header .top .btn-navbar-open {
       position: absolute;
       top: 18px;
@@ -104,28 +135,47 @@ label {
       margin: 0; }
       #header .top .logo img {
         display: block; }
-    #header .top .search {
+    #header .top .btn-search-open,
+    #header .top .btn-search-close {
       position: absolute;
-      top: 12px;
-      right: 12px;
-      width: 175px;
-      height: 41px;
-      border-bottom: 1px solid #fff; }
-      #header .top .search .form-control {
-        float: left;
-        width: 135px;
-        height: 40px;
-        border: 0;
-        background-color: transparent;
-        color: #fff; }
-      #header .top .search .btn-search {
-        float: right;
-        width: 40px;
-        height: 40px;
-        padding: 0;
-        background-color: transparent; }
-        #header .top .search .btn-search img {
-          width: 21px; }
+      top: 17px;
+      right: 10px;
+      width: 34px;
+      height: 34px;
+      padding: 4px;
+      background-color: transparent; }
+      #header .top .btn-search-open img,
+      #header .top .btn-search-close img {
+        width: 100%; }
+    #header .top .btn-search-close {
+      padding: 6px; }
+  #header .search {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    padding: 10px 55px 10px 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 990; }
+    #header .search .form-control {
+      height: 28px;
+      padding-top: 0;
+      padding-bottom: 0;
+      border: 0;
+      border-bottom: 1px solid #fff;
+      background-color: transparent;
+      color: #fff; }
+    #header .search .btn-search {
+      position: absolute;
+      top: 7px;
+      right: 10px;
+      width: 34px;
+      height: 34px;
+      padding: 6px;
+      background-color: transparent; }
+      #header .search .btn-search img {
+        width: 100%; }
   #header .quick {
     border-bottom: 3px solid rgba(139, 139, 139, 0.4);
     background-color: #fff; }
@@ -1281,6 +1331,45 @@ body.navbar-opened {
         text-align: center; }
         #content.sub .join-area .join-form .btn-area p .btn {
           min-width: 100px; }
+    #content.sub .join-area .join-form #terms_agree {
+      padding: 0 10px 0;
+      border: 1px solid #ccc; }
+      #content.sub .join-area .join-form #terms_agree .terms-agree dl {
+        font-size: 12px; }
+        #content.sub .join-area .join-form #terms_agree .terms-agree dl dt {
+          padding-left: 0;
+          margin-top: 0; }
+        #content.sub .join-area .join-form #terms_agree .terms-agree dl dd {
+          padding: 5px 0;
+          margin-left: 0;
+          margin-right: 0; }
+          #content.sub .join-area .join-form #terms_agree .terms-agree dl dd .lst li {
+            width: auto;
+            margin-right: 10px; }
+          #content.sub .join-area .join-form #terms_agree .terms-agree dl dd .txt {
+            white-space: normal;
+            font-size: 12px;
+            color: #555; }
+          #content.sub .join-area .join-form #terms_agree .terms-agree dl dd:nth-of-type(2) {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+    #content.sub .join-area .join-form #terms_desc .terms-desc dl dt {
+      font-size: 12px; }
+    #content.sub .join-area .join-form #terms_desc .terms-desc dl dd {
+      /*
+      padding: 0;
+      background-color: #fff;
+      .sect {
+          padding: 0;
+      }
+      textarea {
+          border: 0;
+      }
+      */ }
+      #content.sub .join-area .join-form #terms_desc .terms-desc dl dd textarea {
+        font-size: 12px; }
+      #content.sub .join-area .join-form #terms_desc .terms-desc dl dd .sect tr:nth-of-type(2) td {
+        border-bottom: 0; }
 #content.sub.mypage .page-header .title {
   font-weight: bold; }
 #content.sub.mypage .paging {

@@ -2703,6 +2703,53 @@ body.navbar-opened {
             }
         }
     }
+    .store-list {
+        border-top: 2px solid #333;
+        margin-bottom: 30px;
+        li {
+            position: relative;
+            border-bottom: 1px solid #ccc;
+            font-size: 13px;
+            .name {
+                overflow: hidden;
+                display: block;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                line-height: 20px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                .glyphicon {
+                    position: absolute;
+                    top: 12px;
+                    right: 10px;
+                }
+            }
+            .details {
+                display: none;
+                padding: 20px;
+                color: #777;
+                address {
+                    margin-bottom: 10px;
+                }
+                dl {
+                    margin-bottom: 20px;
+                    dt, dd {
+                        display: inline-block;
+                        font-weight: normal;
+                    }
+                }
+            }
+            &.active {
+                .name {
+                    background-color: #ffde16;
+                }
+                .details {
+                    display: block;
+                }
+            }
+        }
+    }
 }
 #addrSearch {
     padding: 20px;

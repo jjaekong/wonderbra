@@ -1878,6 +1878,41 @@ body.navbar-opened {
     line-height: 70px; }
 #content.sub.onair .best .product-list {
   margin-top: 0; }
+#content.sub .store-list {
+  border-top: 2px solid #333;
+  margin-bottom: 30px; }
+  #content.sub .store-list li {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px; }
+    #content.sub .store-list li .name {
+      overflow: hidden;
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      line-height: 20px;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #content.sub .store-list li .name .glyphicon {
+        position: absolute;
+        top: 12px;
+        right: 10px; }
+    #content.sub .store-list li .details {
+      display: none;
+      padding: 20px;
+      color: #777; }
+      #content.sub .store-list li .details address {
+        margin-bottom: 10px; }
+      #content.sub .store-list li .details dl {
+        margin-bottom: 20px; }
+        #content.sub .store-list li .details dl dt, #content.sub .store-list li .details dl dd {
+          display: inline-block;
+          font-weight: normal; }
+    #content.sub .store-list li.active .name {
+      background-color: #ffde16; }
+    #content.sub .store-list li.active .details {
+      display: block; }
 
 #addrSearch {
   padding: 20px; }

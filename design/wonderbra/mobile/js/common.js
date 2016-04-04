@@ -11,9 +11,9 @@
     });
     
     // GNB 메뉴 클릭
-    $(document).on('click', '#navbar > .gnb > li > a', function() {
-        $('#navbar > .gnb > li').removeClass('active');
-        $('#navbar > .gnb > li > a > .glyphicon').removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+    $(document).on('click', '#navbar > .gnb > ul > li > a', function() {
+        $('#navbar > .gnb > ul > li').removeClass('active');
+        $('#navbar > .gnb > ul > li > a > .glyphicon').removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
         $(this).parent().addClass('active');
         $(this).find('.glyphicon').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
         return false;

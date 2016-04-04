@@ -6,12 +6,15 @@
             <span class="bar"></span>            
         </button>
         <h1 class="logo"><img src="/design/wonderbra/mobile/images/logo.png" width="133" alt="wonderbra"></h1>
-        <div class="search">
-            <input class="form-control" type="text" name="#">
-            <button type="button" class="btn btn-default btn-search">
-                <img src="/design/wonderbra/mobile/images/ico_search.png" alt="검색">
-            </button>
-        </div>
+        <button type="button" class="btn btn-default btn-search-open">
+            <img src="/design/wonderbra/mobile/images/ico_search.png" alt="검색영역 열기">
+        </button>
+    </div>
+    <div class="search" style="display: none;">
+        <input type="text" class="form-control input-sm">
+        <button type="button" class="btn btn-default btn-search">
+            <img src="/design/wonderbra/mobile/images/ico_search.png" alt="검색">
+        </button>
     </div>
     <nav class="quick">
         <ul>

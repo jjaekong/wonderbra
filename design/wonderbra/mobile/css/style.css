@@ -1913,6 +1913,69 @@ body.navbar-opened {
       background-color: #ffde16; }
     #content.sub .store-list li.active .details {
       display: block; }
+#content.sub .order-view .oder-details {
+  margin-bottom: 40px; }
+  #content.sub .order-view .oder-details > header {
+    padding: 5px 10px;
+    background-color: #000; }
+    #content.sub .order-view .oder-details > header h4 {
+      font-size: 12px;
+      line-height: 15px;
+      color: #fff; }
+  #content.sub .order-view .oder-details > section {
+    border-top: 1px solid #000; }
+    #content.sub .order-view .oder-details > section > header {
+      position: relative;
+      height: 40px; }
+      #content.sub .order-view .oder-details > section > header h5 {
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold; }
+      #content.sub .order-view .oder-details > section > header .btn-details {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        background-color: #000;
+        color: #fff;
+        height: 30px;
+        font-size: 12px; }
+    #content.sub .order-view .oder-details > section > .table {
+      display: none;
+      border-top: 0;
+      margin-bottom: 0; }
+      #content.sub .order-view .oder-details > section > .table thead tr th {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background-color: #f1f1f1; }
+      #content.sub .order-view .oder-details > section > .table tbody th {
+        border-right: 1px solid #ccc; }
+      #content.sub .order-view .oder-details > section > .table tbody th + td {
+        text-align: left; }
+      #content.sub .order-view .oder-details > section > .table tbody tr:last-child td, #content.sub .order-view .oder-details > section > .table tbody tr:last-child th {
+        border-bottom: 0; }
+    #content.sub .order-view .oder-details > section > .btn-area {
+      display: none;
+      margin-top: 10px; }
+  #content.sub .order-view .oder-details .product {
+    position: relative;
+    padding: 10px 100px 10px 10px; }
+    #content.sub .order-view .oder-details .product h5 {
+      margin: 0 0 10px 0;
+      font-size: 12px;
+      line-height: 18px; }
+    #content.sub .order-view .oder-details .product dl dt, #content.sub .order-view .oder-details .product dl dd {
+      display: inline-block; }
+    #content.sub .order-view .oder-details .product dl dt {
+      font-weight: normal; }
+      #content.sub .order-view .oder-details .product dl dt:after {
+        content: ':'; }
+    #content.sub .order-view .oder-details .product .btn-review {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #f15a22;
+      color: #fff;
+      font-size: 12px; }
 
 #addrSearch {
   padding: 20px; }

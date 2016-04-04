@@ -2750,6 +2750,100 @@ body.navbar-opened {
             }
         }
     }
+    .order-view {
+        .oder-details {
+            margin-bottom: 40px;
+            > header {
+                padding: 5px 10px;
+                background-color: #000;
+                h4 {
+                    font-size: 12px; 
+                    line-height: 15px;
+                    color: #fff;
+                }
+            }
+            > section {
+                border-top: 1px solid #000;
+                > header {
+                    position: relative;
+                    height: 40px;
+                    h5 {
+                        padding: 10px;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                    .btn-details {
+                        position: absolute;
+                        top: 0;
+                        right: 10px;
+                        background-color: #000;
+                        color: #fff;
+                        height: 30px;
+                        font-size: 12px;
+                    }
+                }
+                > .table {
+                    display: none;
+                    border-top: 0;
+                    margin-bottom: 0;
+                    thead {
+                        tr {
+                            th {
+                                border-top: 1px solid #ccc;
+                                border-bottom: 1px solid #ccc;
+                                background-color: #f1f1f1;
+                            }
+                        }
+                    }
+                    tbody {
+                        th {
+                            border-right: 1px solid #ccc;
+                        }
+                        th + td {
+                            text-align: left;
+                        }
+                        tr:last-child {
+                            td, th {
+                                border-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                > .btn-area {
+                    display: none;
+                    margin-top: 10px;
+                }
+            }
+            .product {
+                position: relative;
+                padding: 10px 100px 10px 10px;
+                h5 {
+                    margin: 0 0 10px 0;
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+                dl {
+                    dt, dd {
+                        display: inline-block;
+                    }
+                    dt {
+                        font-weight: normal;
+                        &:after {
+                            content: ':';
+                        }
+                    }
+                }
+                .btn-review {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    background-color: #f15a22;
+                    color: #fff;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
 }
 #addrSearch {
     padding: 20px;

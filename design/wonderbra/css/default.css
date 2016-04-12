@@ -43,10 +43,12 @@
 .clearfix:after {
   clear: both; }
 
+/*
 .container {
-  width: 1200px !important;
-  min-width: 1200px !important; }
-
+    width: 1200px !important;
+    min-width: 1200px !important;
+}
+*/
 ul, ol {
   list-style: none;
   padding-left: 0;
@@ -83,7 +85,6 @@ body > .sr-only-focusable {
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 1200px;
   height: 40px;
   background-color: #343434;
   z-index: 999; }
@@ -142,7 +143,6 @@ body > .sr-only-focusable {
   top: 40px;
   left: 0;
   width: 100%;
-  min-width: 1200px;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 999;

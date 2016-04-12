@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200, initial-scale=1">
     <title>wonderbra</title>
     <link href='https://fonts.googleapis.com/css?family=Abril+Fatface%7CMaven+Pro:400,700%7CNoto+Sans:400,700' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet'>

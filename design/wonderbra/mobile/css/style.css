@@ -184,8 +184,8 @@ label {
       #header .quick ul li {
         float: left;
         width: 25%;
-        height: 45px;
-        line-height: 45px;
+        height: 35px;
+        line-height: 35px;
         border-left: 1px solid rgba(139, 139, 139, 0.4); }
         #header .quick ul li:first-child {
           border-left: 0; }
@@ -304,7 +304,7 @@ body.navbar-opened {
     left: 0; }
 
 #content {
-  margin-top: 115px;
+  margin-top: 105px;
   background-color: #fff; }
   #content .page-header {
     padding-bottom: 0;

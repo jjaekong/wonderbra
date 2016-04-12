@@ -210,8 +210,8 @@ label {
             li {
                 float: left;
                 width: 25%;
-                height: 45px;
-                line-height: 45px;
+                height: 35px;
+                line-height: 35px;
                 border-left: 1px solid rgba(#8b8b8b, .4);
                 &:first-child {
                     border-left: 0;
@@ -367,7 +367,7 @@ body.navbar-opened {
 
 // 중앙컨텐츠
 #content {
-    margin-top: 115px;
+    margin-top: 105px;
     background-color: #fff;
     .page-header {
         padding-bottom: 0;

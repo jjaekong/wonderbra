@@ -248,12 +248,57 @@ label {
         text-align: center; }
       #navbar .member li:first-child {
         border-left: 0; }
+  #navbar .grade {
+    position: relative;
+    padding: 30px 20px;
+    border-bottom: 2px solid #504f50;
+    background-color: #1b191a;
+    color: #fff;
+    z-index: 9995; }
+    #navbar .grade h3 {
+      overflow: hidden;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      letter-spacing: -1px; }
+      #navbar .grade h3 img {
+        margin-right: 10px;
+        vertical-align: middle; }
+    #navbar .grade > div {
+      position: relative;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 100px;
+      height: 50px;
+      border-bottom: 1px solid #222;
+      font-size: 15px; }
+      #navbar .grade > div dl dt {
+        float: left;
+        width: 100px;
+        font-weight: normal;
+        line-height: 30px;
+        letter-spacing: -1px; }
+      #navbar .grade > div dl dd {
+        margin-left: 100px;
+        text-align: right;
+        line-height: 30px; }
+      #navbar .grade > div .btn {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 80px;
+        height: 30px;
+        border: 1px solid #fff;
+        color: #fff;
+        font-size: 13px; }
   #navbar .gnb {
     overflow: auto;
     position: absolute;
     top: 0;
     left: 0;
-    padding-top: 113px;
+    padding-top: 325px;
     width: 100%;
     height: 100%;
     z-index: 9991; }
@@ -378,7 +423,45 @@ body.navbar-opened {
         color: #000; }
 
 #footer {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  /*
+  .quick {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #242424;
+      z-index: 990;
+      ul {
+          overflow: hidden;
+          li {
+              float: left;
+              width: 20%;
+              height: 70px;
+              border-left: 1px solid #4d4d4d;
+              text-align: center;
+              &:first-child {
+                  border-left: 0;
+              }
+              a {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  color: #888;
+                  font-size: 12px;
+                  p {
+                      height: 30px;
+                      margin-top: 15px;
+                      margin-bottom: 0;
+                      img {
+                          vertical-align: bottom;
+                      }
+                  }
+              }
+          }
+      }
+  }
+  */ }
   #footer .quick-nav {
     padding: 20px 15px;
     border-top: 1px solid rgba(106, 106, 106, 0.25);
@@ -495,30 +578,31 @@ body.navbar-opened {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #242424;
     z-index: 990; }
-    #footer .quick ul {
-      overflow: hidden; }
-      #footer .quick ul li {
-        float: left;
-        width: 20%;
-        height: 70px;
-        border-left: 1px solid #4d4d4d;
-        text-align: center; }
-        #footer .quick ul li:first-child {
-          border-left: 0; }
-        #footer .quick ul li a {
-          display: block;
-          width: 100%;
-          height: 100%;
-          color: #888;
-          font-size: 12px; }
-          #footer .quick ul li a p {
-            height: 30px;
-            margin-top: 15px;
-            margin-bottom: 0; }
-            #footer .quick ul li a p img {
-              vertical-align: bottom; }
+    #footer .quick a {
+      position: absolute;
+      bottom: 15px;
+      display: block;
+      width: 55px;
+      height: 55px;
+      color: #888;
+      font-size: 12px;
+      background-color: rgba(31, 31, 31, 0.9);
+      text-align: center; }
+      #footer .quick a:nth-of-type(1) {
+        left: 20px; }
+        #footer .quick a:nth-of-type(1) p {
+          margin-top: 10px;
+          height: 20px; }
+      #footer .quick a:nth-of-type(2) {
+        right: 20px; }
+        #footer .quick a:nth-of-type(2) p {
+          margin-top: 14px;
+          height: 16px; }
+      #footer .quick a p {
+        margin-bottom: 0; }
+        #footer .quick a p img {
+          vertical-align: top; }
 
 #content.main .section-header {
   margin-bottom: 30px; }
@@ -1913,25 +1997,25 @@ body.navbar-opened {
       background-color: #ffde16; }
     #content.sub .store-list li.active .details {
       display: block; }
-#content.sub .order-view .oder-details {
+#content.sub .order-view .order-details {
   margin-bottom: 40px; }
-  #content.sub .order-view .oder-details > header {
+  #content.sub .order-view .order-details > header {
     padding: 5px 10px;
     background-color: #000; }
-    #content.sub .order-view .oder-details > header h4 {
+    #content.sub .order-view .order-details > header h4 {
       font-size: 12px;
       line-height: 15px;
       color: #fff; }
-  #content.sub .order-view .oder-details > section {
+  #content.sub .order-view .order-details > section {
     border-top: 1px solid #000; }
-    #content.sub .order-view .oder-details > section > header {
+    #content.sub .order-view .order-details > section > header {
       position: relative;
       height: 40px; }
-      #content.sub .order-view .oder-details > section > header h5 {
+      #content.sub .order-view .order-details > section > header h5 {
         padding: 10px;
         font-size: 12px;
         font-weight: bold; }
-      #content.sub .order-view .oder-details > section > header .btn-details {
+      #content.sub .order-view .order-details > section > header .btn-details {
         position: absolute;
         top: 0;
         right: 10px;
@@ -1939,43 +2023,83 @@ body.navbar-opened {
         color: #fff;
         height: 30px;
         font-size: 12px; }
-    #content.sub .order-view .oder-details > section > .table {
+    #content.sub .order-view .order-details > section > .table {
       display: none;
       border-top: 0;
       margin-bottom: 0; }
-      #content.sub .order-view .oder-details > section > .table thead tr th {
+      #content.sub .order-view .order-details > section > .table thead tr th {
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
         background-color: #f1f1f1; }
-      #content.sub .order-view .oder-details > section > .table tbody th {
+      #content.sub .order-view .order-details > section > .table tbody th {
         border-right: 1px solid #ccc; }
-      #content.sub .order-view .oder-details > section > .table tbody th + td {
+      #content.sub .order-view .order-details > section > .table tbody th + td {
         text-align: left; }
-      #content.sub .order-view .oder-details > section > .table tbody tr:last-child td, #content.sub .order-view .oder-details > section > .table tbody tr:last-child th {
+      #content.sub .order-view .order-details > section > .table tbody tr:last-child td, #content.sub .order-view .order-details > section > .table tbody tr:last-child th {
         border-bottom: 0; }
-    #content.sub .order-view .oder-details > section > .btn-area {
+    #content.sub .order-view .order-details > section > .btn-area {
       display: none;
       margin-top: 10px; }
-  #content.sub .order-view .oder-details .product {
+    #content.sub .order-view .order-details > section.payment {
+      border-bottom: 1px solid #000; }
+  #content.sub .order-view .order-details .product {
     position: relative;
     padding: 10px 100px 10px 10px; }
-    #content.sub .order-view .oder-details .product h5 {
+    #content.sub .order-view .order-details .product h5 {
       margin: 0 0 10px 0;
       font-size: 12px;
       line-height: 18px; }
-    #content.sub .order-view .oder-details .product dl dt, #content.sub .order-view .oder-details .product dl dd {
+    #content.sub .order-view .order-details .product dl dt, #content.sub .order-view .order-details .product dl dd {
       display: inline-block; }
-    #content.sub .order-view .oder-details .product dl dt {
+    #content.sub .order-view .order-details .product dl dt {
       font-weight: normal; }
-      #content.sub .order-view .oder-details .product dl dt:after {
+      #content.sub .order-view .order-details .product dl dt:after {
         content: ':'; }
-    #content.sub .order-view .oder-details .product .btn-review {
+    #content.sub .order-view .order-details .product .btn-review {
       position: absolute;
       top: 10px;
       right: 10px;
       background-color: #f15a22;
       color: #fff;
       font-size: 12px; }
+#content.sub .order-view > .btn-area {
+  margin-bottom: 40px; }
+  #content.sub .order-view > .btn-area .btn {
+    height: 40px;
+    background-color: #ffde16;
+    color: #000;
+    line-height: 28px; }
+#content.sub .grade-view {
+  margin-bottom: 30px; }
+  #content.sub .grade-view .grade-details {
+    padding: 10px;
+    min-height: 100px;
+    background-color: #333; }
+    #content.sub .grade-view .grade-details > div {
+      padding: 20px;
+      border: 2px dashed #756a2a;
+      text-align: center; }
+      #content.sub .grade-view .grade-details > div img {
+        width: 75px; }
+      #content.sub .grade-view .grade-details > div h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #fff; }
+      #content.sub .grade-view .grade-details > div .btn-area {
+        margin-bottom: 20px; }
+        #content.sub .grade-view .grade-details > div .btn-area .btn {
+          color: #fff;
+          border: 1px solid #fff;
+          background-color: transparent;
+          min-width: 100px; }
+      #content.sub .grade-view .grade-details > div .saved {
+        color: #fff; }
+        #content.sub .grade-view .grade-details > div .saved dl {
+          padding-bottom: 5px;
+          border-bottom: 1px solid #717171; }
+          #content.sub .grade-view .grade-details > div .saved dl dt, #content.sub .grade-view .grade-details > div .saved dl dd {
+            line-height: 2em; }
 
 #addrSearch {
   padding: 20px; }

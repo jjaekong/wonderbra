@@ -71,12 +71,8 @@
         </p>
     </div>
     <nav class="quick">
-        <ul>
-            <li><a href="#"><p><img src="/design/wonderbra/mobile/images/ico_arrow_prev.png" width="14" alt=""></p>이전</a></li>
-            <li><a href="#"><p><img src="/design/wonderbra/mobile/images/ico_person.png" width="16" alt=""></p>마이페이지</a></li>
-            <li><a href="#"><p><img src="/design/wonderbra/mobile/images/ico_cart.png" width="26" alt=""></p>카트</a></li>
-            <li><a href="#"><p><img src="/design/wonderbra/mobile/images/ico_home.png" width="24" alt=""></p>홈</a></li>
-            <li><a href="#"><p><img src="/design/wonderbra/mobile/images/ico_arrow_top.png" width="23" alt=""></p>위로</a></li>
+        <a href="#"><p><img src="/design/wonderbra/mobile/images/ico_arrow_prev.png" width="9" alt=""></p>BACK</a>
+        <a href="#"><p><img src="/design/wonderbra/mobile/images/ico_arrow_top.png" width="16" alt=""></p>TOP</a>
         </ul>
     </nav>
 </footer>

@@ -7,8 +7,38 @@
             <h2 class="title">주문내역/배송조회</h2>
         </div>
         <div class="container">
+            <div class="grade-view">
+                <p></p>
+                <div class="grade-details">
+                    <div>
+                        <img src="/design/wonderbra/mobile/images/img_grade_black.png" alt="">
+                        <h3>회원님의 등급은 WHITE입니다.</h3>
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-default">등급별 혜택</a>
+                                <a href="#" class="btn btn-default">정보수정</a>
+                            </p>
+                        </div>
+                        <div class="row saved">
+                            <div class="col-xs-6">
+                                <dl>
+                                    <dt>총 적립금</dt>
+                                    <dd>10,000</dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-6">
+                                <dl>
+                                    <dt>사용가능쿠폰</dt>
+                                    <dd>3장</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+            </div>
             <div class="order-view">
-                <article class="oder-details">
+                <article class="order-details">
                     <header>
                         <h4>주문번호[42193-8291389-210321]</h4>
                     </header>
@@ -115,7 +145,7 @@
                         </div>
                     </section>
                 </article>
-                <article class="oder-details">
+                <article class="order-details">
                     <header>
                         <h4>주문번호[42193-8291389-210321]</h4>
                     </header>
@@ -222,7 +252,7 @@
                         </div>
                     </section>
                 </article>
-                <article class="oder-details">
+                <article class="order-details">
                     <header>
                         <h4>주문번호[42193-8291389-210321]</h4>
                     </header>
@@ -329,6 +359,11 @@
                         </div>
                     </section>
                 </article>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-default btn-block btn-more">주문서 더보기</a>
+                    </p>
+                </div>
             </div>
         </div>
     </main>

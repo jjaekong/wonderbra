@@ -31,11 +31,28 @@
         <h2 class="logo"><img src="/design/wonderbra/mobile/images/logo.png" width="133" alt="wonderbra"></h2>
     </header>
     <ul class="member">
-        <li><a href="#">LOGIN</a></li>
-        <li><a href="#">JOIN</a></li>
-        <li><a href="#">MYPAGE</a></li>
-        <li><a href="#">CART(0)</a></li>
+        <li><a href="#login">LOGIN</a></li>
+        <li><a href="#joiin">JOIN</a></li>
+        <li><a href="#mypage">MYPAGE</a></li>
+        <li><a href="#cart">CART(0)</a></li>
     </ul>
+    <div class="grade">
+        <h3><img src="/design/wonderbra/mobile/images/img_grade_black.png" alt="" width="80"> 회원님의 등급은 WHITE입니다.</h3>
+        <div class="point">
+            <dl>
+                <dt>현재 적립금</dt>
+                <dd>10,000</dd>
+            </dl>
+            <a href="#" class="btn brn-default btn-details">상세보기</a>
+        </div>
+        <div class="coupon">
+            <dl>
+                <dt>사용가능 쿠폰</dt>
+                <dd>3장</dd>
+            </dl>
+            <a href="#" class="btn brn-default btn-details">상세보기</a>
+        </div>
+    </div>
     <div class="gnb">
         <ul>
             <li class="active">

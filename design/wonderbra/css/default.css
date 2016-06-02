@@ -482,6 +482,8 @@ body.main .sections {
         border: 3px solid #ffde16; }
       body.main .sections #news-arrivals .item a:hover figure > figcaption strong, body.main .sections #news-arrivals .item a:focus figure > figcaption strong {
         color: #ffde16; }
+  body.main .sections #best-seller .container > .row > div:nth-of-type(4n+1) {
+    clear: both; }
   body.main .sections #best-seller h2 {
     margin-top: 0;
     margin-bottom: 60px;
@@ -510,6 +512,8 @@ body.main .sections {
           font-size: 14px;
           font-weight: 100;
           color: #666; }
+body.main #editors-pick .container > .row > div:nth-of-type(4n+1) {
+  clear: both; }
 body.main #editors-pick h2 {
   margin-top: 70px;
   margin-bottom: 55px;

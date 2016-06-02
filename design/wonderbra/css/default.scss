@@ -625,6 +625,9 @@ body.main {
             }
         }
         #best-seller {
+            .container > .row > div:nth-of-type(4n+1) {
+                clear: both;
+            }
             h2 {
                 margin-top: 0;
                 margin-bottom: 60px;
@@ -667,6 +670,9 @@ body.main {
     }
 
     #editors-pick {
+        .container > .row > div:nth-of-type(4n+1) {
+            clear: both;
+        }
         h2 {
             margin-top: 70px;
             margin-bottom: 55px;

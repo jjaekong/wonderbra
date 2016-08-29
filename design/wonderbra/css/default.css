@@ -373,6 +373,7 @@ body.main #campaign .carousel-indicators li {
     background-color: transparent;
     border-color: black; }
 body.main #whats-style {
+  position: relative;
   height: 525px;
   background-image: url(/design/wonderbra/images/bg_whats.jpg);
   background-repeat: no-repeat;
@@ -416,6 +417,15 @@ body.main #whats-style {
           background-color: #ffde16; }
         body.main #whats-style ul li a:hover figure figcaption strong, body.main #whats-style ul li a:focus figure figcaption strong {
           font-weight: bold; }
+  body.main #whats-style .bx-wrapper {
+    position: relative; }
+    body.main #whats-style .bx-wrapper .bx-controls .bx-controls-direction a {
+      position: absolute;
+      top: 110px; }
+    body.main #whats-style .bx-wrapper .bx-controls .bx-controls-direction .bx-prev {
+      left: -100px; }
+    body.main #whats-style .bx-wrapper .bx-controls .bx-controls-direction .bx-next {
+      right: -100px; }
 body.main .sections {
   padding-top: 70px;
   padding-bottom: 50px;

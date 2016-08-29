@@ -458,6 +458,7 @@ body.main {
     }
 
     #whats-style {
+        position: relative;
         height: 525px;
         background-image: url(/design/wonderbra/images/bg_whats.jpg);
         background-repeat: no-repeat;
@@ -521,6 +522,23 @@ body.main {
                                 }
                             }
                         }                  
+                    }
+                }
+            }
+        }
+        .bx-wrapper {
+            position: relative;
+            .bx-controls {
+                .bx-controls-direction {
+                    a {
+                        position: absolute;
+                        top: 110px;
+                    }
+                    .bx-prev {
+                        left: -100px;
+                    }
+                    .bx-next {
+                        right: -100px;
                     }
                 }
             }

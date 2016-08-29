@@ -90,6 +90,61 @@
                             </figure>
                         </a>
                     </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <div><img src="/design/wonderbra/images/img_style_1.png"></div>
+                                <figcaption>
+                                    <strong>WIREFREE</strong>
+                                    <p>볼륨을 살린 원더브라 노와이어 라인</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <div><img src="/design/wonderbra/images/img_style_2.png"></div>
+                                <figcaption>
+                                    <strong>FULL EFFECT</strong>
+                                    <p>내장된 원더젤 용량 UP!</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <div><img src="/design/wonderbra/images/img_style_3.png"></div>
+                                <figcaption>
+                                    <strong>SECRET AGENT</strong>
+                                    <p>매혹적인 디자인의 섹시라인</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <div><img src="/design/wonderbra/images/img_style_4.png"></div>
+                                <figcaption>
+                                    <strong>WONDER BOOST</strong>
+                                    <p>볼륨을 극대화한 디자인</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure>
+                                <div><img src="/design/wonderbra/images/img_style_5.png"></div>
+                                <figcaption>
+                                    <strong>FULL COVERAGE</strong>
+                                    <p>와이드날개로 안정감있는 보정라인</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -401,5 +456,7 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script src="/design/wonderbra/js/jquery.bxslider.min.js"></script>
+    <script src="/design/wonderbra/js/main.js"></script>
 </body>
 </html>

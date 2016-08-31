@@ -1,5 +1,7 @@
 (function($) {
     $('#whats-style ul').bxSlider({
+        auto: true,
+        pause: 2000,
         pager: false,
         minSlides: 5,
         maxSlides: 5,
